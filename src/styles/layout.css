@@ -65,6 +65,20 @@
   margin-top: 34px;
 }
 
+.hero__profile-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem 0.9rem;
+  margin-top: 0.85rem;
+}
+
+.cta__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 24px;
+}
+
 .feature-grid,
 .case-grid,
 .commission-grid {

@@ -40,10 +40,13 @@ export function renderHero(
           <h1>${escapeHtml(site.creator.title)}</h1>
           <p class="hero__lead">${escapeHtml(site.creator.description)}</p>
           <div class="hero__actions">
-            <a class="button button--primary" href="${escapeHtml(site.creator.links.kofi)}" target="_blank" rel="noreferrer">${renderBrandLabel("kofi", "Ko-fi")}</a>
-            <a class="button button--secondary button--social" href="${escapeHtml(site.creator.links.civitai)}" target="_blank" rel="noreferrer">${renderBrandLabel("civitai", "CivitAI")}</a>
-            <a class="button button--secondary button--social" href="${escapeHtml(site.creator.links.pixiv)}" target="_blank" rel="noreferrer">${renderBrandLabel("pixiv", "Pixiv")}</a>
-            <a class="button button--ghost" href="#showcase">Browse Showcase</a>
+            <a class="button button--primary" href="#commissions">Commission Options</a>
+            <a class="button button--secondary" href="#showcase">View LoRA Gallery</a>
+          </div>
+          <div class="hero__profile-links">
+            <a class="hero__profile-link" href="${escapeHtml(site.creator.links.kofi)}" target="_blank" rel="noreferrer">${renderBrandLabel("kofi", "Ko-fi")}</a>
+            <a class="hero__profile-link" href="${escapeHtml(site.creator.links.civitai)}" target="_blank" rel="noreferrer">${renderBrandLabel("civitai", "CivitAI")}</a>
+            <a class="hero__profile-link" href="${escapeHtml(site.creator.links.pixiv)}" target="_blank" rel="noreferrer">${renderBrandLabel("pixiv", "Pixiv")}</a>
           </div>
         </div>
         <article class="hero-card" aria-label="Featured collection preview">

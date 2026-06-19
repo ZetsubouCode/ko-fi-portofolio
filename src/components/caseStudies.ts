@@ -37,6 +37,9 @@ export function renderCommissionCta(site: SiteData): string {
         <div>
           <p class="eyebrow">Commissions</p>
           <h2>Commission paths for public and private IL character LoRAs</h2>
+          <div class="cta__actions">
+            <a class="button button--primary" href="${escapeHtml(site.creator.links.kofi)}" target="_blank" rel="noreferrer">Visit my Ko-fi page</a>
+          </div>
         </div>
         <div class="commission-grid">
           ${site.commissions
