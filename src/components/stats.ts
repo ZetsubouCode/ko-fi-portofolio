@@ -33,18 +33,22 @@ export function renderStats(site: SiteData): string {
       <div class="section__inner">
         <div class="stats-grid" aria-label="Experience highlights">
           ${site.stats
-            .map(
-              (stat, index) => `
+            .map((stat, index) => {
+              const valueClass = /^\d[\d+%.,\s]*$/.test(stat.value)
+                ? "stat-card__value"
+                : "stat-card__value stat-card__value--text";
+
+              return `
                 <div class="stat-card">
                   <span class="stat-card__mark">${String(index + 1).padStart(2, "0")}</span>
                   <div class="stat-card__content">
-                    <strong>${escapeHtml(stat.value)}</strong>
+                    <strong class="${valueClass}">${escapeHtml(stat.value)}</strong>
                     <span>${escapeHtml(stat.label)}</span>
                   </div>
                   <span class="stat-card__line" aria-hidden="true"></span>
                 </div>
-              `,
-            )
+              `;
+            })
             .join("")}
         </div>
       </div>

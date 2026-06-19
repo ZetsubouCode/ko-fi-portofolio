@@ -13,7 +13,7 @@ export function renderCollectionCards(collections: Collection[], ratingModes: Ra
         <div class="section-heading section-heading--row">
           <div>
             <p class="eyebrow">Featured collections</p>
-            <h2>JSON-driven LoRA archive cards</h2>
+            <h2>Featured LoRA collections</h2>
           </div>
           <a class="button button--ghost" href="#showcase">Open gallery</a>
         </div>
