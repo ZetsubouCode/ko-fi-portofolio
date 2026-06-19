@@ -3,12 +3,13 @@ import { renderBrandLabel } from "../lib/brandIcons";
 import { escapeHtml, getRequiredElement } from "../lib/dom";
 import { getStoredRating, setStoredRating } from "../lib/storage";
 import { getVariantForRating, getVariantRatingLabel } from "../lib/rating";
-import type { Collection, RatingMode, ShowcaseItem } from "../types/site";
+import type { Collection, RatingMode, ShowcaseItem, SourceType } from "../types/site";
 import { Lightbox, type LightboxItem } from "./lightbox";
 
 type GalleryState = {
   rating: string;
   collectionId: string;
+  sourceType: string;
 };
 
 type VisibleItem = {
@@ -18,21 +19,46 @@ type VisibleItem = {
   ratingLabel: string;
 };
 
+type SourceTypeOption = {
+  id: string;
+  label: string;
+};
+
+function getCollectionSourceType(collection: Collection): string {
+  const legacyCollection = collection as Collection & { source_type?: string };
+  return collection.sourceType || legacyCollection.source_type || "";
+}
+
+function getSourceTypeOptions(collections: Collection[], sourceTypes: SourceType[] = []): SourceTypeOption[] {
+  const activeSourceTypes = sourceTypes.filter((sourceType) => sourceType.active !== false);
+
+  if (activeSourceTypes.length > 0) {
+    return activeSourceTypes.map((sourceType) => ({ id: sourceType.id, label: sourceType.label }));
+  }
+
+  return [...new Set(collections.map((collection) => getCollectionSourceType(collection)).filter(Boolean))]
+    .sort((a, b) => a.localeCompare(b))
+    .map((sourceType) => ({ id: sourceType, label: sourceType }));
+}
+
 export class ShowcaseGallery {
   private readonly root: HTMLElement;
   private readonly collections: Collection[];
+  private readonly sourceTypes: SourceTypeOption[];
   private readonly ratingModes: RatingMode[];
   private readonly lightbox: Lightbox;
   private state: GalleryState;
 
-  constructor(root: HTMLElement, collections: Collection[], ratingModes: RatingMode[]) {
+  constructor(root: HTMLElement, collections: Collection[], ratingModes: RatingMode[], sourceTypes: SourceType[] = []) {
     this.root = root;
     this.collections = collections;
+    this.sourceTypes = getSourceTypeOptions(collections, sourceTypes);
     this.ratingModes = ratingModes;
     this.lightbox = new Lightbox();
     this.state = {
       rating: getStoredRating(ratingModes[0]?.id ?? "pg"),
       collectionId: "all",
+      sourceType: "all",
     };
   }
 
@@ -106,6 +132,18 @@ export class ShowcaseGallery {
             .join("")}
         </select>
       </label>
+      <label class="filter-field">
+        <span>Source type</span>
+        <select data-filter-source-type>
+          <option value="all"${this.state.sourceType === "all" ? " selected" : ""}>All</option>
+          ${this.sourceTypes
+            .map(
+              (sourceType) =>
+                `<option value="${escapeHtml(sourceType.id)}"${this.state.sourceType === sourceType.id ? " selected" : ""}>${escapeHtml(sourceType.label)}</option>`,
+            )
+            .join("")}
+        </select>
+      </label>
     `;
   }
 
@@ -135,6 +173,11 @@ export class ShowcaseGallery {
         this.state.collectionId = target.value;
         window.history.replaceState(null, "", target.value === "all" ? "#showcase" : `#${target.value}`);
         this.highlightCollection(target.value);
+        this.renderGrid();
+      }
+
+      if (target.matches("[data-filter-source-type]")) {
+        this.state.sourceType = target.value;
         this.renderGrid();
       }
     });
@@ -214,6 +257,10 @@ export class ShowcaseGallery {
 
     this.collections.forEach((collection) => {
       if (this.state.collectionId !== "all" && collection.id !== this.state.collectionId) {
+        return;
+      }
+
+      if (this.state.sourceType !== "all" && getCollectionSourceType(collection) !== this.state.sourceType) {
         return;
       }
 

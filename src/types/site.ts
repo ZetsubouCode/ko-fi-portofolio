@@ -25,6 +25,12 @@ export type FeaturedLora = {
   itemId: string;
 };
 
+export type SourceType = {
+  id: string;
+  label: string;
+  active?: boolean;
+};
+
 export type Collection = {
   id: string;
   title: string;
@@ -86,6 +92,7 @@ export type CommissionItem = {
 export type SiteData = {
   creator: Creator;
   featured?: FeaturedLora;
+  sourceTypes?: SourceType[];
   stats: Stat[];
   ratingModes: RatingMode[];
   focusCards: FeatureCard[];

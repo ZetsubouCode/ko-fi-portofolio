@@ -66,6 +66,7 @@ function boot(): void {
       getRequiredElement<HTMLElement>("#showcase"),
       collections,
       site.ratingModes,
+      site.sourceTypes,
     );
     gallery.init();
 

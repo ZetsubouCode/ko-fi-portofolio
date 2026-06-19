@@ -26,7 +26,7 @@
     },
     {
       "label": "Model focus",
-      "value": "IL / SDXL"
+      "value": "Illustrius"
     }
   ],
   "ratingModes": [
@@ -157,5 +157,27 @@
   "featured": {
     "collectionId": "gokusotsu-kraken",
     "itemId": "muuto"
-  }
+  },
+  "sourceTypes": [
+    {
+      "id": "Anime",
+      "label": "Anime",
+      "active": true
+    },
+    {
+      "id": "Manga",
+      "label": "Manga",
+      "active": true
+    },
+    {
+      "id": "Game",
+      "label": "Game",
+      "active": true
+    },
+    {
+      "id": "Manhwa",
+      "label": "Manhwa",
+      "active": true
+    }
+  ]
 }

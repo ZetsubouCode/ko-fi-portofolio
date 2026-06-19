@@ -1,5 +1,3553 @@
 [
   {
+    "id": "otakuvs",
+    "title": "OtakuVS",
+    "series": "Imported character collection",
+    "sourceType": "Manhwa",
+    "modelType": "Illustrious Character LoRA",
+    "status": "Public",
+    "cover": "/assets/img/collections/otakuvs/full/ota-chan-pg.png",
+    "civitaiUrl": "https://civitai.red/models/1838069",
+    "description": "A character LoRA collection imported from CivitAI for OtakuVS.",
+    "highlights": [
+      "CivitAI import",
+      "Character LoRA",
+      "Manhwa",
+      "V1"
+    ],
+    "trainingNotes": [
+      "Imported from CivitAI",
+      "Version: V1",
+      "Preview image downloaded locally"
+    ],
+    "tags": [
+      "civitai",
+      "character lora",
+      "anime character",
+      "otakuvs",
+      "manga",
+      "girls",
+      "original character",
+      "woman",
+      "anime",
+      "character",
+      "discord",
+      "vtuber",
+      "virtual youtuber"
+    ],
+    "showcase": [
+      {
+        "id": "ota-chan",
+        "title": "Ota-chan",
+        "description": "A character LoRA showcase imported from CivitAI for Ota-chan from OtakuVS.",
+        "civitaiUrl": "https://civitai.red/models/1711734",
+        "civitaiModelId": 1711734,
+        "civitaiVersionId": 1937040,
+        "civitaiVersionName": "V1",
+        "tags": [
+          "civitai import",
+          "version: V1",
+          "ota-chan",
+          "civitai",
+          "character lora",
+          "anime",
+          "manga",
+          "vtuber",
+          "woman",
+          "virtual youtuber",
+          "otakuvs",
+          "girls"
+        ],
+        "variants": {
+          "pg": {
+            "thumb": "/assets/img/collections/otakuvs/full/ota-chan-pg.png",
+            "full": "/assets/img/collections/otakuvs/full/ota-chan-pg.png",
+            "alt": "Ota-chan from OtakuVS, imported PG CivitAI showcase image"
+          },
+          "pg13": {
+            "thumb": "/assets/img/collections/otakuvs/full/ota-chan-pg13.png",
+            "full": "/assets/img/collections/otakuvs/full/ota-chan-pg13.png",
+            "alt": "Ota-chan from OtakuVS, imported PG-13 CivitAI showcase image"
+          },
+          "r": {
+            "thumb": "/assets/img/collections/otakuvs/full/ota-chan-r.png",
+            "full": "/assets/img/collections/otakuvs/full/ota-chan-r.png",
+            "alt": "Ota-chan from OtakuVS, imported R CivitAI showcase image"
+          }
+        }
+      },
+      {
+        "id": "lawman-girl",
+        "title": "Lawman girl",
+        "description": "A character LoRA showcase imported from CivitAI for Lawman girl from OtakuVS.",
+        "civitaiUrl": "https://civitai.red/models/1829805",
+        "civitaiModelId": 1829805,
+        "civitaiVersionId": 2070698,
+        "civitaiVersionName": "V1",
+        "tags": [
+          "civitai import",
+          "version: V1",
+          "lawman girl",
+          "civitai",
+          "character lora",
+          "character",
+          "manga",
+          "anime",
+          "anime character",
+          "woman",
+          "girls",
+          "original character"
+        ],
+        "variants": {
+          "pg": {
+            "thumb": "/assets/img/collections/otakuvs/full/lawman-girl-pg.png",
+            "full": "/assets/img/collections/otakuvs/full/lawman-girl-pg.png",
+            "alt": "Lawman girl from OtakuVS, imported PG CivitAI showcase image"
+          },
+          "pg13": {
+            "thumb": "/assets/img/collections/otakuvs/full/lawman-girl-pg13.png",
+            "full": "/assets/img/collections/otakuvs/full/lawman-girl-pg13.png",
+            "alt": "Lawman girl from OtakuVS, imported PG-13 CivitAI showcase image"
+          },
+          "r": {
+            "thumb": "/assets/img/collections/otakuvs/full/lawman-girl-r.png",
+            "full": "/assets/img/collections/otakuvs/full/lawman-girl-r.png",
+            "alt": "Lawman girl from OtakuVS, imported R CivitAI showcase image"
+          }
+        }
+      },
+      {
+        "id": "peepo-chan",
+        "title": "Peepo-chan",
+        "description": "A character LoRA showcase imported from CivitAI for Peepo-chan from OtakuVS.",
+        "civitaiUrl": "https://civitai.red/models/1814509",
+        "civitaiModelId": 1814509,
+        "civitaiVersionId": 2053411,
+        "civitaiVersionName": "V1",
+        "tags": [
+          "civitai import",
+          "version: V1",
+          "peepo-chan",
+          "civitai",
+          "character lora",
+          "girls",
+          "original character",
+          "otakuvs",
+          "woman",
+          "manga",
+          "character",
+          "anime"
+        ],
+        "variants": {
+          "pg": {
+            "thumb": "/assets/img/collections/otakuvs/full/peepo-chan-pg.png",
+            "full": "/assets/img/collections/otakuvs/full/peepo-chan-pg.png",
+            "alt": "Peepo-chan from OtakuVS, imported PG CivitAI showcase image"
+          },
+          "r": {
+            "thumb": "/assets/img/collections/otakuvs/full/peepo-chan-r.png",
+            "full": "/assets/img/collections/otakuvs/full/peepo-chan-r.png",
+            "alt": "Peepo-chan from OtakuVS, imported R CivitAI showcase image"
+          }
+        }
+      },
+      {
+        "id": "maso-chan",
+        "title": "Maso-chan",
+        "description": "A character LoRA showcase imported from CivitAI for Maso-chan from OtakuVS.",
+        "civitaiUrl": "https://civitai.red/models/1813868",
+        "civitaiModelId": 1813868,
+        "civitaiVersionId": 2052656,
+        "civitaiVersionName": "V1",
+        "tags": [
+          "civitai import",
+          "version: V1",
+          "maso-chan",
+          "civitai",
+          "character lora",
+          "girls",
+          "manga",
+          "otakuvs",
+          "original character",
+          "anime character",
+          "woman",
+          "character"
+        ],
+        "variants": {
+          "pg": {
+            "thumb": "/assets/img/collections/otakuvs/full/maso-chan-pg.png",
+            "full": "/assets/img/collections/otakuvs/full/maso-chan-pg.png",
+            "alt": "Maso-chan from OtakuVS, imported PG CivitAI showcase image"
+          },
+          "r": {
+            "thumb": "/assets/img/collections/otakuvs/full/maso-chan-r.png",
+            "full": "/assets/img/collections/otakuvs/full/maso-chan-r.png",
+            "alt": "Maso-chan from OtakuVS, imported R CivitAI showcase image"
+          }
+        }
+      },
+      {
+        "id": "hikki",
+        "title": "Hikki",
+        "description": "A character LoRA showcase imported from CivitAI for Hikki from OtakuVS.",
+        "civitaiUrl": "https://civitai.red/models/1837978",
+        "civitaiModelId": 1837978,
+        "civitaiVersionId": 2079921,
+        "civitaiVersionName": "V1",
+        "tags": [
+          "civitai import",
+          "version: V1",
+          "hikki",
+          "civitai",
+          "character lora",
+          "character",
+          "original character",
+          "woman",
+          "anime character",
+          "anime",
+          "manga",
+          "girls"
+        ],
+        "variants": {
+          "pg": {
+            "thumb": "/assets/img/collections/otakuvs/full/hikki-pg.png",
+            "full": "/assets/img/collections/otakuvs/full/hikki-pg.png",
+            "alt": "Hikki from OtakuVS, imported PG CivitAI showcase image"
+          },
+          "r": {
+            "thumb": "/assets/img/collections/otakuvs/full/hikki-r.png",
+            "full": "/assets/img/collections/otakuvs/full/hikki-r.png",
+            "alt": "Hikki from OtakuVS, imported R CivitAI showcase image"
+          }
+        }
+      },
+      {
+        "id": "kanae",
+        "title": "Kanae",
+        "description": "A character LoRA showcase imported from CivitAI for Kanae from OtakuVS.",
+        "civitaiUrl": "https://civitai.red/models/1838040",
+        "civitaiModelId": 1838040,
+        "civitaiVersionId": 2079995,
+        "civitaiVersionName": "V1",
+        "tags": [
+          "civitai import",
+          "version: V1",
+          "kanae",
+          "civitai",
+          "character lora",
+          "original character",
+          "girls",
+          "manga",
+          "anime",
+          "discord",
+          "woman",
+          "anime character"
+        ],
+        "variants": {
+          "pg": {
+            "thumb": "/assets/img/collections/otakuvs/full/kanae-pg.png",
+            "full": "/assets/img/collections/otakuvs/full/kanae-pg.png",
+            "alt": "Kanae from OtakuVS, imported PG CivitAI showcase image"
+          },
+          "r": {
+            "thumb": "/assets/img/collections/otakuvs/full/kanae-r.png",
+            "full": "/assets/img/collections/otakuvs/full/kanae-r.png",
+            "alt": "Kanae from OtakuVS, imported R CivitAI showcase image"
+          }
+        }
+      },
+      {
+        "id": "nid-tenshi",
+        "title": "NiD Tenshi",
+        "description": "A character LoRA showcase imported from CivitAI for NiD Tenshi from OtakuVS.",
+        "civitaiUrl": "https://civitai.red/models/1838070",
+        "civitaiModelId": 1838070,
+        "civitaiVersionId": 2080026,
+        "civitaiVersionName": "V1",
+        "tags": [
+          "civitai import",
+          "version: V1",
+          "nid tenshi",
+          "civitai",
+          "character lora",
+          "character",
+          "anime character",
+          "discord",
+          "manga",
+          "woman",
+          "girls",
+          "anime"
+        ],
+        "variants": {
+          "pg13": {
+            "thumb": "/assets/img/collections/otakuvs/full/nid-tenshi-pg13.png",
+            "full": "/assets/img/collections/otakuvs/full/nid-tenshi-pg13.png",
+            "alt": "NiD Tenshi from OtakuVS, imported PG-13 CivitAI showcase image"
+          },
+          "r": {
+            "thumb": "/assets/img/collections/otakuvs/full/nid-tenshi-r.png",
+            "full": "/assets/img/collections/otakuvs/full/nid-tenshi-r.png",
+            "alt": "NiD Tenshi from OtakuVS, imported R CivitAI showcase image"
+          }
+        }
+      },
+      {
+        "id": "danchou",
+        "title": "Danchou",
+        "description": "A character LoRA showcase imported from CivitAI for Danchou from OtakuVS.",
+        "civitaiUrl": "https://civitai.red/models/1838069",
+        "civitaiModelId": 1838069,
+        "civitaiVersionId": 2080025,
+        "civitaiVersionName": "V1",
+        "tags": [
+          "civitai import",
+          "version: V1",
+          "danchou",
+          "civitai",
+          "character lora",
+          "anime character",
+          "otakuvs",
+          "manga",
+          "girls",
+          "original character",
+          "woman",
+          "anime"
+        ],
+        "variants": {
+          "pg13": {
+            "thumb": "/assets/img/collections/otakuvs/full/danchou-pg13.png",
+            "full": "/assets/img/collections/otakuvs/full/danchou-pg13.png",
+            "alt": "Danchou from OtakuVS, imported PG-13 CivitAI showcase image"
+          },
+          "r": {
+            "thumb": "/assets/img/collections/otakuvs/full/danchou-r.png",
+            "full": "/assets/img/collections/otakuvs/full/danchou-r.png",
+            "alt": "Danchou from OtakuVS, imported R CivitAI showcase image"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "no-man-s-land",
+    "title": "No Man's Land",
+    "series": "Imported character collection",
+    "sourceType": "Manhwa",
+    "modelType": "Illustrious Character LoRA",
+    "status": "Public",
+    "cover": "/assets/img/collections/no-man-s-land/full/vanilla-season-2-pg.png",
+    "civitaiUrl": "https://civitai.red/models/2514730",
+    "description": "A character LoRA collection imported from CivitAI for No Man's Land.",
+    "highlights": [
+      "CivitAI import",
+      "Character LoRA",
+      "Manhwa",
+      "V1"
+    ],
+    "trainingNotes": [
+      "Imported from CivitAI",
+      "Version: V1",
+      "Preview image downloaded locally"
+    ],
+    "tags": [
+      "civitai",
+      "character lora",
+      "character",
+      "anime",
+      "no mans land",
+      "monster girls",
+      "manhwa character",
+      "girls",
+      "webtoon",
+      "manga",
+      "manhwa",
+      "no man's land",
+      "slime",
+      "woman",
+      "slime girl",
+      "monster girl"
+    ],
+    "showcase": [
+      {
+        "id": "sword-fairy",
+        "title": "Sword Fairy",
+        "description": "A character LoRA showcase imported from CivitAI for Sword Fairy from No Man's Land.",
+        "civitaiUrl": "https://civitai.red/models/1813429",
+        "civitaiModelId": 1813429,
+        "civitaiVersionId": 2052172,
+        "civitaiVersionName": "V1",
+        "tags": [
+          "civitai import",
+          "version: V1",
+          "sword fairy",
+          "civitai",
+          "character lora",
+          "anime",
+          "manga",
+          "fairy",
+          "goddess",
+          "girls",
+          "no man's land",
+          "woman"
+        ],
+        "variants": {
+          "pg": {
+            "thumb": "/assets/img/collections/no-man-s-land/full/sword-fairy-pg.png",
+            "full": "/assets/img/collections/no-man-s-land/full/sword-fairy-pg.png",
+            "alt": "Sword Fairy from No Man's Land, imported PG CivitAI showcase image"
+          },
+          "r": {
+            "thumb": "/assets/img/collections/no-man-s-land/full/sword-fairy-r.png",
+            "full": "/assets/img/collections/no-man-s-land/full/sword-fairy-r.png",
+            "alt": "Sword Fairy from No Man's Land, imported R CivitAI showcase image"
+          }
+        }
+      },
+      {
+        "id": "bistea",
+        "title": "Bistea",
+        "description": "A character LoRA showcase imported from CivitAI for Bistea from No Man's Land.",
+        "civitaiUrl": "https://civitai.red/models/1830427",
+        "civitaiModelId": 1830427,
+        "civitaiVersionId": 2071396,
+        "civitaiVersionName": "V1",
+        "tags": [
+          "civitai import",
+          "version: V1",
+          "bistea",
+          "civitai",
+          "character lora",
+          "manhwa",
+          "no man's land",
+          "manga",
+          "anime",
+          "monster girl",
+          "beastkin",
+          "beastwoman"
+        ],
+        "variants": {
+          "pg": {
+            "thumb": "/assets/img/collections/no-man-s-land/full/bistea-pg.png",
+            "full": "/assets/img/collections/no-man-s-land/full/bistea-pg.png",
+            "alt": "Bistea from No Man's Land, imported PG CivitAI showcase image"
+          },
+          "r": {
+            "thumb": "/assets/img/collections/no-man-s-land/full/bistea-r.png",
+            "full": "/assets/img/collections/no-man-s-land/full/bistea-r.png",
+            "alt": "Bistea from No Man's Land, imported R CivitAI showcase image"
+          }
+        }
+      },
+      {
+        "id": "mint",
+        "title": "Mint",
+        "description": "A character LoRA showcase imported from CivitAI for Mint from No Man's Land.",
+        "civitaiUrl": "https://civitai.red/models/1830428",
+        "civitaiModelId": 1830428,
+        "civitaiVersionId": 2071397,
+        "civitaiVersionName": "V1",
+        "tags": [
+          "civitai import",
+          "version: V1",
+          "mint",
+          "civitai",
+          "character lora",
+          "character",
+          "girls",
+          "manga",
+          "woman",
+          "anime",
+          "anime character",
+          "no man's land"
+        ],
+        "variants": {
+          "pg": {
+            "thumb": "/assets/img/collections/no-man-s-land/full/mint-pg.png",
+            "full": "/assets/img/collections/no-man-s-land/full/mint-pg.png",
+            "alt": "Mint from No Man's Land, imported PG CivitAI showcase image"
+          },
+          "r": {
+            "thumb": "/assets/img/collections/no-man-s-land/full/mint-r.png",
+            "full": "/assets/img/collections/no-man-s-land/full/mint-r.png",
+            "alt": "Mint from No Man's Land, imported R CivitAI showcase image"
+          }
+        }
+      },
+      {
+        "id": "goblin-captain",
+        "title": "Goblin Captain",
+        "description": "A character LoRA showcase imported from CivitAI for Goblin Captain from No Man's Land.",
+        "civitaiUrl": "https://civitai.red/models/2453612",
+        "civitaiModelId": 2453612,
+        "civitaiVersionId": 2758882,
+        "civitaiVersionName": "V1",
+        "tags": [
+          "civitai import",
+          "version: V1",
+          "goblin captain",
+          "civitai",
+          "character lora",
+          "character",
+          "manhwa character",
+          "webtoon",
+          "manga",
+          "no man's land",
+          "woman",
+          "anime"
+        ],
+        "variants": {
+          "pg13": {
+            "thumb": "/assets/img/collections/no-man-s-land/full/goblin-captain-pg13.png",
+            "full": "/assets/img/collections/no-man-s-land/full/goblin-captain-pg13.png",
+            "alt": "Goblin Captain from No Man's Land, imported PG-13 CivitAI showcase image"
+          },
+          "r": {
+            "thumb": "/assets/img/collections/no-man-s-land/full/goblin-captain-r.png",
+            "full": "/assets/img/collections/no-man-s-land/full/goblin-captain-r.png",
+            "alt": "Goblin Captain from No Man's Land, imported R CivitAI showcase image"
+          }
+        }
+      },
+      {
+        "id": "goblin-mob",
+        "title": "Goblin Mob",
+        "description": "A character LoRA showcase imported from CivitAI for Goblin Mob from No Man's Land.",
+        "civitaiUrl": "https://civitai.red/models/2456181",
+        "civitaiModelId": 2456181,
+        "civitaiVersionId": 2761776,
+        "civitaiVersionName": "V1",
+        "tags": [
+          "civitai import",
+          "version: V1",
+          "goblin mob",
+          "civitai",
+          "character lora",
+          "girls",
+          "manhwa",
+          "woman",
+          "anime",
+          "manhwa character",
+          "manga",
+          "character"
+        ],
+        "variants": {
+          "pg": {
+            "thumb": "/assets/img/collections/no-man-s-land/full/goblin-mob-pg.png",
+            "full": "/assets/img/collections/no-man-s-land/full/goblin-mob-pg.png",
+            "alt": "Goblin Mob from No Man's Land, imported PG CivitAI showcase image"
+          },
+          "pg13": {
+            "thumb": "/assets/img/collections/no-man-s-land/full/goblin-mob-pg13.png",
+            "full": "/assets/img/collections/no-man-s-land/full/goblin-mob-pg13.png",
+            "alt": "Goblin Mob from No Man's Land, imported PG-13 CivitAI showcase image"
+          },
+          "r": {
+            "thumb": "/assets/img/collections/no-man-s-land/full/goblin-mob-r.png",
+            "full": "/assets/img/collections/no-man-s-land/full/goblin-mob-r.png",
+            "alt": "Goblin Mob from No Man's Land, imported R CivitAI showcase image"
+          }
+        }
+      },
+      {
+        "id": "mumei-no-a",
+        "title": "Mumei no A",
+        "description": "A character LoRA showcase imported from CivitAI for Mumei no A from No Man's Land.",
+        "civitaiUrl": "https://civitai.red/models/2460770",
+        "civitaiModelId": 2460770,
+        "civitaiVersionId": 2766833,
+        "civitaiVersionName": "V1",
+        "tags": [
+          "civitai import",
+          "version: V1",
+          "mumei no a",
+          "civitai",
+          "character lora",
+          "no man's land",
+          "woman",
+          "manhwa",
+          "anime",
+          "manga",
+          "webtoon",
+          "manhwa character"
+        ],
+        "variants": {
+          "pg": {
+            "thumb": "/assets/img/collections/no-man-s-land/full/mumei-no-a-pg.png",
+            "full": "/assets/img/collections/no-man-s-land/full/mumei-no-a-pg.png",
+            "alt": "Mumei no A from No Man's Land, imported PG CivitAI showcase image"
+          },
+          "pg13": {
+            "thumb": "/assets/img/collections/no-man-s-land/full/mumei-no-a-pg13.png",
+            "full": "/assets/img/collections/no-man-s-land/full/mumei-no-a-pg13.png",
+            "alt": "Mumei no A from No Man's Land, imported PG-13 CivitAI showcase image"
+          },
+          "r": {
+            "thumb": "/assets/img/collections/no-man-s-land/full/mumei-no-a-r.png",
+            "full": "/assets/img/collections/no-man-s-land/full/mumei-no-a-r.png",
+            "alt": "Mumei no A from No Man's Land, imported R CivitAI showcase image"
+          }
+        }
+      },
+      {
+        "id": "mumei-no-b",
+        "title": "Mumei no B",
+        "description": "A character LoRA showcase imported from CivitAI for Mumei no B from No Man's Land.",
+        "civitaiUrl": "https://civitai.red/models/2460606",
+        "civitaiModelId": 2460606,
+        "civitaiVersionId": 2766651,
+        "civitaiVersionName": "V1",
+        "tags": [
+          "civitai import",
+          "version: V1",
+          "mumei no b",
+          "civitai",
+          "character lora",
+          "elf",
+          "manhwa",
+          "anime",
+          "manga",
+          "woman",
+          "webtoon",
+          "girls"
+        ],
+        "variants": {
+          "pg": {
+            "thumb": "/assets/img/collections/no-man-s-land/full/mumei-no-b-pg.png",
+            "full": "/assets/img/collections/no-man-s-land/full/mumei-no-b-pg.png",
+            "alt": "Mumei no B from No Man's Land, imported PG CivitAI showcase image"
+          },
+          "r": {
+            "thumb": "/assets/img/collections/no-man-s-land/full/mumei-no-b-r.png",
+            "full": "/assets/img/collections/no-man-s-land/full/mumei-no-b-r.png",
+            "alt": "Mumei no B from No Man's Land, imported R CivitAI showcase image"
+          }
+        }
+      },
+      {
+        "id": "undine",
+        "title": "Undine",
+        "description": "A character LoRA showcase imported from CivitAI for Undine from No Man's Land.",
+        "civitaiUrl": "https://civitai.red/models/2460884",
+        "civitaiModelId": 2460884,
+        "civitaiVersionId": 2766959,
+        "civitaiVersionName": "V1",
+        "tags": [
+          "civitai import",
+          "version: V1",
+          "undine",
+          "civitai",
+          "character lora",
+          "character",
+          "manhwa",
+          "webtoon",
+          "girls",
+          "woman",
+          "manhwa character",
+          "anime"
+        ],
+        "variants": {
+          "pg": {
+            "thumb": "/assets/img/collections/no-man-s-land/full/undine-pg.png",
+            "full": "/assets/img/collections/no-man-s-land/full/undine-pg.png",
+            "alt": "Undine from No Man's Land, imported PG CivitAI showcase image"
+          },
+          "pg13": {
+            "thumb": "/assets/img/collections/no-man-s-land/full/undine-pg13.png",
+            "full": "/assets/img/collections/no-man-s-land/full/undine-pg13.png",
+            "alt": "Undine from No Man's Land, imported PG-13 CivitAI showcase image"
+          },
+          "r": {
+            "thumb": "/assets/img/collections/no-man-s-land/full/undine-r.png",
+            "full": "/assets/img/collections/no-man-s-land/full/undine-r.png",
+            "alt": "Undine from No Man's Land, imported R CivitAI showcase image"
+          }
+        }
+      },
+      {
+        "id": "ifrit",
+        "title": "Ifrit",
+        "description": "A character LoRA showcase imported from CivitAI for Ifrit from No Man's Land.",
+        "civitaiUrl": "https://civitai.red/models/2462348",
+        "civitaiModelId": 2462348,
+        "civitaiVersionId": 2768584,
+        "civitaiVersionName": "V1",
+        "tags": [
+          "civitai import",
+          "version: V1",
+          "ifrit",
+          "civitai",
+          "character lora",
+          "character",
+          "webtoon",
+          "fire spirit",
+          "no man's land",
+          "spirit",
+          "girls",
+          "manhwa character"
+        ],
+        "variants": {
+          "pg": {
+            "thumb": "/assets/img/collections/no-man-s-land/full/ifrit-pg.png",
+            "full": "/assets/img/collections/no-man-s-land/full/ifrit-pg.png",
+            "alt": "Ifrit from No Man's Land, imported PG CivitAI showcase image"
+          },
+          "pg13": {
+            "thumb": "/assets/img/collections/no-man-s-land/full/ifrit-pg13.png",
+            "full": "/assets/img/collections/no-man-s-land/full/ifrit-pg13.png",
+            "alt": "Ifrit from No Man's Land, imported PG-13 CivitAI showcase image"
+          },
+          "r": {
+            "thumb": "/assets/img/collections/no-man-s-land/full/ifrit-r.png",
+            "full": "/assets/img/collections/no-man-s-land/full/ifrit-r.png",
+            "alt": "Ifrit from No Man's Land, imported R CivitAI showcase image"
+          }
+        }
+      },
+      {
+        "id": "finn",
+        "title": "Finn",
+        "description": "A character LoRA showcase imported from CivitAI for Finn from No Man's Land.",
+        "civitaiUrl": "https://civitai.red/models/2473307",
+        "civitaiModelId": 2473307,
+        "civitaiVersionId": 2780786,
+        "civitaiVersionName": "V1",
+        "tags": [
+          "civitai import",
+          "version: V1",
+          "finn",
+          "civitai",
+          "character lora",
+          "character",
+          "anime",
+          "manhwa",
+          "manhwa character",
+          "woman",
+          "webtoon",
+          "manga"
+        ],
+        "variants": {
+          "pg": {
+            "thumb": "/assets/img/collections/no-man-s-land/full/finn-pg.png",
+            "full": "/assets/img/collections/no-man-s-land/full/finn-pg.png",
+            "alt": "Finn from No Man's Land, imported PG CivitAI showcase image"
+          },
+          "pg13": {
+            "thumb": "/assets/img/collections/no-man-s-land/full/finn-pg13.png",
+            "full": "/assets/img/collections/no-man-s-land/full/finn-pg13.png",
+            "alt": "Finn from No Man's Land, imported PG-13 CivitAI showcase image"
+          },
+          "r": {
+            "thumb": "/assets/img/collections/no-man-s-land/full/finn-r.png",
+            "full": "/assets/img/collections/no-man-s-land/full/finn-r.png",
+            "alt": "Finn from No Man's Land, imported R CivitAI showcase image"
+          }
+        }
+      },
+      {
+        "id": "sia",
+        "title": "Sia",
+        "description": "A character LoRA showcase imported from CivitAI for Sia from No Man's Land.",
+        "civitaiUrl": "https://civitai.red/models/1888974",
+        "civitaiModelId": 1888974,
+        "civitaiVersionId": 2796509,
+        "civitaiVersionName": "V2",
+        "tags": [
+          "civitai import",
+          "version: V2",
+          "sia",
+          "civitai",
+          "character lora",
+          "character",
+          "no man's land",
+          "manhwa",
+          "woman",
+          "anime",
+          "manhwa character",
+          "monster girls"
+        ],
+        "variants": {
+          "pg": {
+            "thumb": "/assets/img/collections/no-man-s-land/full/sia-pg.png",
+            "full": "/assets/img/collections/no-man-s-land/full/sia-pg.png",
+            "alt": "Sia from No Man's Land, imported PG CivitAI showcase image"
+          },
+          "pg13": {
+            "thumb": "/assets/img/collections/no-man-s-land/full/sia-pg13.png",
+            "full": "/assets/img/collections/no-man-s-land/full/sia-pg13.png",
+            "alt": "Sia from No Man's Land, imported PG-13 CivitAI showcase image"
+          },
+          "r": {
+            "thumb": "/assets/img/collections/no-man-s-land/full/sia-r.png",
+            "full": "/assets/img/collections/no-man-s-land/full/sia-r.png",
+            "alt": "Sia from No Man's Land, imported R CivitAI showcase image"
+          }
+        }
+      },
+      {
+        "id": "cristiana",
+        "title": "Cristiana",
+        "description": "A character LoRA showcase imported from CivitAI for Cristiana from No Man's Land.",
+        "civitaiUrl": "https://civitai.red/models/1707194",
+        "civitaiModelId": 1707194,
+        "civitaiVersionId": 2800986,
+        "civitaiVersionName": "V2",
+        "tags": [
+          "civitai import",
+          "version: V2",
+          "cristiana",
+          "civitai",
+          "character lora",
+          "character",
+          "nun",
+          "manga",
+          "anime",
+          "manhua",
+          "demon",
+          "woman"
+        ],
+        "variants": {
+          "pg": {
+            "thumb": "/assets/img/collections/no-man-s-land/full/cristiana-pg.png",
+            "full": "/assets/img/collections/no-man-s-land/full/cristiana-pg.png",
+            "alt": "Cristiana from No Man's Land, imported PG CivitAI showcase image"
+          },
+          "pg13": {
+            "thumb": "/assets/img/collections/no-man-s-land/full/cristiana-pg13.png",
+            "full": "/assets/img/collections/no-man-s-land/full/cristiana-pg13.png",
+            "alt": "Cristiana from No Man's Land, imported PG-13 CivitAI showcase image"
+          },
+          "r": {
+            "thumb": "/assets/img/collections/no-man-s-land/full/cristiana-r.png",
+            "full": "/assets/img/collections/no-man-s-land/full/cristiana-r.png",
+            "alt": "Cristiana from No Man's Land, imported R CivitAI showcase image"
+          }
+        }
+      },
+      {
+        "id": "vanilla-season-1",
+        "title": "Vanilla Season 1",
+        "description": "A character LoRA showcase imported from CivitAI for Vanilla Season 1 from No Man's Land.",
+        "civitaiUrl": "https://civitai.red/models/1702853",
+        "civitaiModelId": 1702853,
+        "civitaiVersionId": 2796395,
+        "civitaiVersionName": "V2",
+        "tags": [
+          "civitai import",
+          "version: V2",
+          "vanilla season 1",
+          "civitai",
+          "character lora",
+          "webtoon",
+          "no mans land",
+          "anime",
+          "girls",
+          "manga",
+          "elf",
+          "manhwa"
+        ],
+        "variants": {
+          "pg": {
+            "thumb": "/assets/img/collections/no-man-s-land/full/vanilla-season-1-pg.png",
+            "full": "/assets/img/collections/no-man-s-land/full/vanilla-season-1-pg.png",
+            "alt": "Vanilla Season 1 from No Man's Land, imported PG CivitAI showcase image"
+          },
+          "pg13": {
+            "thumb": "/assets/img/collections/no-man-s-land/full/vanilla-season-1-pg13.png",
+            "full": "/assets/img/collections/no-man-s-land/full/vanilla-season-1-pg13.png",
+            "alt": "Vanilla Season 1 from No Man's Land, imported PG-13 CivitAI showcase image"
+          },
+          "r": {
+            "thumb": "/assets/img/collections/no-man-s-land/full/vanilla-season-1-r.png",
+            "full": "/assets/img/collections/no-man-s-land/full/vanilla-season-1-r.png",
+            "alt": "Vanilla Season 1 from No Man's Land, imported R CivitAI showcase image"
+          }
+        }
+      },
+      {
+        "id": "vanilla-season-2",
+        "title": "Vanilla Season 2",
+        "description": "A character LoRA showcase imported from CivitAI for Vanilla Season 2 from No Man's Land.",
+        "civitaiUrl": "https://civitai.red/models/2486257",
+        "civitaiModelId": 2486257,
+        "civitaiVersionId": 2795249,
+        "civitaiVersionName": "V1",
+        "tags": [
+          "civitai import",
+          "version: V1",
+          "vanilla season 2",
+          "civitai",
+          "character lora",
+          "character",
+          "girls",
+          "manhwa character",
+          "anime",
+          "manhwa",
+          "manga",
+          "no man's land"
+        ],
+        "variants": {
+          "pg": {
+            "thumb": "/assets/img/collections/no-man-s-land/full/vanilla-season-2-pg.png",
+            "full": "/assets/img/collections/no-man-s-land/full/vanilla-season-2-pg.png",
+            "alt": "Vanilla Season 2 from No Man's Land, imported PG CivitAI showcase image"
+          },
+          "pg13": {
+            "thumb": "/assets/img/collections/no-man-s-land/full/vanilla-season-2-pg13.png",
+            "full": "/assets/img/collections/no-man-s-land/full/vanilla-season-2-pg13.png",
+            "alt": "Vanilla Season 2 from No Man's Land, imported PG-13 CivitAI showcase image"
+          },
+          "r": {
+            "thumb": "/assets/img/collections/no-man-s-land/full/vanilla-season-2-r.png",
+            "full": "/assets/img/collections/no-man-s-land/full/vanilla-season-2-r.png",
+            "alt": "Vanilla Season 2 from No Man's Land, imported R CivitAI showcase image"
+          }
+        }
+      },
+      {
+        "id": "rafi",
+        "title": "Rafi",
+        "description": "A character LoRA showcase imported from CivitAI for Rafi from No Man's Land.",
+        "civitaiUrl": "https://civitai.red/models/2498724",
+        "civitaiModelId": 2498724,
+        "civitaiVersionId": 2808837,
+        "civitaiVersionName": "V1",
+        "tags": [
+          "civitai import",
+          "version: V1",
+          "rafi",
+          "civitai",
+          "character lora",
+          "woman",
+          "character",
+          "monster girl",
+          "webtoon",
+          "manga",
+          "manhwa character",
+          "manhwa"
+        ],
+        "variants": {
+          "pg": {
+            "thumb": "/assets/img/collections/no-man-s-land/full/rafi-pg.png",
+            "full": "/assets/img/collections/no-man-s-land/full/rafi-pg.png",
+            "alt": "Rafi from No Man's Land, imported PG CivitAI showcase image"
+          },
+          "pg13": {
+            "thumb": "/assets/img/collections/no-man-s-land/full/rafi-pg13.png",
+            "full": "/assets/img/collections/no-man-s-land/full/rafi-pg13.png",
+            "alt": "Rafi from No Man's Land, imported PG-13 CivitAI showcase image"
+          },
+          "r": {
+            "thumb": "/assets/img/collections/no-man-s-land/full/rafi-r.png",
+            "full": "/assets/img/collections/no-man-s-land/full/rafi-r.png",
+            "alt": "Rafi from No Man's Land, imported R CivitAI showcase image"
+          }
+        }
+      },
+      {
+        "id": "wendy",
+        "title": "Wendy",
+        "description": "A character LoRA showcase imported from CivitAI for Wendy from No Man's Land.",
+        "civitaiUrl": "https://civitai.red/models/2495930",
+        "civitaiModelId": 2495930,
+        "civitaiVersionId": 2805765,
+        "civitaiVersionName": "V1",
+        "tags": [
+          "civitai import",
+          "version: V1",
+          "wendy",
+          "civitai",
+          "character lora",
+          "character",
+          "webtoon",
+          "manhwa",
+          "manga",
+          "girls",
+          "humanoid",
+          "monster girl"
+        ],
+        "variants": {
+          "pg13": {
+            "thumb": "/assets/img/collections/no-man-s-land/full/wendy-pg13.png",
+            "full": "/assets/img/collections/no-man-s-land/full/wendy-pg13.png",
+            "alt": "Wendy from No Man's Land, imported PG-13 CivitAI showcase image"
+          },
+          "r": {
+            "thumb": "/assets/img/collections/no-man-s-land/full/wendy-r.png",
+            "full": "/assets/img/collections/no-man-s-land/full/wendy-r.png",
+            "alt": "Wendy from No Man's Land, imported R CivitAI showcase image"
+          }
+        }
+      },
+      {
+        "id": "astiainira",
+        "title": "Astiainira",
+        "description": "A character LoRA showcase imported from CivitAI for Astiainira from No Man's Land.",
+        "civitaiUrl": "https://civitai.red/models/2500711",
+        "civitaiModelId": 2500711,
+        "civitaiVersionId": 2811066,
+        "civitaiVersionName": "V1",
+        "tags": [
+          "civitai import",
+          "version: V1",
+          "astiainira",
+          "civitai",
+          "character lora",
+          "character",
+          "no man's land",
+          "manhwa",
+          "dark elf",
+          "elf",
+          "woman",
+          "manga"
+        ],
+        "variants": {
+          "pg": {
+            "thumb": "/assets/img/collections/no-man-s-land/full/astiainira-pg.png",
+            "full": "/assets/img/collections/no-man-s-land/full/astiainira-pg.png",
+            "alt": "Astiainira from No Man's Land, imported PG CivitAI showcase image"
+          },
+          "pg13": {
+            "thumb": "/assets/img/collections/no-man-s-land/full/astiainira-pg13.png",
+            "full": "/assets/img/collections/no-man-s-land/full/astiainira-pg13.png",
+            "alt": "Astiainira from No Man's Land, imported PG-13 CivitAI showcase image"
+          },
+          "r": {
+            "thumb": "/assets/img/collections/no-man-s-land/full/astiainira-r.png",
+            "full": "/assets/img/collections/no-man-s-land/full/astiainira-r.png",
+            "alt": "Astiainira from No Man's Land, imported R CivitAI showcase image"
+          }
+        }
+      },
+      {
+        "id": "mandrake",
+        "title": "Mandrake",
+        "description": "A character LoRA showcase imported from CivitAI for Mandrake from No Man's Land.",
+        "civitaiUrl": "https://civitai.red/models/2508879",
+        "civitaiModelId": 2508879,
+        "civitaiVersionId": 2820106,
+        "civitaiVersionName": "V1",
+        "tags": [
+          "civitai import",
+          "version: V1",
+          "mandrake",
+          "civitai",
+          "character lora",
+          "manhwa",
+          "girls",
+          "anime",
+          "character",
+          "no mans land",
+          "woman",
+          "manga"
+        ],
+        "variants": {
+          "pg": {
+            "thumb": "/assets/img/collections/no-man-s-land/full/mandrake-pg.png",
+            "full": "/assets/img/collections/no-man-s-land/full/mandrake-pg.png",
+            "alt": "Mandrake from No Man's Land, imported PG CivitAI showcase image"
+          },
+          "pg13": {
+            "thumb": "/assets/img/collections/no-man-s-land/full/mandrake-pg13.png",
+            "full": "/assets/img/collections/no-man-s-land/full/mandrake-pg13.png",
+            "alt": "Mandrake from No Man's Land, imported PG-13 CivitAI showcase image"
+          },
+          "r": {
+            "thumb": "/assets/img/collections/no-man-s-land/full/mandrake-r.png",
+            "full": "/assets/img/collections/no-man-s-land/full/mandrake-r.png",
+            "alt": "Mandrake from No Man's Land, imported R CivitAI showcase image"
+          }
+        }
+      },
+      {
+        "id": "slime-queen",
+        "title": "Slime Queen",
+        "description": "A character LoRA showcase imported from CivitAI for Slime Queen from No Man's Land.",
+        "civitaiUrl": "https://civitai.red/models/2509356",
+        "civitaiModelId": 2509356,
+        "civitaiVersionId": 2820631,
+        "civitaiVersionName": "V1",
+        "tags": [
+          "civitai import",
+          "version: V1",
+          "slime queen",
+          "civitai",
+          "character lora",
+          "slime",
+          "manhwa character",
+          "manhwa",
+          "no man's land",
+          "character",
+          "webtoon",
+          "no mans land"
+        ],
+        "variants": {
+          "pg": {
+            "thumb": "/assets/img/collections/no-man-s-land/full/slime-queen-pg.png",
+            "full": "/assets/img/collections/no-man-s-land/full/slime-queen-pg.png",
+            "alt": "Slime Queen from No Man's Land, imported PG CivitAI showcase image"
+          },
+          "r": {
+            "thumb": "/assets/img/collections/no-man-s-land/full/slime-queen-r.png",
+            "full": "/assets/img/collections/no-man-s-land/full/slime-queen-r.png",
+            "alt": "Slime Queen from No Man's Land, imported R CivitAI showcase image"
+          }
+        }
+      },
+      {
+        "id": "dryad",
+        "title": "Dryad",
+        "description": "A character LoRA showcase imported from CivitAI for Dryad from No Man's Land.",
+        "civitaiUrl": "https://civitai.red/models/2514730",
+        "civitaiModelId": 2514730,
+        "civitaiVersionId": 2826561,
+        "civitaiVersionName": "V1",
+        "tags": [
+          "civitai import",
+          "version: V1",
+          "dryad",
+          "civitai",
+          "character lora",
+          "character",
+          "anime",
+          "no mans land",
+          "monster girls",
+          "manhwa character",
+          "girls",
+          "webtoon"
+        ],
+        "variants": {
+          "pg": {
+            "thumb": "/assets/img/collections/no-man-s-land/full/dryad-pg.png",
+            "full": "/assets/img/collections/no-man-s-land/full/dryad-pg.png",
+            "alt": "Dryad from No Man's Land, imported PG CivitAI showcase image"
+          },
+          "pg13": {
+            "thumb": "/assets/img/collections/no-man-s-land/full/dryad-pg13.png",
+            "full": "/assets/img/collections/no-man-s-land/full/dryad-pg13.png",
+            "alt": "Dryad from No Man's Land, imported PG-13 CivitAI showcase image"
+          },
+          "r": {
+            "thumb": "/assets/img/collections/no-man-s-land/full/dryad-r.png",
+            "full": "/assets/img/collections/no-man-s-land/full/dryad-r.png",
+            "alt": "Dryad from No Man's Land, imported R CivitAI showcase image"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "wakamono-no-kuro-mahoubanare",
+    "title": "Wakamono no Kuro Mahoubanare",
+    "series": "Imported character collection",
+    "sourceType": "Manga",
+    "modelType": "Illustrious Character LoRA",
+    "status": "Public",
+    "cover": "/assets/img/collections/wakamono-no-kuro-mahoubanare/full/botan-pg.png",
+    "civitaiUrl": "https://civitai.red/models/1851926",
+    "description": "A character LoRA collection imported from CivitAI for Wakamono no Kuro Mahoubanare.",
+    "highlights": [
+      "CivitAI import",
+      "Character LoRA",
+      "Manga",
+      "V1"
+    ],
+    "trainingNotes": [
+      "Imported from CivitAI",
+      "Version: V1",
+      "Preview image downloaded locally"
+    ],
+    "tags": [
+      "civitai",
+      "character lora",
+      "anime",
+      "manga",
+      "manga character",
+      "manhwa",
+      "woman",
+      "wakamono",
+      "girls",
+      "character",
+      "wakamono no kuro mahoubanare",
+      "wakamono no kuro mahoubanare ga shinkoku desu ga, shuushoku shite mitara taiguu iishi, shachou mo tsukaima mo kawaikute saikou desu!",
+      "wakamono no kuro mahoubanare ga shinkoku desu ga, shuushoku shite mitara taiguu iishi, shachou mo tsukaima mo kawaikute saikou desu",
+      "webtoon",
+      "ninja",
+      "ninja girl"
+    ],
+    "showcase": [
+      {
+        "id": "tototo",
+        "title": "Tototo",
+        "description": "A character LoRA showcase imported from CivitAI for Tototo from Wakamono no Kuro Mahoubanare.",
+        "civitaiUrl": "https://civitai.red/models/1709751",
+        "civitaiModelId": 1709751,
+        "civitaiVersionId": 1934822,
+        "civitaiVersionName": "V1",
+        "tags": [
+          "civitai import",
+          "version: V1",
+          "tototo",
+          "civitai",
+          "character lora",
+          "elf",
+          "character",
+          "manga",
+          "anime",
+          "woman",
+          "manhwa"
+        ],
+        "variants": {
+          "pg": {
+            "thumb": "/assets/img/collections/wakamono-no-kuro-mahoubanare/full/tototo-pg.png",
+            "full": "/assets/img/collections/wakamono-no-kuro-mahoubanare/full/tototo-pg.png",
+            "alt": "Tototo from Wakamono no Kuro Mahoubanare, imported PG CivitAI showcase image"
+          },
+          "pg13": {
+            "thumb": "/assets/img/collections/wakamono-no-kuro-mahoubanare/full/tototo-pg13.png",
+            "full": "/assets/img/collections/wakamono-no-kuro-mahoubanare/full/tototo-pg13.png",
+            "alt": "Tototo from Wakamono no Kuro Mahoubanare, imported PG-13 CivitAI showcase image"
+          },
+          "r": {
+            "thumb": "/assets/img/collections/wakamono-no-kuro-mahoubanare/full/tototo-r.png",
+            "full": "/assets/img/collections/wakamono-no-kuro-mahoubanare/full/tototo-r.png",
+            "alt": "Tototo from Wakamono no Kuro Mahoubanare, imported R CivitAI showcase image"
+          }
+        }
+      },
+      {
+        "id": "arien",
+        "title": "Arien",
+        "description": "A character LoRA showcase imported from CivitAI for Arien from Wakamono no Kuro Mahoubanare.",
+        "civitaiUrl": "https://civitai.red/models/1723372",
+        "civitaiModelId": 1723372,
+        "civitaiVersionId": 1950277,
+        "civitaiVersionName": "V1",
+        "tags": [
+          "civitai import",
+          "version: V1",
+          "arien",
+          "civitai",
+          "character lora",
+          "character",
+          "manga",
+          "anime",
+          "manhwa",
+          "wakamono"
+        ],
+        "variants": {
+          "pg": {
+            "thumb": "/assets/img/collections/wakamono-no-kuro-mahoubanare/full/arien-pg.png",
+            "full": "/assets/img/collections/wakamono-no-kuro-mahoubanare/full/arien-pg.png",
+            "alt": "Arien from Wakamono no Kuro Mahoubanare, imported PG CivitAI showcase image"
+          },
+          "pg13": {
+            "thumb": "/assets/img/collections/wakamono-no-kuro-mahoubanare/full/arien-pg13.png",
+            "full": "/assets/img/collections/wakamono-no-kuro-mahoubanare/full/arien-pg13.png",
+            "alt": "Arien from Wakamono no Kuro Mahoubanare, imported PG-13 CivitAI showcase image"
+          },
+          "r": {
+            "thumb": "/assets/img/collections/wakamono-no-kuro-mahoubanare/full/arien-r.png",
+            "full": "/assets/img/collections/wakamono-no-kuro-mahoubanare/full/arien-r.png",
+            "alt": "Arien from Wakamono no Kuro Mahoubanare, imported R CivitAI showcase image"
+          }
+        }
+      },
+      {
+        "id": "favistania",
+        "title": "Favistania",
+        "description": "A character LoRA showcase imported from CivitAI for Favistania from Wakamono no Kuro Mahoubanare.",
+        "civitaiUrl": "https://civitai.red/models/1724385",
+        "civitaiModelId": 1724385,
+        "civitaiVersionId": 1951475,
+        "civitaiVersionName": "V1",
+        "tags": [
+          "civitai import",
+          "version: V1",
+          "favistania",
+          "civitai",
+          "character lora",
+          "character",
+          "wakamono",
+          "manga",
+          "anime"
+        ],
+        "variants": {
+          "pg": {
+            "thumb": "/assets/img/collections/wakamono-no-kuro-mahoubanare/full/favistania-pg.png",
+            "full": "/assets/img/collections/wakamono-no-kuro-mahoubanare/full/favistania-pg.png",
+            "alt": "Favistania from Wakamono no Kuro Mahoubanare, imported PG CivitAI showcase image"
+          },
+          "pg13": {
+            "thumb": "/assets/img/collections/wakamono-no-kuro-mahoubanare/full/favistania-pg13.png",
+            "full": "/assets/img/collections/wakamono-no-kuro-mahoubanare/full/favistania-pg13.png",
+            "alt": "Favistania from Wakamono no Kuro Mahoubanare, imported PG-13 CivitAI showcase image"
+          },
+          "r": {
+            "thumb": "/assets/img/collections/wakamono-no-kuro-mahoubanare/full/favistania-r.png",
+            "full": "/assets/img/collections/wakamono-no-kuro-mahoubanare/full/favistania-r.png",
+            "alt": "Favistania from Wakamono no Kuro Mahoubanare, imported R CivitAI showcase image"
+          }
+        }
+      },
+      {
+        "id": "botan",
+        "title": "Botan",
+        "description": "A character LoRA showcase imported from CivitAI for Botan from Wakamono no Kuro Mahoubanare.",
+        "civitaiUrl": "https://civitai.red/models/1724373",
+        "civitaiModelId": 1724373,
+        "civitaiVersionId": 1951462,
+        "civitaiVersionName": "V1",
+        "tags": [
+          "civitai import",
+          "version: V1",
+          "botan",
+          "civitai",
+          "character lora",
+          "character",
+          "manhwa",
+          "manga character",
+          "manga",
+          "wakamono",
+          "girls",
+          "anime"
+        ],
+        "variants": {
+          "pg": {
+            "thumb": "/assets/img/collections/wakamono-no-kuro-mahoubanare/full/botan-pg.png",
+            "full": "/assets/img/collections/wakamono-no-kuro-mahoubanare/full/botan-pg.png",
+            "alt": "Botan from Wakamono no Kuro Mahoubanare, imported PG CivitAI showcase image"
+          },
+          "pg13": {
+            "thumb": "/assets/img/collections/wakamono-no-kuro-mahoubanare/full/botan-pg13.png",
+            "full": "/assets/img/collections/wakamono-no-kuro-mahoubanare/full/botan-pg13.png",
+            "alt": "Botan from Wakamono no Kuro Mahoubanare, imported PG-13 CivitAI showcase image"
+          },
+          "r": {
+            "thumb": "/assets/img/collections/wakamono-no-kuro-mahoubanare/full/botan-r.png",
+            "full": "/assets/img/collections/wakamono-no-kuro-mahoubanare/full/botan-r.png",
+            "alt": "Botan from Wakamono no Kuro Mahoubanare, imported R CivitAI showcase image"
+          }
+        }
+      },
+      {
+        "id": "leda",
+        "title": "Leda",
+        "description": "A character LoRA showcase imported from CivitAI for Leda from Wakamono no Kuro Mahoubanare.",
+        "civitaiUrl": "https://civitai.red/models/1724568",
+        "civitaiModelId": 1724568,
+        "civitaiVersionId": 1951678,
+        "civitaiVersionName": "V1",
+        "tags": [
+          "civitai import",
+          "version: V1",
+          "leda",
+          "civitai",
+          "character lora",
+          "wakamono no kuro mahoubanare ga shinkoku desu ga, shuushoku shite mitara taiguu iishi, shachou mo tsukaima mo kawaikute saikou desu",
+          "manhwa",
+          "anime",
+          "wakamono",
+          "webtoon",
+          "manga",
+          "character"
+        ],
+        "variants": {
+          "pg": {
+            "thumb": "/assets/img/collections/wakamono-no-kuro-mahoubanare/full/leda-pg.png",
+            "full": "/assets/img/collections/wakamono-no-kuro-mahoubanare/full/leda-pg.png",
+            "alt": "Leda from Wakamono no Kuro Mahoubanare, imported PG CivitAI showcase image"
+          },
+          "pg13": {
+            "thumb": "/assets/img/collections/wakamono-no-kuro-mahoubanare/full/leda-pg13.png",
+            "full": "/assets/img/collections/wakamono-no-kuro-mahoubanare/full/leda-pg13.png",
+            "alt": "Leda from Wakamono no Kuro Mahoubanare, imported PG-13 CivitAI showcase image"
+          },
+          "r": {
+            "thumb": "/assets/img/collections/wakamono-no-kuro-mahoubanare/full/leda-r.png",
+            "full": "/assets/img/collections/wakamono-no-kuro-mahoubanare/full/leda-r.png",
+            "alt": "Leda from Wakamono no Kuro Mahoubanare, imported R CivitAI showcase image"
+          }
+        }
+      },
+      {
+        "id": "garbera",
+        "title": "Garbera",
+        "description": "A character LoRA showcase imported from CivitAI for Garbera from Wakamono no Kuro Mahoubanare.",
+        "civitaiUrl": "https://civitai.red/models/1841039",
+        "civitaiModelId": 1841039,
+        "civitaiVersionId": 2083426,
+        "civitaiVersionName": "V1",
+        "tags": [
+          "civitai import",
+          "version: V1",
+          "garbera",
+          "civitai",
+          "character lora",
+          "manhwa",
+          "manga",
+          "wakamono",
+          "woman",
+          "character",
+          "anime",
+          "girls"
+        ],
+        "variants": {
+          "pg": {
+            "thumb": "/assets/img/collections/wakamono-no-kuro-mahoubanare/full/garbera-pg.png",
+            "full": "/assets/img/collections/wakamono-no-kuro-mahoubanare/full/garbera-pg.png",
+            "alt": "Garbera from Wakamono no Kuro Mahoubanare, imported PG CivitAI showcase image"
+          },
+          "pg13": {
+            "thumb": "/assets/img/collections/wakamono-no-kuro-mahoubanare/full/garbera-pg13.png",
+            "full": "/assets/img/collections/wakamono-no-kuro-mahoubanare/full/garbera-pg13.png",
+            "alt": "Garbera from Wakamono no Kuro Mahoubanare, imported PG-13 CivitAI showcase image"
+          },
+          "r": {
+            "thumb": "/assets/img/collections/wakamono-no-kuro-mahoubanare/full/garbera-r.png",
+            "full": "/assets/img/collections/wakamono-no-kuro-mahoubanare/full/garbera-r.png",
+            "alt": "Garbera from Wakamono no Kuro Mahoubanare, imported R CivitAI showcase image"
+          }
+        }
+      },
+      {
+        "id": "krunia",
+        "title": "Krunia",
+        "description": "A character LoRA showcase imported from CivitAI for Krunia from Wakamono no Kuro Mahoubanare.",
+        "civitaiUrl": "https://civitai.red/models/1851926",
+        "civitaiModelId": 1851926,
+        "civitaiVersionId": 2095800,
+        "civitaiVersionName": "V1",
+        "tags": [
+          "civitai import",
+          "version: V1",
+          "krunia",
+          "civitai",
+          "character lora",
+          "anime",
+          "manga",
+          "manga character",
+          "manhwa",
+          "woman",
+          "wakamono",
+          "girls"
+        ],
+        "variants": {
+          "pg": {
+            "thumb": "/assets/img/collections/wakamono-no-kuro-mahoubanare/full/krunia-pg.png",
+            "full": "/assets/img/collections/wakamono-no-kuro-mahoubanare/full/krunia-pg.png",
+            "alt": "Krunia from Wakamono no Kuro Mahoubanare, imported PG CivitAI showcase image"
+          },
+          "pg13": {
+            "thumb": "/assets/img/collections/wakamono-no-kuro-mahoubanare/full/krunia-pg13.png",
+            "full": "/assets/img/collections/wakamono-no-kuro-mahoubanare/full/krunia-pg13.png",
+            "alt": "Krunia from Wakamono no Kuro Mahoubanare, imported PG-13 CivitAI showcase image"
+          },
+          "r": {
+            "thumb": "/assets/img/collections/wakamono-no-kuro-mahoubanare/full/krunia-r.png",
+            "full": "/assets/img/collections/wakamono-no-kuro-mahoubanare/full/krunia-r.png",
+            "alt": "Krunia from Wakamono no Kuro Mahoubanare, imported R CivitAI showcase image"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "doujinshi",
+    "title": "Doujinshi",
+    "series": "Imported character collection",
+    "sourceType": "Manga",
+    "modelType": "Illustrious Character LoRA",
+    "status": "Public",
+    "cover": "/assets/img/collections/doujinshi/full/anju-sagara-pg.png",
+    "civitaiUrl": "https://civitai.red/models/2089244",
+    "description": "A character LoRA collection imported from CivitAI for Doujinshi.",
+    "highlights": [
+      "CivitAI import",
+      "Character LoRA",
+      "Manga",
+      "V1"
+    ],
+    "trainingNotes": [
+      "Imported from CivitAI",
+      "Version: V1",
+      "Preview image downloaded locally"
+    ],
+    "tags": [
+      "civitai",
+      "character lora",
+      "character",
+      "shousou mind crisis",
+      "doujinshi",
+      "manhua",
+      "doujin",
+      "manhwa",
+      "runa hanasaki",
+      "manga",
+      "girls",
+      "usuba kagerou",
+      "woman",
+      "anime",
+      "manga character",
+      "tsuntsun yankee-chan wa yowayowa chikubi o ijireba kekkou nandemo yarasete kureru"
+    ],
+    "showcase": [
+      {
+        "id": "kagawa-mayumi",
+        "title": "Kagawa Mayumi",
+        "description": "A character LoRA showcase imported from CivitAI for Kagawa Mayumi from Doujinshi.",
+        "civitaiUrl": "https://civitai.red/models/1849481",
+        "civitaiModelId": 1849481,
+        "civitaiVersionId": 2093032,
+        "civitaiVersionName": "v1.0",
+        "tags": [
+          "civitai import",
+          "version: v1.0",
+          "kagawa mayumi",
+          "civitai",
+          "character lora",
+          "anime",
+          "character",
+          "manga",
+          "woman",
+          "doujinshi",
+          "girls",
+          "doujin"
+        ],
+        "variants": {
+          "pg": {
+            "thumb": "/assets/img/collections/doujinshi/full/kagawa-mayumi-pg.png",
+            "full": "/assets/img/collections/doujinshi/full/kagawa-mayumi-pg.png",
+            "alt": "Kagawa Mayumi from Doujinshi, imported PG CivitAI showcase image"
+          },
+          "r": {
+            "thumb": "/assets/img/collections/doujinshi/full/kagawa-mayumi-r.png",
+            "full": "/assets/img/collections/doujinshi/full/kagawa-mayumi-r.png",
+            "alt": "Kagawa Mayumi from Doujinshi, imported R CivitAI showcase image"
+          }
+        }
+      },
+      {
+        "id": "anju-sagara",
+        "title": "Anju Sagara",
+        "description": "A character LoRA showcase imported from CivitAI for Anju Sagara from Doujinshi.",
+        "civitaiUrl": "https://civitai.red/models/1869284",
+        "civitaiModelId": 1869284,
+        "civitaiVersionId": 2115790,
+        "civitaiVersionName": "V1",
+        "tags": [
+          "civitai import",
+          "version: V1",
+          "anju sagara",
+          "civitai",
+          "character lora",
+          "character",
+          "girls",
+          "woman",
+          "doujinshi",
+          "manga",
+          "anime",
+          "manga character"
+        ],
+        "variants": {
+          "pg": {
+            "thumb": "/assets/img/collections/doujinshi/full/anju-sagara-pg.png",
+            "full": "/assets/img/collections/doujinshi/full/anju-sagara-pg.png",
+            "alt": "Anju Sagara from Doujinshi, imported PG CivitAI showcase image"
+          },
+          "r": {
+            "thumb": "/assets/img/collections/doujinshi/full/anju-sagara-r.png",
+            "full": "/assets/img/collections/doujinshi/full/anju-sagara-r.png",
+            "alt": "Anju Sagara from Doujinshi, imported R CivitAI showcase image"
+          }
+        }
+      },
+      {
+        "id": "runa-hanasaki",
+        "title": "Runa Hanasaki",
+        "description": "A character LoRA showcase imported from CivitAI for Runa Hanasaki from Doujinshi.",
+        "civitaiUrl": "https://civitai.red/models/2089244",
+        "civitaiModelId": 2089244,
+        "civitaiVersionId": 2363816,
+        "civitaiVersionName": "V1",
+        "tags": [
+          "civitai import",
+          "version: V1",
+          "runa hanasaki",
+          "civitai",
+          "character lora",
+          "character",
+          "shousou mind crisis",
+          "doujinshi",
+          "manhua",
+          "doujin",
+          "manhwa",
+          "manga"
+        ],
+        "variants": {
+          "pg": {
+            "thumb": "/assets/img/collections/doujinshi/full/runa-hanasaki-pg.png",
+            "full": "/assets/img/collections/doujinshi/full/runa-hanasaki-pg.png",
+            "alt": "Runa Hanasaki from Doujinshi, imported PG CivitAI showcase image"
+          },
+          "pg13": {
+            "thumb": "/assets/img/collections/doujinshi/full/runa-hanasaki-pg13.png",
+            "full": "/assets/img/collections/doujinshi/full/runa-hanasaki-pg13.png",
+            "alt": "Runa Hanasaki from Doujinshi, imported PG-13 CivitAI showcase image"
+          },
+          "r": {
+            "thumb": "/assets/img/collections/doujinshi/full/runa-hanasaki-r.png",
+            "full": "/assets/img/collections/doujinshi/full/runa-hanasaki-r.png",
+            "alt": "Runa Hanasaki from Doujinshi, imported R CivitAI showcase image"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "tanaka-kun-itsumo-kedaruge",
+    "title": "Tanaka-kun Itsumo Kedaruge",
+    "series": "Imported character collection",
+    "sourceType": "Anime",
+    "modelType": "Illustrious Character LoRA",
+    "status": "Public",
+    "cover": "/assets/img/collections/tanaka-kun-itsumo-kedaruge/full/rino-tanaka-pg.png",
+    "civitaiUrl": "https://civitai.red/models/2516695",
+    "description": "A character LoRA collection imported from CivitAI for Tanaka-kun Itsumo Kedaruge.",
+    "highlights": [
+      "CivitAI import",
+      "Character LoRA",
+      "Anime",
+      "V1"
+    ],
+    "trainingNotes": [
+      "Imported from CivitAI",
+      "Version: V1",
+      "Preview image downloaded locally"
+    ],
+    "tags": [
+      "civitai",
+      "character lora",
+      "character",
+      "tomboy",
+      "anime character",
+      "joshikousei",
+      "tanaka-kun is always listless",
+      "tanaka-kun wa itsumo kedaruge",
+      "girls",
+      "manga",
+      "jk",
+      "女子高生",
+      "anime",
+      "joshikōsei",
+      "woman",
+      "田中くんはいつもけだるげ"
+    ],
+    "showcase": [
+      {
+        "id": "miyano",
+        "title": "Miyano",
+        "description": "A character LoRA showcase imported from CivitAI for Miyano from Tanaka-kun Itsumo Kedaruge.",
+        "civitaiUrl": "https://civitai.red/models/2512087",
+        "civitaiModelId": 2512087,
+        "civitaiVersionId": 2823631,
+        "civitaiVersionName": "V1",
+        "tags": [
+          "civitai import",
+          "version: V1",
+          "miyano",
+          "civitai",
+          "character lora",
+          "character",
+          "女子高生",
+          "manga",
+          "joshikōsei",
+          "joshikousei",
+          "jk",
+          "tanaka-kun is always listless"
+        ],
+        "variants": {
+          "pg": {
+            "thumb": "/assets/img/collections/tanaka-kun-itsumo-kedaruge/full/miyano-pg.png",
+            "full": "/assets/img/collections/tanaka-kun-itsumo-kedaruge/full/miyano-pg.png",
+            "alt": "Miyano from Tanaka-kun Itsumo Kedaruge, imported PG CivitAI showcase image"
+          },
+          "pg13": {
+            "thumb": "/assets/img/collections/tanaka-kun-itsumo-kedaruge/full/miyano-pg13.png",
+            "full": "/assets/img/collections/tanaka-kun-itsumo-kedaruge/full/miyano-pg13.png",
+            "alt": "Miyano from Tanaka-kun Itsumo Kedaruge, imported PG-13 CivitAI showcase image"
+          },
+          "r": {
+            "thumb": "/assets/img/collections/tanaka-kun-itsumo-kedaruge/full/miyano-r.png",
+            "full": "/assets/img/collections/tanaka-kun-itsumo-kedaruge/full/miyano-r.png",
+            "alt": "Miyano from Tanaka-kun Itsumo Kedaruge, imported R CivitAI showcase image"
+          }
+        }
+      },
+      {
+        "id": "echizen",
+        "title": "Echizen",
+        "description": "A character LoRA showcase imported from CivitAI for Echizen from Tanaka-kun Itsumo Kedaruge.",
+        "civitaiUrl": "https://civitai.red/models/2513087",
+        "civitaiModelId": 2513087,
+        "civitaiVersionId": 2824775,
+        "civitaiVersionName": "V1",
+        "tags": [
+          "civitai import",
+          "version: V1",
+          "echizen",
+          "civitai",
+          "character lora",
+          "joshikousei",
+          "manga",
+          "tanaka-kun wa itsumo kedaruge",
+          "joshikōsei",
+          "anime",
+          "girls",
+          "tanaka-kun is always listless"
+        ],
+        "variants": {
+          "pg": {
+            "thumb": "/assets/img/collections/tanaka-kun-itsumo-kedaruge/full/echizen-pg.png",
+            "full": "/assets/img/collections/tanaka-kun-itsumo-kedaruge/full/echizen-pg.png",
+            "alt": "Echizen from Tanaka-kun Itsumo Kedaruge, imported PG CivitAI showcase image"
+          },
+          "pg13": {
+            "thumb": "/assets/img/collections/tanaka-kun-itsumo-kedaruge/full/echizen-pg13.png",
+            "full": "/assets/img/collections/tanaka-kun-itsumo-kedaruge/full/echizen-pg13.png",
+            "alt": "Echizen from Tanaka-kun Itsumo Kedaruge, imported PG-13 CivitAI showcase image"
+          },
+          "r": {
+            "thumb": "/assets/img/collections/tanaka-kun-itsumo-kedaruge/full/echizen-r.png",
+            "full": "/assets/img/collections/tanaka-kun-itsumo-kedaruge/full/echizen-r.png",
+            "alt": "Echizen from Tanaka-kun Itsumo Kedaruge, imported R CivitAI showcase image"
+          }
+        }
+      },
+      {
+        "id": "saionji",
+        "title": "Saionji",
+        "description": "A character LoRA showcase imported from CivitAI for Saionji from Tanaka-kun Itsumo Kedaruge.",
+        "civitaiUrl": "https://civitai.red/models/2513259",
+        "civitaiModelId": 2513259,
+        "civitaiVersionId": 2824963,
+        "civitaiVersionName": "V1",
+        "tags": [
+          "civitai import",
+          "version: V1",
+          "saionji",
+          "civitai",
+          "character lora",
+          "character",
+          "woman",
+          "joshikousei",
+          "tanaka-kun is always listless",
+          "jk",
+          "manga",
+          "田中くんはいつもけだるげ"
+        ],
+        "variants": {
+          "pg": {
+            "thumb": "/assets/img/collections/tanaka-kun-itsumo-kedaruge/full/saionji-pg.png",
+            "full": "/assets/img/collections/tanaka-kun-itsumo-kedaruge/full/saionji-pg.png",
+            "alt": "Saionji from Tanaka-kun Itsumo Kedaruge, imported PG CivitAI showcase image"
+          },
+          "pg13": {
+            "thumb": "/assets/img/collections/tanaka-kun-itsumo-kedaruge/full/saionji-pg13.png",
+            "full": "/assets/img/collections/tanaka-kun-itsumo-kedaruge/full/saionji-pg13.png",
+            "alt": "Saionji from Tanaka-kun Itsumo Kedaruge, imported PG-13 CivitAI showcase image"
+          },
+          "r": {
+            "thumb": "/assets/img/collections/tanaka-kun-itsumo-kedaruge/full/saionji-r.png",
+            "full": "/assets/img/collections/tanaka-kun-itsumo-kedaruge/full/saionji-r.png",
+            "alt": "Saionji from Tanaka-kun Itsumo Kedaruge, imported R CivitAI showcase image"
+          }
+        }
+      },
+      {
+        "id": "rino-tanaka",
+        "title": "Rino Tanaka",
+        "description": "A character LoRA showcase imported from CivitAI for Rino Tanaka from Tanaka-kun Itsumo Kedaruge.",
+        "civitaiUrl": "https://civitai.red/models/2513091",
+        "civitaiModelId": 2513091,
+        "civitaiVersionId": 2824780,
+        "civitaiVersionName": "V1",
+        "tags": [
+          "civitai import",
+          "version: V1",
+          "rino tanaka",
+          "civitai",
+          "character lora",
+          "character",
+          "manga",
+          "joshikōsei",
+          "tanaka-kun wa itsumo kedaruge",
+          "woman",
+          "tanaka-kun is always listless",
+          "女子高生"
+        ],
+        "variants": {
+          "pg": {
+            "thumb": "/assets/img/collections/tanaka-kun-itsumo-kedaruge/full/rino-tanaka-pg.png",
+            "full": "/assets/img/collections/tanaka-kun-itsumo-kedaruge/full/rino-tanaka-pg.png",
+            "alt": "Rino Tanaka from Tanaka-kun Itsumo Kedaruge, imported PG CivitAI showcase image"
+          },
+          "r": {
+            "thumb": "/assets/img/collections/tanaka-kun-itsumo-kedaruge/full/rino-tanaka-r.png",
+            "full": "/assets/img/collections/tanaka-kun-itsumo-kedaruge/full/rino-tanaka-r.png",
+            "alt": "Rino Tanaka from Tanaka-kun Itsumo Kedaruge, imported R CivitAI showcase image"
+          }
+        }
+      },
+      {
+        "id": "saya-oota",
+        "title": "Saya Oota",
+        "description": "A character LoRA showcase imported from CivitAI for Saya Oota from Tanaka-kun Itsumo Kedaruge.",
+        "civitaiUrl": "https://civitai.red/models/2517388",
+        "civitaiModelId": 2517388,
+        "civitaiVersionId": 2829545,
+        "civitaiVersionName": "V1",
+        "tags": [
+          "civitai import",
+          "version: V1",
+          "saya oota",
+          "civitai",
+          "character lora",
+          "character",
+          "joshikousei",
+          "manga",
+          "jk",
+          "girls",
+          "田中くんはいつもけだるげ",
+          "joshikōsei"
+        ],
+        "variants": {
+          "pg": {
+            "thumb": "/assets/img/collections/tanaka-kun-itsumo-kedaruge/full/saya-oota-pg.png",
+            "full": "/assets/img/collections/tanaka-kun-itsumo-kedaruge/full/saya-oota-pg.png",
+            "alt": "Saya Oota from Tanaka-kun Itsumo Kedaruge, imported PG CivitAI showcase image"
+          },
+          "r": {
+            "thumb": "/assets/img/collections/tanaka-kun-itsumo-kedaruge/full/saya-oota-r.png",
+            "full": "/assets/img/collections/tanaka-kun-itsumo-kedaruge/full/saya-oota-r.png",
+            "alt": "Saya Oota from Tanaka-kun Itsumo Kedaruge, imported R CivitAI showcase image"
+          }
+        }
+      },
+      {
+        "id": "shiraishi",
+        "title": "Shiraishi",
+        "description": "A character LoRA showcase imported from CivitAI for Shiraishi from Tanaka-kun Itsumo Kedaruge.",
+        "civitaiUrl": "https://civitai.red/models/2518597",
+        "civitaiModelId": 2518597,
+        "civitaiVersionId": 2830786,
+        "civitaiVersionName": "V1",
+        "tags": [
+          "civitai import",
+          "version: V1",
+          "shiraishi",
+          "civitai",
+          "character lora",
+          "character",
+          "田中くんはいつもけだるげ",
+          "manga",
+          "tanaka-kun wa itsumo kedaruge",
+          "girls",
+          "joshikousei",
+          "tanaka-kun is always listless"
+        ],
+        "variants": {
+          "pg": {
+            "thumb": "/assets/img/collections/tanaka-kun-itsumo-kedaruge/full/shiraishi-pg.png",
+            "full": "/assets/img/collections/tanaka-kun-itsumo-kedaruge/full/shiraishi-pg.png",
+            "alt": "Shiraishi from Tanaka-kun Itsumo Kedaruge, imported PG CivitAI showcase image"
+          },
+          "r": {
+            "thumb": "/assets/img/collections/tanaka-kun-itsumo-kedaruge/full/shiraishi-r.png",
+            "full": "/assets/img/collections/tanaka-kun-itsumo-kedaruge/full/shiraishi-r.png",
+            "alt": "Shiraishi from Tanaka-kun Itsumo Kedaruge, imported R CivitAI showcase image"
+          }
+        }
+      },
+      {
+        "id": "miyoshi",
+        "title": "Miyoshi",
+        "description": "A character LoRA showcase imported from CivitAI for Miyoshi from Tanaka-kun Itsumo Kedaruge.",
+        "civitaiUrl": "https://civitai.red/models/2516662",
+        "civitaiModelId": 2516662,
+        "civitaiVersionId": 2828690,
+        "civitaiVersionName": "V1",
+        "tags": [
+          "civitai import",
+          "version: V1",
+          "miyoshi",
+          "civitai",
+          "character lora",
+          "manga",
+          "anime",
+          "character",
+          "anime character",
+          "joshikōsei",
+          "女子高生",
+          "jk"
+        ],
+        "variants": {
+          "pg": {
+            "thumb": "/assets/img/collections/tanaka-kun-itsumo-kedaruge/full/miyoshi-pg.png",
+            "full": "/assets/img/collections/tanaka-kun-itsumo-kedaruge/full/miyoshi-pg.png",
+            "alt": "Miyoshi from Tanaka-kun Itsumo Kedaruge, imported PG CivitAI showcase image"
+          },
+          "pg13": {
+            "thumb": "/assets/img/collections/tanaka-kun-itsumo-kedaruge/full/miyoshi-pg13.png",
+            "full": "/assets/img/collections/tanaka-kun-itsumo-kedaruge/full/miyoshi-pg13.png",
+            "alt": "Miyoshi from Tanaka-kun Itsumo Kedaruge, imported PG-13 CivitAI showcase image"
+          },
+          "r": {
+            "thumb": "/assets/img/collections/tanaka-kun-itsumo-kedaruge/full/miyoshi-r.png",
+            "full": "/assets/img/collections/tanaka-kun-itsumo-kedaruge/full/miyoshi-r.png",
+            "alt": "Miyoshi from Tanaka-kun Itsumo Kedaruge, imported R CivitAI showcase image"
+          }
+        }
+      },
+      {
+        "id": "yoshitaka",
+        "title": "Yoshitaka",
+        "description": "A character LoRA showcase imported from CivitAI for Yoshitaka from Tanaka-kun Itsumo Kedaruge.",
+        "civitaiUrl": "https://civitai.red/models/2516695",
+        "civitaiModelId": 2516695,
+        "civitaiVersionId": 2828730,
+        "civitaiVersionName": "V1",
+        "tags": [
+          "civitai import",
+          "version: V1",
+          "yoshitaka",
+          "civitai",
+          "character lora",
+          "character",
+          "tomboy",
+          "anime character",
+          "joshikousei",
+          "tanaka-kun is always listless",
+          "tanaka-kun wa itsumo kedaruge",
+          "girls"
+        ],
+        "variants": {
+          "pg": {
+            "thumb": "/assets/img/collections/tanaka-kun-itsumo-kedaruge/full/yoshitaka-pg.png",
+            "full": "/assets/img/collections/tanaka-kun-itsumo-kedaruge/full/yoshitaka-pg.png",
+            "alt": "Yoshitaka from Tanaka-kun Itsumo Kedaruge, imported PG CivitAI showcase image"
+          },
+          "r": {
+            "thumb": "/assets/img/collections/tanaka-kun-itsumo-kedaruge/full/yoshitaka-r.png",
+            "full": "/assets/img/collections/tanaka-kun-itsumo-kedaruge/full/yoshitaka-r.png",
+            "alt": "Yoshitaka from Tanaka-kun Itsumo Kedaruge, imported R CivitAI showcase image"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "tensei-ni-hakobi-jin-no-isekai",
+    "title": "Tensei Ni Hakobi Jin No Isekai",
+    "series": "Imported character collection",
+    "sourceType": "Manga",
+    "modelType": "Illustrious Character LoRA",
+    "status": "Public",
+    "cover": "/assets/img/covers/tensei-ni-hakobi-jin-no-isekai-zoffy.png",
+    "civitaiUrl": "https://civitai.red/models/1708752",
+    "description": "A character LoRA collection imported from CivitAI for Tensei Ni Hakobi Jin No Isekai.",
+    "highlights": [
+      "CivitAI import",
+      "Character LoRA",
+      "Manga",
+      "V1"
+    ],
+    "trainingNotes": [
+      "Imported from CivitAI",
+      "Version: V1",
+      "Preview image downloaded locally"
+    ],
+    "tags": [
+      "civitai",
+      "character lora",
+      "woman",
+      "girls",
+      "manhwa",
+      "manga character",
+      "anime",
+      "character",
+      "isekai",
+      "manga",
+      "tensei ni hakobi jin no isekai"
+    ],
+    "showcase": [
+      {
+        "id": "tartaute-lunamiria",
+        "title": "Tartaute Lunamiria",
+        "description": "A character LoRA showcase imported from CivitAI for Tartaute Lunamiria from Tensei Ni Hakobi Jin No Isekai.",
+        "civitaiUrl": "https://civitai.red/models/1708912",
+        "civitaiModelId": 1708912,
+        "civitaiVersionId": 1933879,
+        "civitaiVersionName": "V1",
+        "tags": [
+          "civitai import",
+          "version: V1",
+          "tartaute lunamiria",
+          "civitai",
+          "character lora",
+          "woman",
+          "manhwa",
+          "girls",
+          "manga character",
+          "anime",
+          "isekai",
+          "character"
+        ],
+        "variants": {
+          "pg13": {
+            "thumb": "/assets/img/collections/tensei-ni-hakobi-jin-no-isekai/full/tartaute-lunamiria-pg13.png",
+            "full": "/assets/img/collections/tensei-ni-hakobi-jin-no-isekai/full/tartaute-lunamiria-pg13.png",
+            "alt": "Tartaute Lunamiria from Tensei Ni Hakobi Jin No Isekai, imported PG-13 CivitAI showcase image"
+          },
+          "r": {
+            "thumb": "/assets/img/collections/tensei-ni-hakobi-jin-no-isekai/full/tartaute-lunamiria-r.png",
+            "full": "/assets/img/collections/tensei-ni-hakobi-jin-no-isekai/full/tartaute-lunamiria-r.png",
+            "alt": "Tartaute Lunamiria from Tensei Ni Hakobi Jin No Isekai, imported R CivitAI showcase image"
+          }
+        }
+      },
+      {
+        "id": "zoffy",
+        "title": "Zoffy",
+        "description": "A character LoRA showcase imported from CivitAI for Zoffy from Tensei Ni Hakobi Jin No Isekai.",
+        "civitaiUrl": "https://civitai.red/models/1708752",
+        "civitaiModelId": 1708752,
+        "civitaiVersionId": 1933701,
+        "civitaiVersionName": "V1",
+        "tags": [
+          "civitai import",
+          "version: V1",
+          "zoffy",
+          "civitai",
+          "character lora",
+          "woman",
+          "girls",
+          "manhwa",
+          "manga character",
+          "anime",
+          "character",
+          "isekai"
+        ],
+        "variants": {
+          "pg": {
+            "thumb": "/assets/img/collections/tensei-ni-hakobi-jin-no-isekai/full/zoffy-pg.png",
+            "full": "/assets/img/collections/tensei-ni-hakobi-jin-no-isekai/full/zoffy-pg.png",
+            "alt": "Zoffy from Tensei Ni Hakobi Jin No Isekai, imported PG CivitAI showcase image"
+          },
+          "pg13": {
+            "thumb": "/assets/img/collections/tensei-ni-hakobi-jin-no-isekai/full/zoffy-pg13.png",
+            "full": "/assets/img/collections/tensei-ni-hakobi-jin-no-isekai/full/zoffy-pg13.png",
+            "alt": "Zoffy from Tensei Ni Hakobi Jin No Isekai, imported PG-13 CivitAI showcase image"
+          },
+          "r": {
+            "thumb": "/assets/img/collections/tensei-ni-hakobi-jin-no-isekai/full/zoffy-r.png",
+            "full": "/assets/img/collections/tensei-ni-hakobi-jin-no-isekai/full/zoffy-r.png",
+            "alt": "Zoffy from Tensei Ni Hakobi Jin No Isekai, imported R CivitAI showcase image"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "kuma-kuma-kuma-bear",
+    "title": "Kuma Kuma Kuma Bear",
+    "series": "Imported character collection",
+    "sourceType": "Anime",
+    "modelType": "Illustrious Character LoRA",
+    "status": "Public",
+    "cover": "/assets/img/collections/kuma-kuma-kuma-bear/full/noire-foschurose-pg.png",
+    "civitaiUrl": "https://civitai.red/models/2383176",
+    "description": "A character LoRA collection imported from CivitAI for Kuma Kuma Kuma Bear.",
+    "highlights": [
+      "CivitAI import",
+      "Character LoRA",
+      "Anime",
+      "V1"
+    ],
+    "trainingNotes": [
+      "Imported from CivitAI",
+      "Version: V1",
+      "Preview image downloaded locally"
+    ],
+    "tags": [
+      "civitai",
+      "character lora",
+      "character",
+      "the bears bear a bare kuma",
+      "woman",
+      "kuma kuma kuma bear",
+      "くま クマ 熊 ベアー",
+      "manga",
+      "girls",
+      "anime character",
+      "anime",
+      "milf",
+      "mommy",
+      "1girls",
+      "mole",
+      "mage"
+    ],
+    "showcase": [
+      {
+        "id": "anzu-ans",
+        "title": "Anzu (ans)",
+        "description": "A character LoRA showcase imported from CivitAI for Anzu (ans) from Kuma Kuma Kuma Bear.",
+        "civitaiUrl": "https://civitai.red/models/2007630",
+        "civitaiModelId": 2007630,
+        "civitaiVersionId": 2272317,
+        "civitaiVersionName": "V1",
+        "tags": [
+          "civitai import",
+          "version: V1",
+          "anzu (ans)",
+          "civitai",
+          "character lora",
+          "character",
+          "the bears bear a bare kuma",
+          "manga",
+          "anime character",
+          "girls",
+          "woman",
+          "kuma kuma kuma bear"
+        ],
+        "variants": {
+          "pg": {
+            "thumb": "/assets/img/collections/kuma-kuma-kuma-bear/full/anzu-ans-pg.png",
+            "full": "/assets/img/collections/kuma-kuma-kuma-bear/full/anzu-ans-pg.png",
+            "alt": "Anzu (ans) from Kuma Kuma Kuma Bear, imported PG CivitAI showcase image"
+          },
+          "pg13": {
+            "thumb": "/assets/img/collections/kuma-kuma-kuma-bear/full/anzu-ans-pg13.png",
+            "full": "/assets/img/collections/kuma-kuma-kuma-bear/full/anzu-ans-pg13.png",
+            "alt": "Anzu (ans) from Kuma Kuma Kuma Bear, imported PG-13 CivitAI showcase image"
+          },
+          "r": {
+            "thumb": "/assets/img/collections/kuma-kuma-kuma-bear/full/anzu-ans-r.png",
+            "full": "/assets/img/collections/kuma-kuma-kuma-bear/full/anzu-ans-r.png",
+            "alt": "Anzu (ans) from Kuma Kuma Kuma Bear, imported R CivitAI showcase image"
+          }
+        }
+      },
+      {
+        "id": "shuri",
+        "title": "Shuri",
+        "description": "A character LoRA showcase imported from CivitAI for Shuri from Kuma Kuma Kuma Bear.",
+        "civitaiUrl": "https://civitai.red/models/2029510",
+        "civitaiModelId": 2029510,
+        "civitaiVersionId": 2296882,
+        "civitaiVersionName": "V1",
+        "tags": [
+          "civitai import",
+          "version: V1",
+          "shuri",
+          "civitai",
+          "character lora",
+          "anime character",
+          "くま クマ 熊 ベアー",
+          "character",
+          "the bears bear a bare kuma",
+          "woman",
+          "manga",
+          "girls"
+        ],
+        "variants": {
+          "pg": {
+            "thumb": "/assets/img/collections/kuma-kuma-kuma-bear/full/shuri-pg.png",
+            "full": "/assets/img/collections/kuma-kuma-kuma-bear/full/shuri-pg.png",
+            "alt": "Shuri from Kuma Kuma Kuma Bear, imported PG CivitAI showcase image"
+          }
+        }
+      },
+      {
+        "id": "mirein-mylene",
+        "title": "Mirein (Mylene)",
+        "description": "A character LoRA showcase imported from CivitAI for Mirein (Mylene) from Kuma Kuma Kuma Bear.",
+        "civitaiUrl": "https://civitai.red/models/2053936",
+        "civitaiModelId": 2053936,
+        "civitaiVersionId": 2324393,
+        "civitaiVersionName": "V1",
+        "tags": [
+          "civitai import",
+          "version: V1",
+          "mirein (mylene)",
+          "civitai",
+          "character lora",
+          "character",
+          "woman",
+          "manga",
+          "anime",
+          "the bears bear a bare kuma",
+          "kuma kuma kuma bear",
+          "anime character"
+        ],
+        "variants": {
+          "pg": {
+            "thumb": "/assets/img/collections/kuma-kuma-kuma-bear/full/mirein-mylene-pg.png",
+            "full": "/assets/img/collections/kuma-kuma-kuma-bear/full/mirein-mylene-pg.png",
+            "alt": "Mirein (Mylene) from Kuma Kuma Kuma Bear, imported PG CivitAI showcase image"
+          },
+          "r": {
+            "thumb": "/assets/img/collections/kuma-kuma-kuma-bear/full/mirein-mylene-r.png",
+            "full": "/assets/img/collections/kuma-kuma-kuma-bear/full/mirein-mylene-r.png",
+            "alt": "Mirein (Mylene) from Kuma Kuma Kuma Bear, imported R CivitAI showcase image"
+          }
+        }
+      },
+      {
+        "id": "shia-foschurose",
+        "title": "Shia Foschurose",
+        "description": "A character LoRA showcase imported from CivitAI for Shia Foschurose from Kuma Kuma Kuma Bear.",
+        "civitaiUrl": "https://civitai.red/models/2058415",
+        "civitaiModelId": 2058415,
+        "civitaiVersionId": 2329359,
+        "civitaiVersionName": "V1",
+        "tags": [
+          "civitai import",
+          "version: V1",
+          "shia foschurose",
+          "civitai",
+          "character lora",
+          "anime",
+          "character",
+          "anime character",
+          "くま クマ 熊 ベアー",
+          "woman",
+          "girls",
+          "manga"
+        ],
+        "variants": {
+          "pg": {
+            "thumb": "/assets/img/collections/kuma-kuma-kuma-bear/full/shia-foschurose-pg.png",
+            "full": "/assets/img/collections/kuma-kuma-kuma-bear/full/shia-foschurose-pg.png",
+            "alt": "Shia Foschurose from Kuma Kuma Kuma Bear, imported PG CivitAI showcase image"
+          },
+          "r": {
+            "thumb": "/assets/img/collections/kuma-kuma-kuma-bear/full/shia-foschurose-r.png",
+            "full": "/assets/img/collections/kuma-kuma-kuma-bear/full/shia-foschurose-r.png",
+            "alt": "Shia Foschurose from Kuma Kuma Kuma Bear, imported R CivitAI showcase image"
+          }
+        }
+      },
+      {
+        "id": "cattleya",
+        "title": "Cattleya",
+        "description": "A character LoRA showcase imported from CivitAI for Cattleya from Kuma Kuma Kuma Bear.",
+        "civitaiUrl": "https://civitai.red/models/2091759",
+        "civitaiModelId": 2091759,
+        "civitaiVersionId": 2366654,
+        "civitaiVersionName": "V1",
+        "tags": [
+          "civitai import",
+          "version: V1",
+          "cattleya",
+          "civitai",
+          "character lora",
+          "the bears bear a bare kuma",
+          "character",
+          "くま クマ 熊 ベアー",
+          "manga",
+          "woman",
+          "girls",
+          "anime character"
+        ],
+        "variants": {
+          "pg": {
+            "thumb": "/assets/img/collections/kuma-kuma-kuma-bear/full/cattleya-pg.png",
+            "full": "/assets/img/collections/kuma-kuma-kuma-bear/full/cattleya-pg.png",
+            "alt": "Cattleya from Kuma Kuma Kuma Bear, imported PG CivitAI showcase image"
+          },
+          "pg13": {
+            "thumb": "/assets/img/collections/kuma-kuma-kuma-bear/full/cattleya-pg13.png",
+            "full": "/assets/img/collections/kuma-kuma-kuma-bear/full/cattleya-pg13.png",
+            "alt": "Cattleya from Kuma Kuma Kuma Bear, imported PG-13 CivitAI showcase image"
+          },
+          "r": {
+            "thumb": "/assets/img/collections/kuma-kuma-kuma-bear/full/cattleya-r.png",
+            "full": "/assets/img/collections/kuma-kuma-kuma-bear/full/cattleya-r.png",
+            "alt": "Cattleya from Kuma Kuma Kuma Bear, imported R CivitAI showcase image"
+          }
+        }
+      },
+      {
+        "id": "fina",
+        "title": "Fina",
+        "description": "A character LoRA showcase imported from CivitAI for Fina from Kuma Kuma Kuma Bear.",
+        "civitaiUrl": "https://civitai.red/models/2127323",
+        "civitaiModelId": 2127323,
+        "civitaiVersionId": 2406371,
+        "civitaiVersionName": "V1",
+        "tags": [
+          "civitai import",
+          "version: V1",
+          "fina",
+          "civitai",
+          "character lora",
+          "kuma kuma kuma bear",
+          "woman",
+          "girls",
+          "anime character",
+          "manga",
+          "the bears bear a bare kuma",
+          "anime"
+        ],
+        "variants": {
+          "pg": {
+            "thumb": "/assets/img/collections/kuma-kuma-kuma-bear/full/fina-pg.png",
+            "full": "/assets/img/collections/kuma-kuma-kuma-bear/full/fina-pg.png",
+            "alt": "Fina from Kuma Kuma Kuma Bear, imported PG CivitAI showcase image"
+          },
+          "pg13": {
+            "thumb": "/assets/img/collections/kuma-kuma-kuma-bear/full/fina-pg13.png",
+            "full": "/assets/img/collections/kuma-kuma-kuma-bear/full/fina-pg13.png",
+            "alt": "Fina from Kuma Kuma Kuma Bear, imported PG-13 CivitAI showcase image"
+          }
+        }
+      },
+      {
+        "id": "flora",
+        "title": "Flora",
+        "description": "A character LoRA showcase imported from CivitAI for Flora from Kuma Kuma Kuma Bear.",
+        "civitaiUrl": "https://civitai.red/models/2112104",
+        "civitaiModelId": 2112104,
+        "civitaiVersionId": 2389379,
+        "civitaiVersionName": "V1",
+        "tags": [
+          "civitai import",
+          "version: V1",
+          "flora",
+          "civitai",
+          "character lora",
+          "girls",
+          "anime character",
+          "くま クマ 熊 ベアー",
+          "manga",
+          "kuma kuma kuma bear",
+          "anime",
+          "woman"
+        ],
+        "variants": {
+          "pg": {
+            "thumb": "/assets/img/collections/kuma-kuma-kuma-bear/full/flora-pg.png",
+            "full": "/assets/img/collections/kuma-kuma-kuma-bear/full/flora-pg.png",
+            "alt": "Flora from Kuma Kuma Kuma Bear, imported PG CivitAI showcase image"
+          },
+          "pg13": {
+            "thumb": "/assets/img/collections/kuma-kuma-kuma-bear/full/flora-pg13.png",
+            "full": "/assets/img/collections/kuma-kuma-kuma-bear/full/flora-pg13.png",
+            "alt": "Flora from Kuma Kuma Kuma Bear, imported PG-13 CivitAI showcase image"
+          }
+        }
+      },
+      {
+        "id": "noire-foschurose",
+        "title": "Noire Foschurose",
+        "description": "A character LoRA showcase imported from CivitAI for Noire Foschurose from Kuma Kuma Kuma Bear.",
+        "civitaiUrl": "https://civitai.red/models/2134623",
+        "civitaiModelId": 2134623,
+        "civitaiVersionId": 2414706,
+        "civitaiVersionName": "V1",
+        "tags": [
+          "civitai import",
+          "version: V1",
+          "noire foschurose",
+          "civitai",
+          "character lora",
+          "くま クマ 熊 ベアー",
+          "anime character",
+          "girls",
+          "manga",
+          "kuma kuma kuma bear",
+          "character",
+          "the bears bear a bare kuma"
+        ],
+        "variants": {
+          "pg": {
+            "thumb": "/assets/img/collections/kuma-kuma-kuma-bear/full/noire-foschurose-pg.png",
+            "full": "/assets/img/collections/kuma-kuma-kuma-bear/full/noire-foschurose-pg.png",
+            "alt": "Noire Foschurose from Kuma Kuma Kuma Bear, imported PG CivitAI showcase image"
+          }
+        }
+      },
+      {
+        "id": "surilina",
+        "title": "Surilina",
+        "description": "A character LoRA showcase imported from CivitAI for Surilina from Kuma Kuma Kuma Bear.",
+        "civitaiUrl": "https://civitai.red/models/2390162",
+        "civitaiModelId": 2390162,
+        "civitaiVersionId": 2687500,
+        "civitaiVersionName": "V1",
+        "tags": [
+          "civitai import",
+          "version: V1",
+          "surilina",
+          "civitai",
+          "character lora",
+          "character",
+          "woman",
+          "anime character",
+          "kuma kuma kuma bear",
+          "the bears bear a bare kuma",
+          "girls",
+          "maid"
+        ],
+        "variants": {
+          "pg": {
+            "thumb": "/assets/img/collections/kuma-kuma-kuma-bear/full/surilina-pg.png",
+            "full": "/assets/img/collections/kuma-kuma-kuma-bear/full/surilina-pg.png",
+            "alt": "Surilina from Kuma Kuma Kuma Bear, imported PG CivitAI showcase image"
+          },
+          "pg13": {
+            "thumb": "/assets/img/collections/kuma-kuma-kuma-bear/full/surilina-pg13.png",
+            "full": "/assets/img/collections/kuma-kuma-kuma-bear/full/surilina-pg13.png",
+            "alt": "Surilina from Kuma Kuma Kuma Bear, imported PG-13 CivitAI showcase image"
+          },
+          "r": {
+            "thumb": "/assets/img/collections/kuma-kuma-kuma-bear/full/surilina-r.png",
+            "full": "/assets/img/collections/kuma-kuma-kuma-bear/full/surilina-r.png",
+            "alt": "Surilina from Kuma Kuma Kuma Bear, imported R CivitAI showcase image"
+          }
+        }
+      },
+      {
+        "id": "lala",
+        "title": "Lala",
+        "description": "A character LoRA showcase imported from CivitAI for Lala from Kuma Kuma Kuma Bear.",
+        "civitaiUrl": "https://civitai.red/models/2390596",
+        "civitaiModelId": 2390596,
+        "civitaiVersionId": 2687960,
+        "civitaiVersionName": "V1",
+        "tags": [
+          "civitai import",
+          "version: V1",
+          "lala",
+          "civitai",
+          "character lora",
+          "character",
+          "anime",
+          "くま クマ 熊 ベアー",
+          "girls",
+          "woman",
+          "anime character",
+          "manga"
+        ],
+        "variants": {
+          "pg": {
+            "thumb": "/assets/img/collections/kuma-kuma-kuma-bear/full/lala-pg.png",
+            "full": "/assets/img/collections/kuma-kuma-kuma-bear/full/lala-pg.png",
+            "alt": "Lala from Kuma Kuma Kuma Bear, imported PG CivitAI showcase image"
+          },
+          "r": {
+            "thumb": "/assets/img/collections/kuma-kuma-kuma-bear/full/lala-r.png",
+            "full": "/assets/img/collections/kuma-kuma-kuma-bear/full/lala-r.png",
+            "alt": "Lala from Kuma Kuma Kuma Bear, imported R CivitAI showcase image"
+          }
+        }
+      },
+      {
+        "id": "meshun",
+        "title": "Meshun",
+        "description": "A character LoRA showcase imported from CivitAI for Meshun from Kuma Kuma Kuma Bear.",
+        "civitaiUrl": "https://civitai.red/models/2390791",
+        "civitaiModelId": 2390791,
+        "civitaiVersionId": 2688172,
+        "civitaiVersionName": "V1",
+        "tags": [
+          "civitai import",
+          "version: V1",
+          "meshun",
+          "civitai",
+          "character lora",
+          "character",
+          "girls",
+          "anime",
+          "maid",
+          "kuma kuma kuma bear",
+          "anime character",
+          "woman"
+        ],
+        "variants": {
+          "pg": {
+            "thumb": "/assets/img/collections/kuma-kuma-kuma-bear/full/meshun-pg.png",
+            "full": "/assets/img/collections/kuma-kuma-kuma-bear/full/meshun-pg.png",
+            "alt": "Meshun from Kuma Kuma Kuma Bear, imported PG CivitAI showcase image"
+          },
+          "r": {
+            "thumb": "/assets/img/collections/kuma-kuma-kuma-bear/full/meshun-r.png",
+            "full": "/assets/img/collections/kuma-kuma-kuma-bear/full/meshun-r.png",
+            "alt": "Meshun from Kuma Kuma Kuma Bear, imported R CivitAI showcase image"
+          }
+        }
+      },
+      {
+        "id": "ange",
+        "title": "Ange",
+        "description": "A character LoRA showcase imported from CivitAI for Ange from Kuma Kuma Kuma Bear.",
+        "civitaiUrl": "https://civitai.red/models/2391161",
+        "civitaiModelId": 2391161,
+        "civitaiVersionId": 2688595,
+        "civitaiVersionName": "V1",
+        "tags": [
+          "civitai import",
+          "version: V1",
+          "ange",
+          "civitai",
+          "character lora",
+          "character",
+          "the bears bear a bare kuma",
+          "maid",
+          "girls",
+          "くま クマ 熊 ベアー",
+          "anime character",
+          "manga"
+        ],
+        "variants": {
+          "pg": {
+            "thumb": "/assets/img/collections/kuma-kuma-kuma-bear/full/ange-pg.png",
+            "full": "/assets/img/collections/kuma-kuma-kuma-bear/full/ange-pg.png",
+            "alt": "Ange from Kuma Kuma Kuma Bear, imported PG CivitAI showcase image"
+          },
+          "r": {
+            "thumb": "/assets/img/collections/kuma-kuma-kuma-bear/full/ange-r.png",
+            "full": "/assets/img/collections/kuma-kuma-kuma-bear/full/ange-r.png",
+            "alt": "Ange from Kuma Kuma Kuma Bear, imported R CivitAI showcase image"
+          }
+        }
+      },
+      {
+        "id": "yuna-3-outfits",
+        "title": "Yuna [3 Outfits]",
+        "description": "A character LoRA showcase imported from CivitAI for Yuna [3 Outfits] from Kuma Kuma Kuma Bear.",
+        "civitaiUrl": "https://civitai.red/models/2409270",
+        "civitaiModelId": 2409270,
+        "civitaiVersionId": 2708906,
+        "civitaiVersionName": "V1",
+        "tags": [
+          "civitai import",
+          "version: V1",
+          "yuna [3 outfits]",
+          "civitai",
+          "character lora",
+          "character",
+          "the bears bear a bare kuma",
+          "girls",
+          "anime",
+          "kuma kuma kuma bear",
+          "bear",
+          "くま クマ 熊 ベアー"
+        ],
+        "variants": {
+          "pg": {
+            "thumb": "/assets/img/collections/kuma-kuma-kuma-bear/full/yuna-3-outfits-pg.png",
+            "full": "/assets/img/collections/kuma-kuma-kuma-bear/full/yuna-3-outfits-pg.png",
+            "alt": "Yuna [3 Outfits] from Kuma Kuma Kuma Bear, imported PG CivitAI showcase image"
+          },
+          "r": {
+            "thumb": "/assets/img/collections/kuma-kuma-kuma-bear/full/yuna-3-outfits-r.png",
+            "full": "/assets/img/collections/kuma-kuma-kuma-bear/full/yuna-3-outfits-r.png",
+            "alt": "Yuna [3 Outfits] from Kuma Kuma Kuma Bear, imported R CivitAI showcase image"
+          }
+        }
+      },
+      {
+        "id": "sanya",
+        "title": "Sanya",
+        "description": "A character LoRA showcase imported from CivitAI for Sanya from Kuma Kuma Kuma Bear.",
+        "civitaiUrl": "https://civitai.red/models/2398644",
+        "civitaiModelId": 2398644,
+        "civitaiVersionId": 2696958,
+        "civitaiVersionName": "V1",
+        "tags": [
+          "civitai import",
+          "version: V1",
+          "sanya",
+          "civitai",
+          "character lora",
+          "elf",
+          "anime",
+          "kuma kuma kuma bear",
+          "manga",
+          "girls",
+          "the bears bear a bare kuma",
+          "woman"
+        ],
+        "variants": {
+          "pg": {
+            "thumb": "/assets/img/collections/kuma-kuma-kuma-bear/full/sanya-pg.png",
+            "full": "/assets/img/collections/kuma-kuma-kuma-bear/full/sanya-pg.png",
+            "alt": "Sanya from Kuma Kuma Kuma Bear, imported PG CivitAI showcase image"
+          },
+          "pg13": {
+            "thumb": "/assets/img/collections/kuma-kuma-kuma-bear/full/sanya-pg13.png",
+            "full": "/assets/img/collections/kuma-kuma-kuma-bear/full/sanya-pg13.png",
+            "alt": "Sanya from Kuma Kuma Kuma Bear, imported PG-13 CivitAI showcase image"
+          },
+          "r": {
+            "thumb": "/assets/img/collections/kuma-kuma-kuma-bear/full/sanya-r.png",
+            "full": "/assets/img/collections/kuma-kuma-kuma-bear/full/sanya-r.png",
+            "alt": "Sanya from Kuma Kuma Kuma Bear, imported R CivitAI showcase image"
+          }
+        }
+      },
+      {
+        "id": "yuna-avatar",
+        "title": "Yuna Avatar",
+        "description": "A character LoRA showcase imported from CivitAI for Yuna Avatar from Kuma Kuma Kuma Bear.",
+        "civitaiUrl": "https://civitai.red/models/2417063",
+        "civitaiModelId": 2417063,
+        "civitaiVersionId": 2717516,
+        "civitaiVersionName": "V1",
+        "tags": [
+          "civitai import",
+          "version: V1",
+          "yuna avatar",
+          "civitai",
+          "character lora",
+          "character",
+          "くま クマ 熊 ベアー",
+          "woman",
+          "anime character",
+          "anime",
+          "kuma kuma kuma bear",
+          "girls"
+        ],
+        "variants": {
+          "pg": {
+            "thumb": "/assets/img/collections/kuma-kuma-kuma-bear/full/yuna-avatar-pg.png",
+            "full": "/assets/img/collections/kuma-kuma-kuma-bear/full/yuna-avatar-pg.png",
+            "alt": "Yuna Avatar from Kuma Kuma Kuma Bear, imported PG CivitAI showcase image"
+          },
+          "pg13": {
+            "thumb": "/assets/img/collections/kuma-kuma-kuma-bear/full/yuna-avatar-pg13.png",
+            "full": "/assets/img/collections/kuma-kuma-kuma-bear/full/yuna-avatar-pg13.png",
+            "alt": "Yuna Avatar from Kuma Kuma Kuma Bear, imported PG-13 CivitAI showcase image"
+          },
+          "r": {
+            "thumb": "/assets/img/collections/kuma-kuma-kuma-bear/full/yuna-avatar-r.png",
+            "full": "/assets/img/collections/kuma-kuma-kuma-bear/full/yuna-avatar-r.png",
+            "alt": "Yuna Avatar from Kuma Kuma Kuma Bear, imported R CivitAI showcase image"
+          }
+        }
+      },
+      {
+        "id": "senia",
+        "title": "Senia",
+        "description": "A character LoRA showcase imported from CivitAI for Senia from Kuma Kuma Kuma Bear.",
+        "civitaiUrl": "https://civitai.red/models/2414580",
+        "civitaiModelId": 2414580,
+        "civitaiVersionId": 2714753,
+        "civitaiVersionName": "V1",
+        "tags": [
+          "civitai import",
+          "version: V1",
+          "senia",
+          "civitai",
+          "character lora",
+          "character",
+          "anime character",
+          "girls",
+          "manga",
+          "assassin",
+          "woman",
+          "kuma kuma kuma bear"
+        ],
+        "variants": {
+          "pg13": {
+            "thumb": "/assets/img/collections/kuma-kuma-kuma-bear/full/senia-pg13.png",
+            "full": "/assets/img/collections/kuma-kuma-kuma-bear/full/senia-pg13.png",
+            "alt": "Senia from Kuma Kuma Kuma Bear, imported PG-13 CivitAI showcase image"
+          },
+          "r": {
+            "thumb": "/assets/img/collections/kuma-kuma-kuma-bear/full/senia-r.png",
+            "full": "/assets/img/collections/kuma-kuma-kuma-bear/full/senia-r.png",
+            "alt": "Senia from Kuma Kuma Kuma Bear, imported R CivitAI showcase image"
+          }
+        }
+      },
+      {
+        "id": "mel-meru",
+        "title": "Mel (Meru)",
+        "description": "A character LoRA showcase imported from CivitAI for Mel (Meru) from Kuma Kuma Kuma Bear.",
+        "civitaiUrl": "https://civitai.red/models/2417358",
+        "civitaiModelId": 2417358,
+        "civitaiVersionId": 2717844,
+        "civitaiVersionName": "V1",
+        "tags": [
+          "civitai import",
+          "version: V1",
+          "mel (meru)",
+          "civitai",
+          "character lora",
+          "character",
+          "kuma kuma kuma bear",
+          "manga",
+          "anime",
+          "the bears bear a bare kuma",
+          "mage",
+          "isekai"
+        ],
+        "variants": {
+          "pg": {
+            "thumb": "/assets/img/collections/kuma-kuma-kuma-bear/full/mel-meru-pg.png",
+            "full": "/assets/img/collections/kuma-kuma-kuma-bear/full/mel-meru-pg.png",
+            "alt": "Mel (Meru) from Kuma Kuma Kuma Bear, imported PG CivitAI showcase image"
+          },
+          "pg13": {
+            "thumb": "/assets/img/collections/kuma-kuma-kuma-bear/full/mel-meru-pg13.png",
+            "full": "/assets/img/collections/kuma-kuma-kuma-bear/full/mel-meru-pg13.png",
+            "alt": "Mel (Meru) from Kuma Kuma Kuma Bear, imported PG-13 CivitAI showcase image"
+          },
+          "r": {
+            "thumb": "/assets/img/collections/kuma-kuma-kuma-bear/full/mel-meru-r.png",
+            "full": "/assets/img/collections/kuma-kuma-kuma-bear/full/mel-meru-r.png",
+            "alt": "Mel (Meru) from Kuma Kuma Kuma Bear, imported R CivitAI showcase image"
+          }
+        }
+      },
+      {
+        "id": "liz",
+        "title": "Liz",
+        "description": "A character LoRA showcase imported from CivitAI for Liz from Kuma Kuma Kuma Bear.",
+        "civitaiUrl": "https://civitai.red/models/2419879",
+        "civitaiModelId": 2419879,
+        "civitaiVersionId": 2720638,
+        "civitaiVersionName": "V1",
+        "tags": [
+          "civitai import",
+          "version: V1",
+          "liz",
+          "civitai",
+          "character lora",
+          "character",
+          "kuma kuma kuma bear",
+          "anime",
+          "girls",
+          "くま クマ 熊 ベアー",
+          "woman",
+          "manga"
+        ],
+        "variants": {
+          "pg": {
+            "thumb": "/assets/img/collections/kuma-kuma-kuma-bear/full/liz-pg.png",
+            "full": "/assets/img/collections/kuma-kuma-kuma-bear/full/liz-pg.png",
+            "alt": "Liz from Kuma Kuma Kuma Bear, imported PG CivitAI showcase image"
+          },
+          "pg13": {
+            "thumb": "/assets/img/collections/kuma-kuma-kuma-bear/full/liz-pg13.png",
+            "full": "/assets/img/collections/kuma-kuma-kuma-bear/full/liz-pg13.png",
+            "alt": "Liz from Kuma Kuma Kuma Bear, imported PG-13 CivitAI showcase image"
+          },
+          "r": {
+            "thumb": "/assets/img/collections/kuma-kuma-kuma-bear/full/liz-r.png",
+            "full": "/assets/img/collections/kuma-kuma-kuma-bear/full/liz-r.png",
+            "alt": "Liz from Kuma Kuma Kuma Bear, imported R CivitAI showcase image"
+          }
+        }
+      },
+      {
+        "id": "nelt",
+        "title": "Nelt",
+        "description": "A character LoRA showcase imported from CivitAI for Nelt from Kuma Kuma Kuma Bear.",
+        "civitaiUrl": "https://civitai.red/models/2419710",
+        "civitaiModelId": 2419710,
+        "civitaiVersionId": 2720448,
+        "civitaiVersionName": "V1",
+        "tags": [
+          "civitai import",
+          "version: V1",
+          "nelt",
+          "civitai",
+          "character lora",
+          "character",
+          "anime",
+          "girls",
+          "kuma kuma kuma bear",
+          "dwarf",
+          "anime character",
+          "manga"
+        ],
+        "variants": {
+          "pg": {
+            "thumb": "/assets/img/collections/kuma-kuma-kuma-bear/full/nelt-pg.png",
+            "full": "/assets/img/collections/kuma-kuma-kuma-bear/full/nelt-pg.png",
+            "alt": "Nelt from Kuma Kuma Kuma Bear, imported PG CivitAI showcase image"
+          }
+        }
+      },
+      {
+        "id": "baka-white",
+        "title": "Baka White",
+        "description": "A character LoRA showcase imported from CivitAI for Baka White from Kuma Kuma Kuma Bear.",
+        "civitaiUrl": "https://civitai.red/models/2426808",
+        "civitaiModelId": 2426808,
+        "civitaiVersionId": 2728570,
+        "civitaiVersionName": "V1",
+        "tags": [
+          "civitai import",
+          "version: V1",
+          "baka white",
+          "civitai",
+          "character lora",
+          "anime character",
+          "the bears bear a bare kuma",
+          "anime",
+          "woman",
+          "character",
+          "くま クマ 熊 ベアー",
+          "kuma kuma kuma bear"
+        ],
+        "variants": {
+          "pg": {
+            "thumb": "/assets/img/collections/kuma-kuma-kuma-bear/full/baka-white-pg.png",
+            "full": "/assets/img/collections/kuma-kuma-kuma-bear/full/baka-white-pg.png",
+            "alt": "Baka White from Kuma Kuma Kuma Bear, imported PG CivitAI showcase image"
+          },
+          "pg13": {
+            "thumb": "/assets/img/collections/kuma-kuma-kuma-bear/full/baka-white-pg13.png",
+            "full": "/assets/img/collections/kuma-kuma-kuma-bear/full/baka-white-pg13.png",
+            "alt": "Baka White from Kuma Kuma Kuma Bear, imported PG-13 CivitAI showcase image"
+          },
+          "r": {
+            "thumb": "/assets/img/collections/kuma-kuma-kuma-bear/full/baka-white-r.png",
+            "full": "/assets/img/collections/kuma-kuma-kuma-bear/full/baka-white-r.png",
+            "alt": "Baka White from Kuma Kuma Kuma Bear, imported R CivitAI showcase image"
+          }
+        }
+      },
+      {
+        "id": "nif",
+        "title": "Nif",
+        "description": "A character LoRA showcase imported from CivitAI for Nif from Kuma Kuma Kuma Bear.",
+        "civitaiUrl": "https://civitai.red/models/2425130",
+        "civitaiModelId": 2425130,
+        "civitaiVersionId": 2726626,
+        "civitaiVersionName": "V1",
+        "tags": [
+          "civitai import",
+          "version: V1",
+          "nif",
+          "civitai",
+          "character lora",
+          "anime character",
+          "the bears bear a bare kuma",
+          "anime",
+          "manga",
+          "girls",
+          "woman",
+          "くま クマ 熊 ベアー"
+        ],
+        "variants": {
+          "pg": {
+            "thumb": "/assets/img/collections/kuma-kuma-kuma-bear/full/nif-pg.png",
+            "full": "/assets/img/collections/kuma-kuma-kuma-bear/full/nif-pg.png",
+            "alt": "Nif from Kuma Kuma Kuma Bear, imported PG CivitAI showcase image"
+          },
+          "r": {
+            "thumb": "/assets/img/collections/kuma-kuma-kuma-bear/full/nif-r.png",
+            "full": "/assets/img/collections/kuma-kuma-kuma-bear/full/nif-r.png",
+            "alt": "Nif from Kuma Kuma Kuma Bear, imported R CivitAI showcase image"
+          }
+        }
+      },
+      {
+        "id": "forne",
+        "title": "Forne",
+        "description": "A character LoRA showcase imported from CivitAI for Forne from Kuma Kuma Kuma Bear.",
+        "civitaiUrl": "https://civitai.red/models/2425028",
+        "civitaiModelId": 2425028,
+        "civitaiVersionId": 2726514,
+        "civitaiVersionName": "V1",
+        "tags": [
+          "civitai import",
+          "version: V1",
+          "forne",
+          "civitai",
+          "character lora",
+          "anime character",
+          "anime",
+          "kuma kuma kuma bear",
+          "manga",
+          "くま クマ 熊 ベアー",
+          "the bears bear a bare kuma",
+          "girls"
+        ],
+        "variants": {
+          "pg": {
+            "thumb": "/assets/img/collections/kuma-kuma-kuma-bear/full/forne-pg.png",
+            "full": "/assets/img/collections/kuma-kuma-kuma-bear/full/forne-pg.png",
+            "alt": "Forne from Kuma Kuma Kuma Bear, imported PG CivitAI showcase image"
+          },
+          "r": {
+            "thumb": "/assets/img/collections/kuma-kuma-kuma-bear/full/forne-r.png",
+            "full": "/assets/img/collections/kuma-kuma-kuma-bear/full/forne-r.png",
+            "alt": "Forne from Kuma Kuma Kuma Bear, imported R CivitAI showcase image"
+          }
+        }
+      },
+      {
+        "id": "seno",
+        "title": "Seno",
+        "description": "A character LoRA showcase imported from CivitAI for Seno from Kuma Kuma Kuma Bear.",
+        "civitaiUrl": "https://civitai.red/models/2425745",
+        "civitaiModelId": 2425745,
+        "civitaiVersionId": 2727322,
+        "civitaiVersionName": "V1",
+        "tags": [
+          "civitai import",
+          "version: V1",
+          "seno",
+          "civitai",
+          "character lora",
+          "kuma kuma kuma bear",
+          "manga",
+          "anime character",
+          "くま クマ 熊 ベアー",
+          "anime",
+          "the bears bear a bare kuma",
+          "woman"
+        ],
+        "variants": {
+          "pg": {
+            "thumb": "/assets/img/collections/kuma-kuma-kuma-bear/full/seno-pg.png",
+            "full": "/assets/img/collections/kuma-kuma-kuma-bear/full/seno-pg.png",
+            "alt": "Seno from Kuma Kuma Kuma Bear, imported PG CivitAI showcase image"
+          },
+          "r": {
+            "thumb": "/assets/img/collections/kuma-kuma-kuma-bear/full/seno-r.png",
+            "full": "/assets/img/collections/kuma-kuma-kuma-bear/full/seno-r.png",
+            "alt": "Seno from Kuma Kuma Kuma Bear, imported R CivitAI showcase image"
+          }
+        }
+      },
+      {
+        "id": "petor",
+        "title": "Petor",
+        "description": "A character LoRA showcase imported from CivitAI for Petor from Kuma Kuma Kuma Bear.",
+        "civitaiUrl": "https://civitai.red/models/2428125",
+        "civitaiModelId": 2428125,
+        "civitaiVersionId": 2730047,
+        "civitaiVersionName": "V1",
+        "tags": [
+          "civitai import",
+          "version: V1",
+          "petor",
+          "civitai",
+          "character lora",
+          "anime",
+          "anime character",
+          "girls",
+          "character",
+          "the bears bear a bare kuma",
+          "manga",
+          "woman"
+        ],
+        "variants": {
+          "pg": {
+            "thumb": "/assets/img/collections/kuma-kuma-kuma-bear/full/petor-pg.png",
+            "full": "/assets/img/collections/kuma-kuma-kuma-bear/full/petor-pg.png",
+            "alt": "Petor from Kuma Kuma Kuma Bear, imported PG CivitAI showcase image"
+          },
+          "r": {
+            "thumb": "/assets/img/collections/kuma-kuma-kuma-bear/full/petor-r.png",
+            "full": "/assets/img/collections/kuma-kuma-kuma-bear/full/petor-r.png",
+            "alt": "Petor from Kuma Kuma Kuma Bear, imported R CivitAI showcase image"
+          }
+        }
+      },
+      {
+        "id": "atla",
+        "title": "Atla",
+        "description": "A character LoRA showcase imported from CivitAI for Atla from Kuma Kuma Kuma Bear.",
+        "civitaiUrl": "https://civitai.red/models/2429220",
+        "civitaiModelId": 2429220,
+        "civitaiVersionId": 2731348,
+        "civitaiVersionName": "V1",
+        "tags": [
+          "civitai import",
+          "version: V1",
+          "atla",
+          "civitai",
+          "character lora",
+          "woman",
+          "character",
+          "anime",
+          "anime character",
+          "manga",
+          "girls",
+          "くま クマ 熊 ベアー"
+        ],
+        "variants": {
+          "pg13": {
+            "thumb": "/assets/img/collections/kuma-kuma-kuma-bear/full/atla-pg13.png",
+            "full": "/assets/img/collections/kuma-kuma-kuma-bear/full/atla-pg13.png",
+            "alt": "Atla from Kuma Kuma Kuma Bear, imported PG-13 CivitAI showcase image"
+          },
+          "r": {
+            "thumb": "/assets/img/collections/kuma-kuma-kuma-bear/full/atla-r.png",
+            "full": "/assets/img/collections/kuma-kuma-kuma-bear/full/atla-r.png",
+            "alt": "Atla from Kuma Kuma Kuma Bear, imported R CivitAI showcase image"
+          }
+        }
+      },
+      {
+        "id": "helen",
+        "title": "Helen",
+        "description": "A character LoRA showcase imported from CivitAI for Helen from Kuma Kuma Kuma Bear.",
+        "civitaiUrl": "https://civitai.red/models/2434733",
+        "civitaiModelId": 2434733,
+        "civitaiVersionId": 2737556,
+        "civitaiVersionName": "V1",
+        "tags": [
+          "civitai import",
+          "version: V1",
+          "helen",
+          "civitai",
+          "character lora",
+          "character",
+          "kuma kuma kuma bear",
+          "the bears bear a bare kuma",
+          "anime",
+          "くま クマ 熊 ベアー",
+          "manga",
+          "woman"
+        ],
+        "variants": {
+          "pg": {
+            "thumb": "/assets/img/collections/kuma-kuma-kuma-bear/full/helen-pg.png",
+            "full": "/assets/img/collections/kuma-kuma-kuma-bear/full/helen-pg.png",
+            "alt": "Helen from Kuma Kuma Kuma Bear, imported PG CivitAI showcase image"
+          },
+          "r": {
+            "thumb": "/assets/img/collections/kuma-kuma-kuma-bear/full/helen-r.png",
+            "full": "/assets/img/collections/kuma-kuma-kuma-bear/full/helen-r.png",
+            "alt": "Helen from Kuma Kuma Kuma Bear, imported R CivitAI showcase image"
+          }
+        }
+      },
+      {
+        "id": "karin",
+        "title": "Karin",
+        "description": "A character LoRA showcase imported from CivitAI for Karin from Kuma Kuma Kuma Bear.",
+        "civitaiUrl": "https://civitai.red/models/2437216",
+        "civitaiModelId": 2437216,
+        "civitaiVersionId": 2740355,
+        "civitaiVersionName": "V1",
+        "tags": [
+          "civitai import",
+          "version: V1",
+          "karin",
+          "civitai",
+          "character lora",
+          "character",
+          "manga",
+          "kuma kuma kuma bear",
+          "the bears bear a bare kuma",
+          "woman",
+          "anime character",
+          "くま クマ 熊 ベアー"
+        ],
+        "variants": {
+          "pg": {
+            "thumb": "/assets/img/collections/kuma-kuma-kuma-bear/full/karin-pg.png",
+            "full": "/assets/img/collections/kuma-kuma-kuma-bear/full/karin-pg.png",
+            "alt": "Karin from Kuma Kuma Kuma Bear, imported PG CivitAI showcase image"
+          },
+          "pg13": {
+            "thumb": "/assets/img/collections/kuma-kuma-kuma-bear/full/karin-pg13.png",
+            "full": "/assets/img/collections/kuma-kuma-kuma-bear/full/karin-pg13.png",
+            "alt": "Karin from Kuma Kuma Kuma Bear, imported PG-13 CivitAI showcase image"
+          },
+          "r": {
+            "thumb": "/assets/img/collections/kuma-kuma-kuma-bear/full/karin-r.png",
+            "full": "/assets/img/collections/kuma-kuma-kuma-bear/full/karin-r.png",
+            "alt": "Karin from Kuma Kuma Kuma Bear, imported R CivitAI showcase image"
+          }
+        }
+      },
+      {
+        "id": "nerin",
+        "title": "Nerin",
+        "description": "A character LoRA showcase imported from CivitAI for Nerin from Kuma Kuma Kuma Bear.",
+        "civitaiUrl": "https://civitai.red/models/2439690",
+        "civitaiModelId": 2439690,
+        "civitaiVersionId": 2743081,
+        "civitaiVersionName": "V1",
+        "tags": [
+          "civitai import",
+          "version: V1",
+          "nerin",
+          "civitai",
+          "character lora",
+          "woman",
+          "anime",
+          "manga",
+          "the bears bear a bare kuma",
+          "kuma kuma kuma bear",
+          "1girls",
+          "くま クマ 熊 ベアー"
+        ],
+        "variants": {
+          "pg": {
+            "thumb": "/assets/img/collections/kuma-kuma-kuma-bear/full/nerin-pg.png",
+            "full": "/assets/img/collections/kuma-kuma-kuma-bear/full/nerin-pg.png",
+            "alt": "Nerin from Kuma Kuma Kuma Bear, imported PG CivitAI showcase image"
+          },
+          "r": {
+            "thumb": "/assets/img/collections/kuma-kuma-kuma-bear/full/nerin-r.png",
+            "full": "/assets/img/collections/kuma-kuma-kuma-bear/full/nerin-r.png",
+            "alt": "Nerin from Kuma Kuma Kuma Bear, imported R CivitAI showcase image"
+          }
+        }
+      },
+      {
+        "id": "sheri",
+        "title": "Sheri",
+        "description": "A character LoRA showcase imported from CivitAI for Sheri from Kuma Kuma Kuma Bear.",
+        "civitaiUrl": "https://civitai.red/models/2440606",
+        "civitaiModelId": 2440606,
+        "civitaiVersionId": 2744119,
+        "civitaiVersionName": "V1",
+        "tags": [
+          "civitai import",
+          "version: V1",
+          "sheri",
+          "civitai",
+          "character lora",
+          "くま クマ 熊 ベアー",
+          "girls",
+          "the bears bear a bare kuma",
+          "anime",
+          "kuma kuma kuma bear",
+          "character",
+          "woman"
+        ],
+        "variants": {
+          "pg": {
+            "thumb": "/assets/img/collections/kuma-kuma-kuma-bear/full/sheri-pg.png",
+            "full": "/assets/img/collections/kuma-kuma-kuma-bear/full/sheri-pg.png",
+            "alt": "Sheri from Kuma Kuma Kuma Bear, imported PG CivitAI showcase image"
+          },
+          "pg13": {
+            "thumb": "/assets/img/collections/kuma-kuma-kuma-bear/full/sheri-pg13.png",
+            "full": "/assets/img/collections/kuma-kuma-kuma-bear/full/sheri-pg13.png",
+            "alt": "Sheri from Kuma Kuma Kuma Bear, imported PG-13 CivitAI showcase image"
+          }
+        }
+      },
+      {
+        "id": "sheri-friend-a",
+        "title": "Sheri Friend A",
+        "description": "A character LoRA showcase imported from CivitAI for Sheri Friend A from Kuma Kuma Kuma Bear.",
+        "civitaiUrl": "https://civitai.red/models/2441925",
+        "civitaiModelId": 2441925,
+        "civitaiVersionId": 2745595,
+        "civitaiVersionName": "V1",
+        "tags": [
+          "civitai import",
+          "version: V1",
+          "sheri friend a",
+          "civitai",
+          "character lora",
+          "character",
+          "girls",
+          "woman",
+          "kuma kuma kuma bear",
+          "manga",
+          "くま クマ 熊 ベアー",
+          "the bears bear a bare kuma"
+        ],
+        "variants": {
+          "pg": {
+            "thumb": "/assets/img/collections/kuma-kuma-kuma-bear/full/sheri-friend-a-pg.png",
+            "full": "/assets/img/collections/kuma-kuma-kuma-bear/full/sheri-friend-a-pg.png",
+            "alt": "Sheri Friend A from Kuma Kuma Kuma Bear, imported PG CivitAI showcase image"
+          },
+          "pg13": {
+            "thumb": "/assets/img/collections/kuma-kuma-kuma-bear/full/sheri-friend-a-pg13.png",
+            "full": "/assets/img/collections/kuma-kuma-kuma-bear/full/sheri-friend-a-pg13.png",
+            "alt": "Sheri Friend A from Kuma Kuma Kuma Bear, imported PG-13 CivitAI showcase image"
+          }
+        }
+      },
+      {
+        "id": "sheri-friend-b",
+        "title": "Sheri Friend B",
+        "description": "A character LoRA showcase imported from CivitAI for Sheri Friend B from Kuma Kuma Kuma Bear.",
+        "civitaiUrl": "https://civitai.red/models/2441985",
+        "civitaiModelId": 2441985,
+        "civitaiVersionId": 2745661,
+        "civitaiVersionName": "V1",
+        "tags": [
+          "civitai import",
+          "version: V1",
+          "sheri friend b",
+          "civitai",
+          "character lora",
+          "character",
+          "くま クマ 熊 ベアー",
+          "the bears bear a bare kuma",
+          "anime",
+          "manga",
+          "woman",
+          "kuma kuma kuma bear"
+        ],
+        "variants": {
+          "pg": {
+            "thumb": "/assets/img/collections/kuma-kuma-kuma-bear/full/sheri-friend-b-pg.png",
+            "full": "/assets/img/collections/kuma-kuma-kuma-bear/full/sheri-friend-b-pg.png",
+            "alt": "Sheri Friend B from Kuma Kuma Kuma Bear, imported PG CivitAI showcase image"
+          }
+        }
+      },
+      {
+        "id": "kitia",
+        "title": "Kitia",
+        "description": "A character LoRA showcase imported from CivitAI for Kitia from Kuma Kuma Kuma Bear.",
+        "civitaiUrl": "https://civitai.red/models/2444162",
+        "civitaiModelId": 2444162,
+        "civitaiVersionId": 2748106,
+        "civitaiVersionName": "V1",
+        "tags": [
+          "civitai import",
+          "version: V1",
+          "kitia",
+          "civitai",
+          "character lora",
+          "character",
+          "anime",
+          "kuma kuma kuma bear",
+          "girls",
+          "くま クマ 熊 ベアー",
+          "manga",
+          "the bears bear a bare kuma"
+        ],
+        "variants": {
+          "pg": {
+            "thumb": "/assets/img/collections/kuma-kuma-kuma-bear/full/kitia-pg.png",
+            "full": "/assets/img/collections/kuma-kuma-kuma-bear/full/kitia-pg.png",
+            "alt": "Kitia from Kuma Kuma Kuma Bear, imported PG CivitAI showcase image"
+          },
+          "r": {
+            "thumb": "/assets/img/collections/kuma-kuma-kuma-bear/full/kitia-r.png",
+            "full": "/assets/img/collections/kuma-kuma-kuma-bear/full/kitia-r.png",
+            "alt": "Kitia from Kuma Kuma Kuma Bear, imported R CivitAI showcase image"
+          }
+        }
+      },
+      {
+        "id": "juliane-farrengram",
+        "title": "Juliane Farrengram",
+        "description": "A character LoRA showcase imported from CivitAI for Juliane Farrengram from Kuma Kuma Kuma Bear.",
+        "civitaiUrl": "https://civitai.red/models/2444066",
+        "civitaiModelId": 2444066,
+        "civitaiVersionId": 2748001,
+        "civitaiVersionName": "V1",
+        "tags": [
+          "civitai import",
+          "version: V1",
+          "juliane farrengram",
+          "civitai",
+          "character lora",
+          "character",
+          "くま クマ 熊 ベアー",
+          "woman",
+          "anime character",
+          "the bears bear a bare kuma",
+          "girls",
+          "manga"
+        ],
+        "variants": {
+          "pg": {
+            "thumb": "/assets/img/collections/kuma-kuma-kuma-bear/full/juliane-farrengram-pg.png",
+            "full": "/assets/img/collections/kuma-kuma-kuma-bear/full/juliane-farrengram-pg.png",
+            "alt": "Juliane Farrengram from Kuma Kuma Kuma Bear, imported PG CivitAI showcase image"
+          },
+          "pg13": {
+            "thumb": "/assets/img/collections/kuma-kuma-kuma-bear/full/juliane-farrengram-pg13.png",
+            "full": "/assets/img/collections/kuma-kuma-kuma-bear/full/juliane-farrengram-pg13.png",
+            "alt": "Juliane Farrengram from Kuma Kuma Kuma Bear, imported PG-13 CivitAI showcase image"
+          },
+          "r": {
+            "thumb": "/assets/img/collections/kuma-kuma-kuma-bear/full/juliane-farrengram-r.png",
+            "full": "/assets/img/collections/kuma-kuma-kuma-bear/full/juliane-farrengram-r.png",
+            "alt": "Juliane Farrengram from Kuma Kuma Kuma Bear, imported R CivitAI showcase image"
+          }
+        }
+      },
+      {
+        "id": "ellelaura-foschurose",
+        "title": "Ellelaura Foschurose",
+        "description": "A character LoRA showcase imported from CivitAI for Ellelaura Foschurose from Kuma Kuma Kuma Bear.",
+        "civitaiUrl": "https://civitai.red/models/2451192",
+        "civitaiModelId": 2451192,
+        "civitaiVersionId": 2756179,
+        "civitaiVersionName": "V1",
+        "tags": [
+          "civitai import",
+          "version: V1",
+          "ellelaura foschurose",
+          "civitai",
+          "character lora",
+          "character",
+          "anime",
+          "woman",
+          "milf",
+          "mommy",
+          "girls",
+          "manga"
+        ],
+        "variants": {
+          "pg": {
+            "thumb": "/assets/img/collections/kuma-kuma-kuma-bear/full/ellelaura-foschurose-pg.png",
+            "full": "/assets/img/collections/kuma-kuma-kuma-bear/full/ellelaura-foschurose-pg.png",
+            "alt": "Ellelaura Foschurose from Kuma Kuma Kuma Bear, imported PG CivitAI showcase image"
+          },
+          "pg13": {
+            "thumb": "/assets/img/collections/kuma-kuma-kuma-bear/full/ellelaura-foschurose-pg13.png",
+            "full": "/assets/img/collections/kuma-kuma-kuma-bear/full/ellelaura-foschurose-pg13.png",
+            "alt": "Ellelaura Foschurose from Kuma Kuma Kuma Bear, imported PG-13 CivitAI showcase image"
+          }
+        }
+      },
+      {
+        "id": "tirumina",
+        "title": "Tirumina",
+        "description": "A character LoRA showcase imported from CivitAI for Tirumina from Kuma Kuma Kuma Bear.",
+        "civitaiUrl": "https://civitai.red/models/2450884",
+        "civitaiModelId": 2450884,
+        "civitaiVersionId": 2755833,
+        "civitaiVersionName": "V1",
+        "tags": [
+          "civitai import",
+          "version: V1",
+          "tirumina",
+          "civitai",
+          "character lora",
+          "character",
+          "milf",
+          "くま クマ 熊 ベアー",
+          "mommy",
+          "the bears bear a bare kuma",
+          "girls",
+          "woman"
+        ],
+        "variants": {
+          "pg": {
+            "thumb": "/assets/img/collections/kuma-kuma-kuma-bear/full/tirumina-pg.png",
+            "full": "/assets/img/collections/kuma-kuma-kuma-bear/full/tirumina-pg.png",
+            "alt": "Tirumina from Kuma Kuma Kuma Bear, imported PG CivitAI showcase image"
+          },
+          "pg13": {
+            "thumb": "/assets/img/collections/kuma-kuma-kuma-bear/full/tirumina-pg13.png",
+            "full": "/assets/img/collections/kuma-kuma-kuma-bear/full/tirumina-pg13.png",
+            "alt": "Tirumina from Kuma Kuma Kuma Bear, imported PG-13 CivitAI showcase image"
+          }
+        }
+      },
+      {
+        "id": "lurina-rulina",
+        "title": "Lurina (Rulina)",
+        "description": "A character LoRA showcase imported from CivitAI for Lurina (Rulina) from Kuma Kuma Kuma Bear.",
+        "civitaiUrl": "https://civitai.red/models/2007410",
+        "civitaiModelId": 2007410,
+        "civitaiVersionId": 2272067,
+        "civitaiVersionName": "V1",
+        "tags": [
+          "civitai import",
+          "version: V1",
+          "lurina (rulina)",
+          "civitai",
+          "character lora",
+          "character",
+          "kuma kuma kuma bear",
+          "the bears bear a bare kuma",
+          "woman",
+          "manga",
+          "girls",
+          "くま クマ 熊 ベアー"
+        ],
+        "variants": {
+          "pg": {
+            "thumb": "/assets/img/collections/kuma-kuma-kuma-bear/full/lurina-rulina-pg.png",
+            "full": "/assets/img/collections/kuma-kuma-kuma-bear/full/lurina-rulina-pg.png",
+            "alt": "Lurina (Rulina) from Kuma Kuma Kuma Bear, imported PG CivitAI showcase image"
+          },
+          "r": {
+            "thumb": "/assets/img/collections/kuma-kuma-kuma-bear/full/lurina-rulina-r.png",
+            "full": "/assets/img/collections/kuma-kuma-kuma-bear/full/lurina-rulina-r.png",
+            "alt": "Lurina (Rulina) from Kuma Kuma Kuma Bear, imported R CivitAI showcase image"
+          }
+        }
+      },
+      {
+        "id": "misana-farrengram-2-outfits",
+        "title": "Misana Farrengram [2 Outfits]",
+        "description": "A character LoRA showcase imported from CivitAI for Misana Farrengram [2 Outfits] from Kuma Kuma Kuma Bear.",
+        "civitaiUrl": "https://civitai.red/models/2383176",
+        "civitaiModelId": 2383176,
+        "civitaiVersionId": 2679921,
+        "civitaiVersionName": "V1",
+        "tags": [
+          "civitai import",
+          "version: V1",
+          "misana farrengram [2 outfits]",
+          "civitai",
+          "character lora",
+          "character",
+          "the bears bear a bare kuma",
+          "woman",
+          "kuma kuma kuma bear",
+          "くま クマ 熊 ベアー",
+          "manga",
+          "girls"
+        ],
+        "variants": {
+          "pg": {
+            "thumb": "/assets/img/collections/kuma-kuma-kuma-bear/full/misana-farrengram-2-outfits-pg.png",
+            "full": "/assets/img/collections/kuma-kuma-kuma-bear/full/misana-farrengram-2-outfits-pg.png",
+            "alt": "Misana Farrengram [2 Outfits] from Kuma Kuma Kuma Bear, imported PG CivitAI showcase image"
+          },
+          "pg13": {
+            "thumb": "/assets/img/collections/kuma-kuma-kuma-bear/full/misana-farrengram-2-outfits-pg13.png",
+            "full": "/assets/img/collections/kuma-kuma-kuma-bear/full/misana-farrengram-2-outfits-pg13.png",
+            "alt": "Misana Farrengram [2 Outfits] from Kuma Kuma Kuma Bear, imported PG-13 CivitAI showcase image"
+          },
+          "r": {
+            "thumb": "/assets/img/collections/kuma-kuma-kuma-bear/full/misana-farrengram-2-outfits-r.png",
+            "full": "/assets/img/collections/kuma-kuma-kuma-bear/full/misana-farrengram-2-outfits-r.png",
+            "alt": "Misana Farrengram [2 Outfits] from Kuma Kuma Kuma Bear, imported R CivitAI showcase image"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "beast-tamer",
+    "title": "Beast Tamer",
+    "series": "Yuusha Party wo Tsuihou sareta Beast Tamer, Saikyoushu no Nekomimi Shoujo to Deau",
+    "sourceType": "Anime",
+    "modelType": "Illustrious Character LoRA",
+    "status": "Public",
+    "cover": "/assets/img/covers/beast-tamer-runa.png",
+    "civitaiUrl": "https://civitai.red/models/2095087",
+    "description": "A character LoRA collection imported from CivitAI for Beast Tamer.",
+    "highlights": [
+      "CivitAI import",
+      "Character LoRA",
+      "Anime",
+      "V1"
+    ],
+    "trainingNotes": [
+      "Imported from CivitAI",
+      "Version: V1",
+      "Preview image downloaded locally"
+    ],
+    "tags": [
+      "civitai",
+      "character lora",
+      "girls",
+      "beast tamer",
+      "yuusha party wo tsuihou sareta beast tamer, saikyoushu no nekomimi shoujo to deau",
+      "勇者パーティーを追放されたビーストテイマー、最強種の猫耳少女と出会う",
+      "the beast tamer exiled from the hero’s party and the cat eared girl from the strongest race meet",
+      "anime",
+      "anime character",
+      "manga",
+      "character",
+      "woman"
+    ],
+    "showcase": [
+      {
+        "id": "nina",
+        "title": "Nina",
+        "description": "A character LoRA showcase imported from CivitAI for Nina from Beast Tamer.",
+        "civitaiUrl": "https://civitai.red/models/2088034",
+        "civitaiModelId": 2088034,
+        "civitaiVersionId": 2362448,
+        "civitaiVersionName": "V1",
+        "tags": [
+          "civitai import",
+          "version: V1",
+          "nina",
+          "civitai",
+          "character lora",
+          "anime character",
+          "anime",
+          "beast tamer",
+          "girls",
+          "manga",
+          "woman",
+          "yuusha party wo tsuihou sareta beast tamer, saikyoushu no nekomimi shoujo to deau"
+        ],
+        "variants": {
+          "pg": {
+            "thumb": "/assets/img/collections/beast-tamer/full/nina-pg.png",
+            "full": "/assets/img/collections/beast-tamer/full/nina-pg.png",
+            "alt": "Nina from Beast Tamer, imported PG CivitAI showcase image"
+          },
+          "pg13": {
+            "thumb": "/assets/img/collections/beast-tamer/full/nina-pg13.png",
+            "full": "/assets/img/collections/beast-tamer/full/nina-pg13.png",
+            "alt": "Nina from Beast Tamer, imported PG-13 CivitAI showcase image"
+          },
+          "r": {
+            "thumb": "/assets/img/collections/beast-tamer/full/nina-r.png",
+            "full": "/assets/img/collections/beast-tamer/full/nina-r.png",
+            "alt": "Nina from Beast Tamer, imported R CivitAI showcase image"
+          }
+        }
+      },
+      {
+        "id": "runa",
+        "title": "Runa",
+        "description": "A character LoRA showcase imported from CivitAI for Runa from Beast Tamer.",
+        "civitaiUrl": "https://civitai.red/models/2095087",
+        "civitaiModelId": 2095087,
+        "civitaiVersionId": 2370407,
+        "civitaiVersionName": "V1",
+        "tags": [
+          "civitai import",
+          "version: V1",
+          "runa",
+          "civitai",
+          "character lora",
+          "girls",
+          "beast tamer",
+          "yuusha party wo tsuihou sareta beast tamer, saikyoushu no nekomimi shoujo to deau",
+          "勇者パーティーを追放されたビーストテイマー、最強種の猫耳少女と出会う",
+          "the beast tamer exiled from the hero’s party and the cat eared girl from the strongest race meet",
+          "anime",
+          "anime character"
+        ],
+        "variants": {
+          "pg": {
+            "thumb": "/assets/img/collections/beast-tamer/full/runa-pg.png",
+            "full": "/assets/img/collections/beast-tamer/full/runa-pg.png",
+            "alt": "Runa from Beast Tamer, imported PG CivitAI showcase image"
+          },
+          "pg13": {
+            "thumb": "/assets/img/collections/beast-tamer/full/runa-pg13.png",
+            "full": "/assets/img/collections/beast-tamer/full/runa-pg13.png",
+            "alt": "Runa from Beast Tamer, imported PG-13 CivitAI showcase image"
+          },
+          "r": {
+            "thumb": "/assets/img/collections/beast-tamer/full/runa-r.png",
+            "full": "/assets/img/collections/beast-tamer/full/runa-r.png",
+            "alt": "Runa from Beast Tamer, imported R CivitAI showcase image"
+          }
+        }
+      }
+    ]
+  },
+  {
     "id": "busou-shoujo-machiavellianism",
     "title": "Busou Shoujo Machiavellianism",
     "series": "Armed Girl's Machiavellism/武装少女マキャヴェリズム",
@@ -35,6 +3583,46 @@
       "woman"
     ],
     "showcase": [
+      {
+        "id": "inaba-tsukuyo",
+        "title": "Inaba Tsukuyo",
+        "description": "A character LoRA showcase imported from CivitAI for Inaba Tsukuyo from Busou Shoujo Machiavellianism.",
+        "civitaiUrl": "https://civitai.red/models/2069417",
+        "civitaiModelId": 2069417,
+        "civitaiVersionId": 2341645,
+        "civitaiVersionName": "V1",
+        "tags": [
+          "civitai import",
+          "version: V1",
+          "inaba tsukuyo",
+          "civitai",
+          "character lora",
+          "armed girls machiavellism",
+          "character",
+          "armed girl's machiavellism",
+          "manga",
+          "anime",
+          "武装少女マキャヴェリズム",
+          "woman"
+        ],
+        "variants": {
+          "pg": {
+            "thumb": "/assets/img/collections/busou-shoujo-machiavellianism/full/inaba-tsukuyo-pg.png",
+            "full": "/assets/img/collections/busou-shoujo-machiavellianism/full/inaba-tsukuyo-pg.png",
+            "alt": "Inaba Tsukuyo from Busou Shoujo Machiavellianism, imported PG CivitAI showcase image"
+          },
+          "pg13": {
+            "thumb": "/assets/img/collections/busou-shoujo-machiavellianism/full/inaba-tsukuyo-pg13.png",
+            "full": "/assets/img/collections/busou-shoujo-machiavellianism/full/inaba-tsukuyo-pg13.png",
+            "alt": "Inaba Tsukuyo from Busou Shoujo Machiavellianism, imported PG-13 CivitAI showcase image"
+          },
+          "r": {
+            "thumb": "/assets/img/collections/busou-shoujo-machiavellianism/full/inaba-tsukuyo-r.png",
+            "full": "/assets/img/collections/busou-shoujo-machiavellianism/full/inaba-tsukuyo-r.png",
+            "alt": "Inaba Tsukuyo from Busou Shoujo Machiavellianism, imported R CivitAI showcase image"
+          }
+        }
+      },
       {
         "id": "hanasaka-warabi",
         "title": "Hanasaka Warabi",
