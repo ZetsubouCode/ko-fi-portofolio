@@ -39,7 +39,9 @@ function getSourceTypeOptions(collections: Collection[], sourceTypes: SourceType
   const activeSourceTypes = sourceTypes.filter((sourceType) => sourceType.active !== false);
 
   if (activeSourceTypes.length > 0) {
-    return activeSourceTypes.map((sourceType) => ({ id: sourceType.id, label: sourceType.label }));
+    return activeSourceTypes
+      .map((sourceType) => ({ id: sourceType.id, label: sourceType.label }))
+      .sort((a, b) => a.label.localeCompare(b.label));
   }
 
   return [...new Set(collections.map((collection) => getCollectionSourceType(collection)).filter(Boolean))]
@@ -57,7 +59,7 @@ export class ShowcaseGallery {
 
   constructor(root: HTMLElement, collections: Collection[], ratingModes: RatingMode[], sourceTypes: SourceType[] = []) {
     this.root = root;
-    this.collections = collections;
+    this.collections = [...collections].sort((a, b) => a.title.localeCompare(b.title));
     this.sourceTypes = getSourceTypeOptions(collections, sourceTypes);
     this.ratingModes = ratingModes;
     this.lightbox = new Lightbox();
@@ -355,7 +357,11 @@ export class ShowcaseGallery {
       });
     });
 
-    return visible;
+    return visible.sort(
+      (a, b) =>
+        a.collection.title.localeCompare(b.collection.title) ||
+        a.item.title.localeCompare(b.item.title),
+    );
   }
 
   private resetVisibleLimit(): void {

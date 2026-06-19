@@ -5,6 +5,8 @@ import type { Collection, RatingMode } from "../types/site";
 import { escapeHtml } from "../lib/dom";
 
 export function renderCollectionCards(collections: Collection[], ratingModes: RatingMode[]): string {
+  const sortedCollections = [...collections].sort((a, b) => a.title.localeCompare(b.title));
+
   return `
     <section class="section" id="collections">
       <div class="section__inner">
@@ -16,7 +18,7 @@ export function renderCollectionCards(collections: Collection[], ratingModes: Ra
           <a class="button button--ghost" href="#showcase">Open gallery</a>
         </div>
         <div class="collection-grid">
-          ${collections.map((collection) => renderCollectionCard(collection, ratingModes)).join("")}
+          ${sortedCollections.map((collection) => renderCollectionCard(collection, ratingModes)).join("")}
         </div>
       </div>
     </section>
