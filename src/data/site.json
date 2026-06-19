@@ -1,0 +1,161 @@
+{
+  "creator": {
+    "name": "Zetsubou",
+    "handle": "zetsubou",
+    "title": "Illustrious Character LoRA Showcase",
+    "description": "Character LoRA training focused on canon looks, flexible prompting, and anime screenshot-style outputs.",
+    "links": {
+      "civitai": "https://civitai.com/user/zetsubou",
+      "kofi": "https://ko-fi.com/zetsubouai",
+      "github": "https://github.com/ZetsubouCode/ko-fi-portofolio",
+      "pixiv": "https://www.pixiv.net/en/users/18931642"
+    }
+  },
+  "stats": [
+    {
+      "label": "LoRAs trained",
+      "value": "250+"
+    },
+    {
+      "label": "Workflow",
+      "value": "Manual tagging"
+    },
+    {
+      "label": "Source adaptation",
+      "value": "Manga / Anime / Game"
+    },
+    {
+      "label": "Model focus",
+      "value": "IL / SDXL"
+    }
+  ],
+  "ratingModes": [
+    {
+      "id": "pg",
+      "label": "PG",
+      "level": 1
+    },
+    {
+      "id": "pg13",
+      "label": "PG-13",
+      "level": 2
+    },
+    {
+      "id": "r",
+      "label": "R",
+      "level": 3
+    }
+  ],
+  "focusCards": [
+    {
+      "title": "Side & background character focus",
+      "description": "Training work built for characters that often have limited references, inconsistent frames, or very few clean public examples."
+    },
+    {
+      "title": "Manual dataset preparation",
+      "description": "Curated image selection, cropping, cleanup, and hand-authored tags keep each LoRA aligned with the intended character identity."
+    },
+    {
+      "title": "Canon look preservation",
+      "description": "Default outfits, face shape, hair details, and signature visual cues are tested before a collection is published."
+    },
+    {
+      "title": "Screenshot-style direction",
+      "description": "Showcases are tuned toward anime-still composition, controlled lighting, and readable character-first outputs."
+    }
+  ],
+  "workflow": [
+    {
+      "title": "Source review",
+      "description": "Compare official references, screenshots, manga panels, and user-facing examples to define the target look."
+    },
+    {
+      "title": "Dataset selection",
+      "description": "Choose frames that preserve identity while avoiding duplicates, noisy crops, and misleading poses."
+    },
+    {
+      "title": "Cropping",
+      "description": "Prepare portrait, upper-body, and contextual crops so the model learns both detail and overall silhouette."
+    },
+    {
+      "title": "Manual tagging",
+      "description": "Write tags by hand for outfit, hair, expression, pose, and scene details that need flexible prompting."
+    },
+    {
+      "title": "Training",
+      "description": "Train around IL / SDXL workflows with conservative settings and version checks."
+    },
+    {
+      "title": "Testing",
+      "description": "Run canon outfit, alternate outfit, screenshot-style, and negative prompt checks."
+    },
+    {
+      "title": "Prompt tips / delivery notes",
+      "description": "Publish notes that explain trigger words, reliable tags, and known limits for each LoRA."
+    }
+  ],
+  "caseStudies": [
+    {
+      "title": "Manga-only character",
+      "description": "Adapting a limited black-and-white source into colored anime-style outputs while keeping the design recognizable.",
+      "tags": [
+        "manga source",
+        "color adaptation",
+        "identity lock"
+      ]
+    },
+    {
+      "title": "Limited source character",
+      "description": "Balancing a small dataset with manual tags and careful testing so a background character remains usable.",
+      "tags": [
+        "small dataset",
+        "side character",
+        "testing"
+      ]
+    },
+    {
+      "title": "Default outfit preservation",
+      "description": "Keeping the canon outfit stable while still allowing promptable alternate clothing in separate tests.",
+      "tags": [
+        "canon outfit",
+        "alternate outfit",
+        "flexibility"
+      ]
+    },
+    {
+      "title": "Anime screenshot coloring",
+      "description": "Using prompt and dataset choices to steer outputs toward polished frame-like scenes instead of generic portraits.",
+      "tags": [
+        "anime still",
+        "lighting",
+        "composition"
+      ]
+    }
+  ],
+  "commissions": [
+    {
+      "title": "Public IL Character LoRA",
+      "description": "A public CivitAI release for one character with showcase examples and prompt notes.",
+      "url": "https://ko-fi.com/zetsubouai"
+    },
+    {
+      "title": "Private IL Character LoRA",
+      "description": "A private character LoRA package prepared for personal use and delivered with usage notes.",
+      "url": "https://ko-fi.com/zetsubouai"
+    },
+    {
+      "title": "Public Bulk Pack",
+      "description": "Multiple public releases planned as a themed batch or character set.",
+      "url": "https://ko-fi.com/zetsubouai"
+    },
+    {
+      "title": "Private Bulk Pack",
+      "description": "A private multi-character training request with scoped priorities and delivery notes.",
+      "url": "https://ko-fi.com/zetsubouai"
+    }
+  ],
+  "featured": {
+    "collectionId": "gokusotsu-kraken",
+    "itemId": "muuto"
+  }
+}

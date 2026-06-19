@@ -1,0 +1,49 @@
+@keyframes fog-drift {
+  from {
+    transform: translate3d(-1%, -1%, 0) rotate(0deg);
+  }
+
+  to {
+    transform: translate3d(1%, 2%, 0) rotate(3deg);
+  }
+}
+
+@keyframes particle-rise {
+  from {
+    transform: translateY(18px);
+    opacity: 0.12;
+  }
+
+  to {
+    transform: translateY(-18px);
+    opacity: 0.42;
+  }
+}
+
+@keyframes highlight-pulse {
+  0%,
+  100% {
+    box-shadow: var(--shadow-soft);
+  }
+
+  45% {
+    box-shadow: var(--shadow-soft), 0 0 0 5px rgba(214, 168, 95, 0.18), var(--shadow-glow);
+  }
+}
+
+.hero__particles {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background-image:
+    radial-gradient(circle, rgba(214, 168, 95, 0.35) 0 1px, transparent 2px),
+    radial-gradient(circle, rgba(185, 139, 255, 0.24) 0 1px, transparent 2px);
+  background-position:
+    20% 30%,
+    75% 18%;
+  background-size:
+    120px 160px,
+    180px 220px;
+  mask-image: linear-gradient(to bottom, #000, transparent 75%);
+  animation: particle-rise 5s ease-in-out infinite alternate;
+}

@@ -1,0 +1,195 @@
+[
+  {
+    "id": "busou-shoujo-machiavellianism",
+    "title": "Busou Shoujo Machiavellianism",
+    "series": "Armed Girl's Machiavellism/武装少女マキャヴェリズム",
+    "sourceType": "Anime",
+    "modelType": "Illustrious Character LoRA",
+    "status": "Public",
+    "cover": "/assets/img/covers/busou-shoujo-machiavellianism-hanasaka-warabi.png",
+    "civitaiUrl": "https://civitai.red/models/2085919",
+    "description": "A character LoRA collection imported from CivitAI for Busou Shoujo Machiavellianism.",
+    "highlights": [
+      "CivitAI import",
+      "Character LoRA",
+      "Anime",
+      "V1"
+    ],
+    "trainingNotes": [
+      "Imported from CivitAI",
+      "Version: V1",
+      "Preview image downloaded locally"
+    ],
+    "tags": [
+      "civitai",
+      "character lora",
+      "busou shoujo machiavellianism",
+      "armed girl's machiavellism",
+      "girls",
+      "anime",
+      "manga",
+      "character",
+      "武装少女マキャヴェリズム",
+      "armed girls machiavellism",
+      "anime character",
+      "woman"
+    ],
+    "showcase": [
+      {
+        "id": "hanasaka-warabi",
+        "title": "Hanasaka Warabi",
+        "description": "A character LoRA showcase imported from CivitAI for Hanasaka Warabi from Busou Shoujo Machiavellianism.",
+        "civitaiUrl": "https://civitai.red/models/2085919",
+        "civitaiModelId": 2085919,
+        "civitaiVersionId": 2360110,
+        "civitaiVersionName": "V1",
+        "tags": [
+          "civitai import",
+          "version: V1",
+          "hanasaka warabi",
+          "civitai",
+          "character lora",
+          "busou shoujo machiavellianism",
+          "armed girl's machiavellism",
+          "girls",
+          "anime",
+          "manga",
+          "character",
+          "武装少女マキャヴェリズム"
+        ],
+        "variants": {
+          "pg": {
+            "thumb": "/assets/img/collections/busou-shoujo-machiavellianism/full/hanasaka-warabi-pg.png",
+            "full": "/assets/img/collections/busou-shoujo-machiavellianism/full/hanasaka-warabi-pg.png",
+            "alt": "Hanasaka Warabi from Busou Shoujo Machiavellianism, imported PG CivitAI showcase image"
+          },
+          "pg13": {
+            "thumb": "/assets/img/collections/busou-shoujo-machiavellianism/full/hanasaka-warabi-pg13.png",
+            "full": "/assets/img/collections/busou-shoujo-machiavellianism/full/hanasaka-warabi-pg13.png",
+            "alt": "Hanasaka Warabi from Busou Shoujo Machiavellianism, imported PG-13 CivitAI showcase image"
+          },
+          "r": {
+            "thumb": "/assets/img/collections/busou-shoujo-machiavellianism/full/hanasaka-warabi-r.png",
+            "full": "/assets/img/collections/busou-shoujo-machiavellianism/full/hanasaka-warabi-r.png",
+            "alt": "Hanasaka Warabi from Busou Shoujo Machiavellianism, imported R CivitAI showcase image"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "gokusotsu-kraken",
+    "title": "Gokusotsu Kraken",
+    "series": "Hell's Tormentor Kraken / 獄卒クラーケン",
+    "sourceType": "Manga",
+    "modelType": "Illustrious Character LoRA",
+    "status": "Public",
+    "cover": "/assets/img/covers/gokusotsu-kraken-muuto.png",
+    "civitaiUrl": "https://civitai.red/models/1715958?modelVersionId=1968052",
+    "description": "A character LoRA collection imported from CivitAI for Gokusotsu Kraken.",
+    "highlights": [
+      "CivitAI import",
+      "Character LoRA",
+      "Manga",
+      "V2"
+    ],
+    "trainingNotes": [
+      "Imported from CivitAI",
+      "Version: V2",
+      "Preview image downloaded locally"
+    ],
+    "tags": [
+      "civitai",
+      "character lora",
+      "character",
+      "manga",
+      "manga character",
+      "manhwa",
+      "gokusotsu kraken",
+      "anime",
+      "girls",
+      "woman",
+      "hell's tormentor kraken",
+      "獄卒クラーケン",
+      "dark elf",
+      "elf"
+    ],
+    "showcase": [
+      {
+        "id": "sariya",
+        "title": "Sariya",
+        "description": "A character LoRA showcase imported from CivitAI for Sariya from Gokusotsu Kraken.",
+        "civitaiUrl": "https://civitai.red/models/2704768?modelVersionId=3037570",
+        "civitaiModelId": 2704768,
+        "civitaiVersionId": 3037570,
+        "civitaiVersionName": "V1",
+        "tags": [
+          "civitai import",
+          "version: V1",
+          "sariya",
+          "civitai",
+          "character lora",
+          "gokusotsu kraken",
+          "hell's tormentor kraken",
+          "woman",
+          "girls",
+          "dark elf",
+          "elf",
+          "manga character"
+        ],
+        "variants": {
+          "pg13": {
+            "thumb": "/assets/img/collections/gokusotsu-kraken/full/sariya-pg13.png",
+            "full": "/assets/img/collections/gokusotsu-kraken/full/sariya-pg13.png",
+            "alt": "Sariya from Gokusotsu Kraken, imported PG-13 CivitAI showcase image"
+          },
+          "r": {
+            "thumb": "/assets/img/collections/gokusotsu-kraken/full/sariya-r.png",
+            "full": "/assets/img/collections/gokusotsu-kraken/full/sariya-r.png",
+            "alt": "Sariya from Gokusotsu Kraken, manually selected R CivitAI showcase image"
+          }
+        }
+      },
+      {
+        "id": "muuto",
+        "title": "Muuto",
+        "description": "A character LoRA showcase imported from CivitAI for Muuto from Gokusotsu Kraken.",
+        "civitaiUrl": "https://civitai.red/models/1715958?modelVersionId=1968052",
+        "civitaiModelId": 1715958,
+        "civitaiVersionId": 1968052,
+        "civitaiVersionName": "V2",
+        "tags": [
+          "civitai import",
+          "version: V2",
+          "muuto",
+          "civitai",
+          "character lora",
+          "character",
+          "manga",
+          "manga character",
+          "manhwa",
+          "gokusotsu kraken",
+          "anime",
+          "girls"
+        ],
+        "variants": {
+          "pg": {
+            "thumb": "/assets/img/collections/gokusotsu-kraken/full/muuto-pg.png",
+            "full": "/assets/img/collections/gokusotsu-kraken/full/muuto-pg.png",
+            "alt": "Muuto from Gokusotsu Kraken, imported PG CivitAI showcase image"
+          },
+          "pg13": {
+            "thumb": "/assets/img/collections/gokusotsu-kraken/full/muuto-pg13.png",
+            "full": "/assets/img/collections/gokusotsu-kraken/full/muuto-pg13.png",
+            "alt": "Muuto from Gokusotsu Kraken, imported PG-13 CivitAI showcase image"
+          },
+          "r": {
+            "thumb": "/assets/img/collections/gokusotsu-kraken/full/muuto-r.png",
+            "full": "/assets/img/collections/gokusotsu-kraken/full/muuto-r.png",
+            "alt": "Muuto from Gokusotsu Kraken, manually selected R CivitAI showcase image"
+          }
+        }
+      }
+    ]
+  }
+]

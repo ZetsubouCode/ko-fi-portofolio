@@ -1,0 +1,140 @@
+.section {
+  position: relative;
+  padding: 96px 0;
+}
+
+.section--compact {
+  padding: 48px 0;
+}
+
+.section--showcase {
+  scroll-margin-top: 24px;
+}
+
+.section__inner {
+  width: var(--container);
+  margin: 0 auto;
+}
+
+.section-heading {
+  max-width: 760px;
+  margin-bottom: 34px;
+}
+
+.section-heading h2 {
+  margin-top: 10px;
+}
+
+.section-heading--row {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  max-width: none;
+  gap: 24px;
+}
+
+.hero {
+  display: grid;
+  min-height: 92vh;
+  padding: 72px 0 58px;
+  overflow: hidden;
+}
+
+.hero__inner {
+  display: grid;
+  grid-template-columns: minmax(0, 1.05fr) minmax(320px, 0.72fr);
+  align-items: center;
+  gap: clamp(32px, 7vw, 90px);
+}
+
+.hero__copy {
+  position: relative;
+  z-index: 1;
+}
+
+.hero__lead {
+  max-width: 650px;
+  margin-top: 24px;
+  font-size: clamp(1.05rem, 2vw, 1.28rem);
+}
+
+.hero__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 34px;
+}
+
+.feature-grid,
+.case-grid,
+.commission-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.collection-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 22px;
+}
+
+.showcase-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.gallery-controls {
+  position: sticky;
+  top: 0;
+  z-index: 6;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 24px;
+  padding: 12px;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  background: rgba(8, 7, 11, 0.82);
+  box-shadow: var(--shadow-soft);
+  backdrop-filter: blur(18px);
+}
+
+.footer {
+  padding: 38px 0;
+  border-top: 1px solid var(--color-border);
+  background: rgba(5, 4, 9, 0.72);
+}
+
+.footer__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.footer p {
+  max-width: 760px;
+  margin-top: 8px;
+  font-size: 0.92rem;
+}
+
+.footer nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.footer nav a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}

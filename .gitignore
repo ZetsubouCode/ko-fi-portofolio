@@ -1,1 +1,7 @@
 todo
+node_modules/
+dist/
+vite-dev.log
+vite-dev.err.log
+preview-bat.log
+preview-bat.err.log
