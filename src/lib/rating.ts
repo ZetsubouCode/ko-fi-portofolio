@@ -50,7 +50,23 @@ export function getVariantForRating(
     return item.variants[selectedMode.id];
   }
 
+  const fallbackMode = [...ratingModes]
+    .filter((mode) => mode.level < selectedMode.level && item.variants[mode.id])
+    .sort((a, b) => b.level - a.level)[0];
+
+  if (fallbackMode) {
+    return item.variants[fallbackMode.id];
+  }
+
   return getPlaceholderVariant(item, selectedMode);
+}
+
+export function getVariantRatingId(item: ShowcaseItem, variant: ImageVariant): string | null {
+  if (variant.isPlaceholder) {
+    return variant.ratingId ?? null;
+  }
+
+  return Object.entries(item.variants).find(([, image]) => image === variant)?.[0] ?? null;
 }
 
 export function getVariantRatingLabel(
@@ -63,8 +79,7 @@ export function getVariantRatingLabel(
     return rating ? `Missing ${rating.label}` : "Missing image";
   }
 
-  const found = Object.entries(item.variants).find(([, image]) => image === variant);
-  const rating = ratingModes.find((mode) => mode.id === found?.[0]);
+  const rating = ratingModes.find((mode) => mode.id === getVariantRatingId(item, variant));
   return rating?.label ?? "Unrated";
 }
 

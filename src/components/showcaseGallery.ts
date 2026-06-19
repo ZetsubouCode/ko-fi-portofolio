@@ -2,7 +2,7 @@ import { getAssetUrl } from "../lib/assets";
 import { renderBrandLabel } from "../lib/brandIcons";
 import { escapeHtml, getRequiredElement } from "../lib/dom";
 import { getStoredRating, setStoredRating } from "../lib/storage";
-import { getVariantForRating, getVariantRatingLabel } from "../lib/rating";
+import { getVariantForRating, getVariantRatingId, getVariantRatingLabel } from "../lib/rating";
 import type { Collection, RatingMode, ShowcaseItem, SourceType } from "../types/site";
 import { Lightbox, type LightboxItem } from "./lightbox";
 
@@ -10,6 +10,8 @@ type GalleryState = {
   rating: string;
   collectionId: string;
   sourceType: string;
+  searchQuery: string;
+  blurRRated: boolean;
 };
 
 type VisibleItem = {
@@ -17,6 +19,7 @@ type VisibleItem = {
   item: ShowcaseItem;
   image: NonNullable<ReturnType<typeof getVariantForRating>>;
   ratingLabel: string;
+  ratingId: string | null;
 };
 
 type SourceTypeOption = {
@@ -59,6 +62,8 @@ export class ShowcaseGallery {
       rating: getStoredRating(ratingModes[0]?.id ?? "pg"),
       collectionId: "all",
       sourceType: "all",
+      searchQuery: "",
+      blurRRated: true,
     };
   }
 
@@ -121,6 +126,10 @@ export class ShowcaseGallery {
           .join("")}
       </div>
       <label class="filter-field">
+        <span>Search</span>
+        <input data-filter-search type="search" value="${escapeHtml(this.state.searchQuery)}" placeholder="Search LoRA or collection" />
+      </label>
+      <label class="filter-field">
         <span>Collection</span>
         <select data-filter-collection>
           <option value="all"${this.state.collectionId === "all" ? " selected" : ""}>All</option>
@@ -143,6 +152,10 @@ export class ShowcaseGallery {
             )
             .join("")}
         </select>
+      </label>
+      <label class="privacy-toggle">
+        <input data-toggle-r-blur type="checkbox"${this.state.blurRRated ? " checked" : ""} />
+        <span>Blur R images</span>
       </label>
     `;
   }
@@ -167,17 +180,32 @@ export class ShowcaseGallery {
     });
 
     this.root.addEventListener("change", (event) => {
-      const target = event.target as HTMLSelectElement;
+      const target = event.target as HTMLElement;
 
       if (target.matches("[data-filter-collection]")) {
-        this.state.collectionId = target.value;
-        window.history.replaceState(null, "", target.value === "all" ? "#showcase" : `#${target.value}`);
-        this.highlightCollection(target.value);
+        const value = (target as HTMLSelectElement).value;
+        this.state.collectionId = value;
+        window.history.replaceState(null, "", value === "all" ? "#showcase" : `#${value}`);
+        this.highlightCollection(value);
         this.renderGrid();
       }
 
       if (target.matches("[data-filter-source-type]")) {
-        this.state.sourceType = target.value;
+        this.state.sourceType = (target as HTMLSelectElement).value;
+        this.renderGrid();
+      }
+
+      if (target.matches("[data-toggle-r-blur]")) {
+        this.state.blurRRated = (target as HTMLInputElement).checked;
+        this.renderGrid();
+      }
+    });
+
+    this.root.addEventListener("input", (event) => {
+      const target = event.target as HTMLInputElement;
+
+      if (target.matches("[data-filter-search]")) {
+        this.state.searchQuery = target.value;
         this.renderGrid();
       }
     });
@@ -225,13 +253,15 @@ export class ShowcaseGallery {
   }
 
   private renderShowcaseCard(visible: VisibleItem, index: number): string {
-    const { collection, item, image, ratingLabel } = visible;
+    const { collection, item, image, ratingLabel, ratingId } = visible;
+    const blurImage = this.state.blurRRated && ratingId === "r" && !image.isPlaceholder;
 
     return `
       <article class="showcase-card" data-collection="${escapeHtml(collection.id)}">
-        <button class="showcase-card__image-button image-shell" type="button" data-lightbox-index="${index}" aria-label="Open ${escapeHtml(item.title)} preview">
+        <button class="showcase-card__image-button image-shell${blurImage ? " is-r-blurred" : ""}" type="button" data-lightbox-index="${index}" aria-label="Open ${escapeHtml(item.title)} preview">
           <img src="${escapeHtml(getAssetUrl(image.thumb))}" alt="${escapeHtml(image.alt)}" loading="lazy" decoding="async" />
           <span class="image-placeholder">Showcase thumbnail placeholder</span>
+          ${blurImage ? '<span class="showcase-card__privacy">R image hidden</span>' : ""}
           <span class="showcase-card__rating">${escapeHtml(ratingLabel)}</span>
         </button>
         <div class="showcase-card__body">
@@ -254,6 +284,7 @@ export class ShowcaseGallery {
 
   private getVisibleItems(): VisibleItem[] {
     const visible: VisibleItem[] = [];
+    const searchQuery = this.state.searchQuery.trim().toLowerCase();
 
     this.collections.forEach((collection) => {
       if (this.state.collectionId !== "all" && collection.id !== this.state.collectionId) {
@@ -265,16 +296,26 @@ export class ShowcaseGallery {
       }
 
       collection.showcase.forEach((item) => {
+        if (
+          searchQuery &&
+          !item.title.toLowerCase().includes(searchQuery) &&
+          !collection.title.toLowerCase().includes(searchQuery)
+        ) {
+          return;
+        }
+
         const image = getVariantForRating(item, this.state.rating, this.ratingModes);
         if (!image) {
           return;
         }
+        const ratingId = getVariantRatingId(item, image);
 
         visible.push({
           collection,
           item,
           image,
           ratingLabel: getVariantRatingLabel(item, image, this.ratingModes),
+          ratingId,
         });
       });
     });

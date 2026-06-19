@@ -3432,7 +3432,7 @@
   {
     "id": "beast-tamer",
     "title": "Beast Tamer",
-    "series": "Yuusha Party wo Tsuihou sareta Beast Tamer, Saikyoushu no Nekomimi Shoujo to Deau",
+    "series": "Imported character collection",
     "sourceType": "Anime",
     "modelType": "Illustrious Character LoRA",
     "status": "Public",
@@ -3462,9 +3462,315 @@
       "anime character",
       "manga",
       "character",
-      "woman"
+      "woman",
+      "dragonkin"
     ],
     "showcase": [
+      {
+        "id": "stella-enplace",
+        "title": "Stella Enplace",
+        "description": "A character LoRA showcase imported from CivitAI for Stella Enplace from Beast Tamer.",
+        "civitaiUrl": "https://civitai.red/models/2056450",
+        "civitaiModelId": 2056450,
+        "civitaiVersionId": 2327190,
+        "civitaiVersionName": "V1",
+        "tags": [
+          "civitai import",
+          "version: V1",
+          "stella enplace",
+          "civitai",
+          "character lora",
+          "勇者パーティーを追放されたビーストテイマー、最強種の猫耳少女と出会う",
+          "beast tamer",
+          "anime character",
+          "anime",
+          "girls",
+          "the beast tamer exiled from the hero’s party and the cat eared girl from the strongest race meet",
+          "woman"
+        ],
+        "variants": {
+          "pg": {
+            "thumb": "/assets/img/collections/beast-tamer/full/stella-enplace-pg.png",
+            "full": "/assets/img/collections/beast-tamer/full/stella-enplace-pg.png",
+            "alt": "Stella Enplace from Beast Tamer, imported PG CivitAI showcase image"
+          },
+          "r": {
+            "thumb": "/assets/img/collections/beast-tamer/full/stella-enplace-r.png",
+            "full": "/assets/img/collections/beast-tamer/full/stella-enplace-r.png",
+            "alt": "Stella Enplace from Beast Tamer, imported R CivitAI showcase image"
+          }
+        }
+      },
+      {
+        "id": "leanne",
+        "title": "Leanne",
+        "description": "A character LoRA showcase imported from CivitAI for Leanne from Beast Tamer.",
+        "civitaiUrl": "https://civitai.red/models/2057596",
+        "civitaiModelId": 2057596,
+        "civitaiVersionId": 2328462,
+        "civitaiVersionName": "V1",
+        "tags": [
+          "civitai import",
+          "version: V1",
+          "leanne",
+          "civitai",
+          "character lora",
+          "yuusha party wo tsuihou sareta beast tamer, saikyoushu no nekomimi shoujo to deau",
+          "woman",
+          "beast tamer",
+          "anime",
+          "manga",
+          "勇者パーティーを追放されたビーストテイマー、最強種の猫耳少女と出会う",
+          "anime character"
+        ],
+        "variants": {
+          "pg": {
+            "thumb": "/assets/img/collections/beast-tamer/full/leanne-pg.png",
+            "full": "/assets/img/collections/beast-tamer/full/leanne-pg.png",
+            "alt": "Leanne from Beast Tamer, imported PG CivitAI showcase image"
+          },
+          "pg13": {
+            "thumb": "/assets/img/collections/beast-tamer/full/leanne-pg13.png",
+            "full": "/assets/img/collections/beast-tamer/full/leanne-pg13.png",
+            "alt": "Leanne from Beast Tamer, imported PG-13 CivitAI showcase image"
+          },
+          "r": {
+            "thumb": "/assets/img/collections/beast-tamer/full/leanne-r.png",
+            "full": "/assets/img/collections/beast-tamer/full/leanne-r.png",
+            "alt": "Leanne from Beast Tamer, imported R CivitAI showcase image"
+          }
+        }
+      },
+      {
+        "id": "mina",
+        "title": "Mina",
+        "description": "A character LoRA showcase imported from CivitAI for Mina from Beast Tamer.",
+        "civitaiUrl": "https://civitai.red/models/2057124",
+        "civitaiModelId": 2057124,
+        "civitaiVersionId": 2327945,
+        "civitaiVersionName": "V1",
+        "tags": [
+          "civitai import",
+          "version: V1",
+          "mina",
+          "civitai",
+          "character lora",
+          "anime",
+          "girls",
+          "beast tamer",
+          "yuusha party wo tsuihou sareta beast tamer, saikyoushu no nekomimi shoujo to deau",
+          "anime character",
+          "manga",
+          "the beast tamer exiled from the hero’s party and the cat eared girl from the strongest race meet"
+        ],
+        "variants": {
+          "pg": {
+            "thumb": "/assets/img/collections/beast-tamer/full/mina-pg.png",
+            "full": "/assets/img/collections/beast-tamer/full/mina-pg.png",
+            "alt": "Mina from Beast Tamer, imported PG CivitAI showcase image"
+          },
+          "r": {
+            "thumb": "/assets/img/collections/beast-tamer/full/mina-r.png",
+            "full": "/assets/img/collections/beast-tamer/full/mina-r.png",
+            "alt": "Mina from Beast Tamer, imported R CivitAI showcase image"
+          }
+        }
+      },
+      {
+        "id": "natalie-brough",
+        "title": "Natalie Brough",
+        "description": "A character LoRA showcase imported from CivitAI for Natalie Brough from Beast Tamer.",
+        "civitaiUrl": "https://civitai.red/models/2056470",
+        "civitaiModelId": 2056470,
+        "civitaiVersionId": 2327213,
+        "civitaiVersionName": "V1",
+        "tags": [
+          "civitai import",
+          "version: V1",
+          "natalie brough",
+          "civitai",
+          "character lora",
+          "manga",
+          "girls",
+          "yuusha party wo tsuihou sareta beast tamer, saikyoushu no nekomimi shoujo to deau",
+          "the beast tamer exiled from the hero’s party and the cat eared girl from the strongest race meet",
+          "woman",
+          "anime",
+          "勇者パーティーを追放されたビーストテイマー、最強種の猫耳少女と出会う"
+        ],
+        "variants": {
+          "pg": {
+            "thumb": "/assets/img/collections/beast-tamer/full/natalie-brough-pg.png",
+            "full": "/assets/img/collections/beast-tamer/full/natalie-brough-pg.png",
+            "alt": "Natalie Brough from Beast Tamer, imported PG CivitAI showcase image"
+          },
+          "r": {
+            "thumb": "/assets/img/collections/beast-tamer/full/natalie-brough-r.png",
+            "full": "/assets/img/collections/beast-tamer/full/natalie-brough-r.png",
+            "alt": "Natalie Brough from Beast Tamer, imported R CivitAI showcase image"
+          }
+        }
+      },
+      {
+        "id": "tina-holly-tina-hollee",
+        "title": "Tina Holly (Tina Hollee)",
+        "description": "A character LoRA showcase imported from CivitAI for Tina Holly (Tina Hollee) from Beast Tamer.",
+        "civitaiUrl": "https://civitai.red/models/2086894",
+        "civitaiModelId": 2086894,
+        "civitaiVersionId": 2361184,
+        "civitaiVersionName": "V1",
+        "tags": [
+          "civitai import",
+          "version: V1",
+          "tina holly (tina hollee)",
+          "civitai",
+          "character lora",
+          "girls",
+          "anime",
+          "character",
+          "勇者パーティーを追放されたビーストテイマー、最強種の猫耳少女と出会う",
+          "beast tamer",
+          "manga",
+          "the beast tamer exiled from the hero’s party and the cat eared girl from the strongest race meet"
+        ],
+        "variants": {
+          "pg": {
+            "thumb": "/assets/img/collections/beast-tamer/full/tina-holly-tina-hollee-pg.png",
+            "full": "/assets/img/collections/beast-tamer/full/tina-holly-tina-hollee-pg.png",
+            "alt": "Tina Holly (Tina Hollee) from Beast Tamer, imported PG CivitAI showcase image"
+          },
+          "pg13": {
+            "thumb": "/assets/img/collections/beast-tamer/full/tina-holly-tina-hollee-pg13.png",
+            "full": "/assets/img/collections/beast-tamer/full/tina-holly-tina-hollee-pg13.png",
+            "alt": "Tina Holly (Tina Hollee) from Beast Tamer, imported PG-13 CivitAI showcase image"
+          },
+          "r": {
+            "thumb": "/assets/img/collections/beast-tamer/full/tina-holly-tina-hollee-r.png",
+            "full": "/assets/img/collections/beast-tamer/full/tina-holly-tina-hollee-r.png",
+            "alt": "Tina Holly (Tina Hollee) from Beast Tamer, imported R CivitAI showcase image"
+          }
+        }
+      },
+      {
+        "id": "sora",
+        "title": "Sora",
+        "description": "A character LoRA showcase imported from CivitAI for Sora from Beast Tamer.",
+        "civitaiUrl": "https://civitai.red/models/2095082",
+        "civitaiModelId": 2095082,
+        "civitaiVersionId": 2370402,
+        "civitaiVersionName": "V1",
+        "tags": [
+          "civitai import",
+          "version: V1",
+          "sora",
+          "civitai",
+          "character lora",
+          "the beast tamer exiled from the hero’s party and the cat eared girl from the strongest race meet",
+          "character",
+          "girls",
+          "manga",
+          "anime",
+          "勇者パーティーを追放されたビーストテイマー、最強種の猫耳少女と出会う",
+          "anime character"
+        ],
+        "variants": {
+          "pg": {
+            "thumb": "/assets/img/collections/beast-tamer/full/sora-pg.png",
+            "full": "/assets/img/collections/beast-tamer/full/sora-pg.png",
+            "alt": "Sora from Beast Tamer, imported PG CivitAI showcase image"
+          },
+          "pg13": {
+            "thumb": "/assets/img/collections/beast-tamer/full/sora-pg13.png",
+            "full": "/assets/img/collections/beast-tamer/full/sora-pg13.png",
+            "alt": "Sora from Beast Tamer, imported PG-13 CivitAI showcase image"
+          },
+          "r": {
+            "thumb": "/assets/img/collections/beast-tamer/full/sora-r.png",
+            "full": "/assets/img/collections/beast-tamer/full/sora-r.png",
+            "alt": "Sora from Beast Tamer, imported R CivitAI showcase image"
+          }
+        }
+      },
+      {
+        "id": "tania",
+        "title": "Tania",
+        "description": "A character LoRA showcase imported from CivitAI for Tania from Beast Tamer.",
+        "civitaiUrl": "https://civitai.red/models/2113799",
+        "civitaiModelId": 2113799,
+        "civitaiVersionId": 2391299,
+        "civitaiVersionName": "V1",
+        "tags": [
+          "civitai import",
+          "version: V1",
+          "tania",
+          "civitai",
+          "character lora",
+          "yuusha party wo tsuihou sareta beast tamer, saikyoushu no nekomimi shoujo to deau",
+          "the beast tamer exiled from the hero’s party and the cat eared girl from the strongest race meet",
+          "dragonkin",
+          "勇者パーティーを追放されたビーストテイマー、最強種の猫耳少女と出会う",
+          "character",
+          "anime",
+          "girls"
+        ],
+        "variants": {
+          "pg": {
+            "thumb": "/assets/img/collections/beast-tamer/full/tania-pg.png",
+            "full": "/assets/img/collections/beast-tamer/full/tania-pg.png",
+            "alt": "Tania from Beast Tamer, imported PG CivitAI showcase image"
+          },
+          "pg13": {
+            "thumb": "/assets/img/collections/beast-tamer/full/tania-pg13.png",
+            "full": "/assets/img/collections/beast-tamer/full/tania-pg13.png",
+            "alt": "Tania from Beast Tamer, imported PG-13 CivitAI showcase image"
+          },
+          "r": {
+            "thumb": "/assets/img/collections/beast-tamer/full/tania-r.png",
+            "full": "/assets/img/collections/beast-tamer/full/tania-r.png",
+            "alt": "Tania from Beast Tamer, imported R CivitAI showcase image"
+          }
+        }
+      },
+      {
+        "id": "kanade",
+        "title": "Kanade",
+        "description": "A character LoRA showcase imported from CivitAI for Kanade from Beast Tamer.",
+        "civitaiUrl": "https://civitai.red/models/2116461",
+        "civitaiModelId": 2116461,
+        "civitaiVersionId": 2394228,
+        "civitaiVersionName": "V1",
+        "tags": [
+          "civitai import",
+          "version: V1",
+          "kanade",
+          "civitai",
+          "character lora",
+          "girls",
+          "beast tamer",
+          "woman",
+          "manga",
+          "character",
+          "anime",
+          "the beast tamer exiled from the hero’s party and the cat eared girl from the strongest race meet"
+        ],
+        "variants": {
+          "pg": {
+            "thumb": "/assets/img/collections/beast-tamer/full/kanade-pg.png",
+            "full": "/assets/img/collections/beast-tamer/full/kanade-pg.png",
+            "alt": "Kanade from Beast Tamer, imported PG CivitAI showcase image"
+          },
+          "pg13": {
+            "thumb": "/assets/img/collections/beast-tamer/full/kanade-pg13.png",
+            "full": "/assets/img/collections/beast-tamer/full/kanade-pg13.png",
+            "alt": "Kanade from Beast Tamer, imported PG-13 CivitAI showcase image"
+          },
+          "r": {
+            "thumb": "/assets/img/collections/beast-tamer/full/kanade-r.png",
+            "full": "/assets/img/collections/beast-tamer/full/kanade-r.png",
+            "alt": "Kanade from Beast Tamer, imported R CivitAI showcase image"
+          }
+        }
+      },
       {
         "id": "nina",
         "title": "Nina",
@@ -3550,7 +3856,7 @@
   {
     "id": "busou-shoujo-machiavellianism",
     "title": "Busou Shoujo Machiavellianism",
-    "series": "Armed Girl's Machiavellism/武装少女マキャヴェリズム",
+    "series": "Imported character collection",
     "sourceType": "Anime",
     "modelType": "Illustrious Character LoRA",
     "status": "Public",
@@ -3583,6 +3889,506 @@
       "woman"
     ],
     "showcase": [
+      {
+        "id": "sassa-kurasaki",
+        "title": "Sassa Kurasaki",
+        "description": "A character LoRA showcase imported from CivitAI for Sassa Kurasaki from Busou Shoujo Machiavellianism.",
+        "civitaiUrl": "https://civitai.red/models/1911700",
+        "civitaiModelId": 1911700,
+        "civitaiVersionId": 2163729,
+        "civitaiVersionName": "V1",
+        "tags": [
+          "civitai import",
+          "version: V1",
+          "sassa kurasaki",
+          "civitai",
+          "character lora",
+          "armed girls machiavellism",
+          "busou shoujo machiavellianism",
+          "armed girl's machiavellism",
+          "woman",
+          "girls",
+          "character",
+          "anime character"
+        ],
+        "variants": {
+          "pg": {
+            "thumb": "/assets/img/collections/busou-shoujo-machiavellianism/full/sassa-kurasaki-pg.png",
+            "full": "/assets/img/collections/busou-shoujo-machiavellianism/full/sassa-kurasaki-pg.png",
+            "alt": "Sassa Kurasaki from Busou Shoujo Machiavellianism, imported PG CivitAI showcase image"
+          },
+          "r": {
+            "thumb": "/assets/img/collections/busou-shoujo-machiavellianism/full/sassa-kurasaki-r.png",
+            "full": "/assets/img/collections/busou-shoujo-machiavellianism/full/sassa-kurasaki-r.png",
+            "alt": "Sassa Kurasaki from Busou Shoujo Machiavellianism, imported R CivitAI showcase image"
+          }
+        }
+      },
+      {
+        "id": "migii-ui",
+        "title": "Migii Ui",
+        "description": "A character LoRA showcase imported from CivitAI for Migii Ui from Busou Shoujo Machiavellianism.",
+        "civitaiUrl": "https://civitai.red/models/1950504",
+        "civitaiModelId": 1950504,
+        "civitaiVersionId": 2207527,
+        "civitaiVersionName": "V1",
+        "tags": [
+          "civitai import",
+          "version: V1",
+          "migii ui",
+          "civitai",
+          "character lora",
+          "armed girl's machiavellism",
+          "armed girls machiavellism",
+          "character",
+          "busou shoujo machiavellianism",
+          "woman",
+          "girls",
+          "manga"
+        ],
+        "variants": {
+          "pg": {
+            "thumb": "/assets/img/collections/busou-shoujo-machiavellianism/full/migii-ui-pg.png",
+            "full": "/assets/img/collections/busou-shoujo-machiavellianism/full/migii-ui-pg.png",
+            "alt": "Migii Ui from Busou Shoujo Machiavellianism, imported PG CivitAI showcase image"
+          },
+          "r": {
+            "thumb": "/assets/img/collections/busou-shoujo-machiavellianism/full/migii-ui-r.png",
+            "full": "/assets/img/collections/busou-shoujo-machiavellianism/full/migii-ui-r.png",
+            "alt": "Migii Ui from Busou Shoujo Machiavellianism, imported R CivitAI showcase image"
+          }
+        }
+      },
+      {
+        "id": "odango-sisters",
+        "title": "Odango Sisters",
+        "description": "A character LoRA showcase imported from CivitAI for Odango Sisters from Busou Shoujo Machiavellianism.",
+        "civitaiUrl": "https://civitai.red/models/1954042",
+        "civitaiModelId": 1954042,
+        "civitaiVersionId": 2211542,
+        "civitaiVersionName": "V1",
+        "tags": [
+          "civitai import",
+          "version: V1",
+          "odango sisters",
+          "civitai",
+          "character lora",
+          "armed girls machiavellism",
+          "character",
+          "anime",
+          "manga",
+          "armed girl's machiavellism",
+          "anime character",
+          "girls"
+        ],
+        "variants": {
+          "pg": {
+            "thumb": "/assets/img/collections/busou-shoujo-machiavellianism/full/odango-sisters-pg.png",
+            "full": "/assets/img/collections/busou-shoujo-machiavellianism/full/odango-sisters-pg.png",
+            "alt": "Odango Sisters from Busou Shoujo Machiavellianism, imported PG CivitAI showcase image"
+          },
+          "pg13": {
+            "thumb": "/assets/img/collections/busou-shoujo-machiavellianism/full/odango-sisters-pg13.png",
+            "full": "/assets/img/collections/busou-shoujo-machiavellianism/full/odango-sisters-pg13.png",
+            "alt": "Odango Sisters from Busou Shoujo Machiavellianism, imported PG-13 CivitAI showcase image"
+          },
+          "r": {
+            "thumb": "/assets/img/collections/busou-shoujo-machiavellianism/full/odango-sisters-r.png",
+            "full": "/assets/img/collections/busou-shoujo-machiavellianism/full/odango-sisters-r.png",
+            "alt": "Odango Sisters from Busou Shoujo Machiavellianism, imported R CivitAI showcase image"
+          }
+        }
+      },
+      {
+        "id": "maria-rose-eva",
+        "title": "Maria Rose Eva",
+        "description": "A character LoRA showcase imported from CivitAI for Maria Rose Eva from Busou Shoujo Machiavellianism.",
+        "civitaiUrl": "https://civitai.red/models/1950402",
+        "civitaiModelId": 1950402,
+        "civitaiVersionId": 2207417,
+        "civitaiVersionName": "V1",
+        "tags": [
+          "civitai import",
+          "version: V1",
+          "maria rose eva",
+          "civitai",
+          "character lora",
+          "armed girl's machiavellism",
+          "character",
+          "armed girls machiavellism",
+          "busou shoujo machiavellianism",
+          "girls",
+          "anime character",
+          "manga"
+        ],
+        "variants": {
+          "pg": {
+            "thumb": "/assets/img/collections/busou-shoujo-machiavellianism/full/maria-rose-eva-pg.png",
+            "full": "/assets/img/collections/busou-shoujo-machiavellianism/full/maria-rose-eva-pg.png",
+            "alt": "Maria Rose Eva from Busou Shoujo Machiavellianism, imported PG CivitAI showcase image"
+          },
+          "pg13": {
+            "thumb": "/assets/img/collections/busou-shoujo-machiavellianism/full/maria-rose-eva-pg13.png",
+            "full": "/assets/img/collections/busou-shoujo-machiavellianism/full/maria-rose-eva-pg13.png",
+            "alt": "Maria Rose Eva from Busou Shoujo Machiavellianism, imported PG-13 CivitAI showcase image"
+          },
+          "r": {
+            "thumb": "/assets/img/collections/busou-shoujo-machiavellianism/full/maria-rose-eva-r.png",
+            "full": "/assets/img/collections/busou-shoujo-machiavellianism/full/maria-rose-eva-r.png",
+            "alt": "Maria Rose Eva from Busou Shoujo Machiavellianism, imported R CivitAI showcase image"
+          }
+        }
+      },
+      {
+        "id": "kinue-tanukihara",
+        "title": "Kinue Tanukihara",
+        "description": "A character LoRA showcase imported from CivitAI for Kinue Tanukihara from Busou Shoujo Machiavellianism.",
+        "civitaiUrl": "https://civitai.red/models/1912144",
+        "civitaiModelId": 1912144,
+        "civitaiVersionId": 2164237,
+        "civitaiVersionName": "V1",
+        "tags": [
+          "civitai import",
+          "version: V1",
+          "kinue tanukihara",
+          "civitai",
+          "character lora",
+          "armed girls machiavellism",
+          "character",
+          "anime",
+          "anime character",
+          "manga",
+          "girls",
+          "busou shoujo machiavellianism"
+        ],
+        "variants": {
+          "pg": {
+            "thumb": "/assets/img/collections/busou-shoujo-machiavellianism/full/kinue-tanukihara-pg.png",
+            "full": "/assets/img/collections/busou-shoujo-machiavellianism/full/kinue-tanukihara-pg.png",
+            "alt": "Kinue Tanukihara from Busou Shoujo Machiavellianism, imported PG CivitAI showcase image"
+          },
+          "r": {
+            "thumb": "/assets/img/collections/busou-shoujo-machiavellianism/full/kinue-tanukihara-r.png",
+            "full": "/assets/img/collections/busou-shoujo-machiavellianism/full/kinue-tanukihara-r.png",
+            "alt": "Kinue Tanukihara from Busou Shoujo Machiavellianism, imported R CivitAI showcase image"
+          }
+        }
+      },
+      {
+        "id": "touko-tsunemi",
+        "title": "Touko Tsunemi",
+        "description": "A character LoRA showcase imported from CivitAI for Touko Tsunemi from Busou Shoujo Machiavellianism.",
+        "civitaiUrl": "https://civitai.red/models/1912723",
+        "civitaiModelId": 1912723,
+        "civitaiVersionId": 2164906,
+        "civitaiVersionName": "V1",
+        "tags": [
+          "civitai import",
+          "version: V1",
+          "touko tsunemi",
+          "civitai",
+          "character lora",
+          "armed girls machiavellism",
+          "character",
+          "anime",
+          "girls",
+          "anime character",
+          "woman",
+          "manga"
+        ],
+        "variants": {
+          "pg": {
+            "thumb": "/assets/img/collections/busou-shoujo-machiavellianism/full/touko-tsunemi-pg.png",
+            "full": "/assets/img/collections/busou-shoujo-machiavellianism/full/touko-tsunemi-pg.png",
+            "alt": "Touko Tsunemi from Busou Shoujo Machiavellianism, imported PG CivitAI showcase image"
+          },
+          "r": {
+            "thumb": "/assets/img/collections/busou-shoujo-machiavellianism/full/touko-tsunemi-r.png",
+            "full": "/assets/img/collections/busou-shoujo-machiavellianism/full/touko-tsunemi-r.png",
+            "alt": "Touko Tsunemi from Busou Shoujo Machiavellianism, imported R CivitAI showcase image"
+          }
+        }
+      },
+      {
+        "id": "mozunono-nono",
+        "title": "Mozunono Nono",
+        "description": "A character LoRA showcase imported from CivitAI for Mozunono Nono from Busou Shoujo Machiavellianism.",
+        "civitaiUrl": "https://civitai.red/models/1950450",
+        "civitaiModelId": 1950450,
+        "civitaiVersionId": 2207471,
+        "civitaiVersionName": "V1",
+        "tags": [
+          "civitai import",
+          "version: V1",
+          "mozunono nono",
+          "civitai",
+          "character lora",
+          "armed girls machiavellism",
+          "character",
+          "busou shoujo machiavellianism",
+          "anime",
+          "girls",
+          "woman",
+          "manga"
+        ],
+        "variants": {
+          "pg": {
+            "thumb": "/assets/img/collections/busou-shoujo-machiavellianism/full/mozunono-nono-pg.png",
+            "full": "/assets/img/collections/busou-shoujo-machiavellianism/full/mozunono-nono-pg.png",
+            "alt": "Mozunono Nono from Busou Shoujo Machiavellianism, imported PG CivitAI showcase image"
+          },
+          "pg13": {
+            "thumb": "/assets/img/collections/busou-shoujo-machiavellianism/full/mozunono-nono-pg13.png",
+            "full": "/assets/img/collections/busou-shoujo-machiavellianism/full/mozunono-nono-pg13.png",
+            "alt": "Mozunono Nono from Busou Shoujo Machiavellianism, imported PG-13 CivitAI showcase image"
+          },
+          "r": {
+            "thumb": "/assets/img/collections/busou-shoujo-machiavellianism/full/mozunono-nono-r.png",
+            "full": "/assets/img/collections/busou-shoujo-machiavellianism/full/mozunono-nono-r.png",
+            "alt": "Mozunono Nono from Busou Shoujo Machiavellianism, imported R CivitAI showcase image"
+          }
+        }
+      },
+      {
+        "id": "ubaragasaki-chouka-2-forms",
+        "title": "Ubaragasaki Chouka [2 Forms]",
+        "description": "A character LoRA showcase imported from CivitAI for Ubaragasaki Chouka [2 Forms] from Busou Shoujo Machiavellianism.",
+        "civitaiUrl": "https://civitai.red/models/1957989",
+        "civitaiModelId": 1957989,
+        "civitaiVersionId": 2216232,
+        "civitaiVersionName": "V1",
+        "tags": [
+          "civitai import",
+          "version: V1",
+          "ubaragasaki chouka [2 forms]",
+          "civitai",
+          "character lora",
+          "armed girls machiavellism",
+          "anime",
+          "manga",
+          "武装少女マキャヴェリズム",
+          "woman",
+          "character",
+          "armed girl's machiavellism"
+        ],
+        "variants": {
+          "pg": {
+            "thumb": "/assets/img/collections/busou-shoujo-machiavellianism/full/ubaragasaki-chouka-2-forms-pg.png",
+            "full": "/assets/img/collections/busou-shoujo-machiavellianism/full/ubaragasaki-chouka-2-forms-pg.png",
+            "alt": "Ubaragasaki Chouka [2 Forms] from Busou Shoujo Machiavellianism, imported PG CivitAI showcase image"
+          },
+          "pg13": {
+            "thumb": "/assets/img/collections/busou-shoujo-machiavellianism/full/ubaragasaki-chouka-2-forms-pg13.png",
+            "full": "/assets/img/collections/busou-shoujo-machiavellianism/full/ubaragasaki-chouka-2-forms-pg13.png",
+            "alt": "Ubaragasaki Chouka [2 Forms] from Busou Shoujo Machiavellianism, imported PG-13 CivitAI showcase image"
+          },
+          "r": {
+            "thumb": "/assets/img/collections/busou-shoujo-machiavellianism/full/ubaragasaki-chouka-2-forms-r.png",
+            "full": "/assets/img/collections/busou-shoujo-machiavellianism/full/ubaragasaki-chouka-2-forms-r.png",
+            "alt": "Ubaragasaki Chouka [2 Forms] from Busou Shoujo Machiavellianism, imported R CivitAI showcase image"
+          }
+        }
+      },
+      {
+        "id": "fujibayashi-yukino",
+        "title": "Fujibayashi Yukino",
+        "description": "A character LoRA showcase imported from CivitAI for Fujibayashi Yukino from Busou Shoujo Machiavellianism.",
+        "civitaiUrl": "https://civitai.red/models/1911601",
+        "civitaiModelId": 1911601,
+        "civitaiVersionId": 2163622,
+        "civitaiVersionName": "V1",
+        "tags": [
+          "civitai import",
+          "version: V1",
+          "fujibayashi yukino",
+          "civitai",
+          "character lora",
+          "anime character",
+          "armed girls machiavellism",
+          "woman",
+          "girls",
+          "anime",
+          "character",
+          "manga"
+        ],
+        "variants": {
+          "pg": {
+            "thumb": "/assets/img/collections/busou-shoujo-machiavellianism/full/fujibayashi-yukino-pg.png",
+            "full": "/assets/img/collections/busou-shoujo-machiavellianism/full/fujibayashi-yukino-pg.png",
+            "alt": "Fujibayashi Yukino from Busou Shoujo Machiavellianism, imported PG CivitAI showcase image"
+          },
+          "pg13": {
+            "thumb": "/assets/img/collections/busou-shoujo-machiavellianism/full/fujibayashi-yukino-pg13.png",
+            "full": "/assets/img/collections/busou-shoujo-machiavellianism/full/fujibayashi-yukino-pg13.png",
+            "alt": "Fujibayashi Yukino from Busou Shoujo Machiavellianism, imported PG-13 CivitAI showcase image"
+          },
+          "r": {
+            "thumb": "/assets/img/collections/busou-shoujo-machiavellianism/full/fujibayashi-yukino-r.png",
+            "full": "/assets/img/collections/busou-shoujo-machiavellianism/full/fujibayashi-yukino-r.png",
+            "alt": "Fujibayashi Yukino from Busou Shoujo Machiavellianism, imported R CivitAI showcase image"
+          }
+        }
+      },
+      {
+        "id": "misogi-tamaba-2-forms",
+        "title": "Misogi Tamaba [2 Forms]",
+        "description": "A character LoRA showcase imported from CivitAI for Misogi Tamaba [2 Forms] from Busou Shoujo Machiavellianism.",
+        "civitaiUrl": "https://civitai.red/models/1957473",
+        "civitaiModelId": 1957473,
+        "civitaiVersionId": 2215613,
+        "civitaiVersionName": "V1",
+        "tags": [
+          "civitai import",
+          "version: V1",
+          "misogi tamaba [2 forms]",
+          "civitai",
+          "character lora",
+          "anime",
+          "armed girl's machiavellism",
+          "manga",
+          "武装少女マキャヴェリズム",
+          "woman",
+          "busou shoujo machiavellianism",
+          "armed girls machiavellism"
+        ],
+        "variants": {
+          "pg": {
+            "thumb": "/assets/img/collections/busou-shoujo-machiavellianism/full/misogi-tamaba-2-forms-pg.png",
+            "full": "/assets/img/collections/busou-shoujo-machiavellianism/full/misogi-tamaba-2-forms-pg.png",
+            "alt": "Misogi Tamaba [2 Forms] from Busou Shoujo Machiavellianism, imported PG CivitAI showcase image"
+          },
+          "pg13": {
+            "thumb": "/assets/img/collections/busou-shoujo-machiavellianism/full/misogi-tamaba-2-forms-pg13.png",
+            "full": "/assets/img/collections/busou-shoujo-machiavellianism/full/misogi-tamaba-2-forms-pg13.png",
+            "alt": "Misogi Tamaba [2 Forms] from Busou Shoujo Machiavellianism, imported PG-13 CivitAI showcase image"
+          },
+          "r": {
+            "thumb": "/assets/img/collections/busou-shoujo-machiavellianism/full/misogi-tamaba-2-forms-r.png",
+            "full": "/assets/img/collections/busou-shoujo-machiavellianism/full/misogi-tamaba-2-forms-r.png",
+            "alt": "Misogi Tamaba [2 Forms] from Busou Shoujo Machiavellianism, imported R CivitAI showcase image"
+          }
+        }
+      },
+      {
+        "id": "kirukiru-amou-3-outfits",
+        "title": "Kirukiru Amou [3 outfits]",
+        "description": "A character LoRA showcase imported from CivitAI for Kirukiru Amou [3 outfits] from Busou Shoujo Machiavellianism.",
+        "civitaiUrl": "https://civitai.red/models/2062735",
+        "civitaiModelId": 2062735,
+        "civitaiVersionId": 2334147,
+        "civitaiVersionName": "V1",
+        "tags": [
+          "civitai import",
+          "version: V1",
+          "kirukiru amou [3 outfits]",
+          "civitai",
+          "character lora",
+          "character",
+          "anime",
+          "manga",
+          "woman",
+          "girls",
+          "armed girl's machiavellism",
+          "armed girls machiavellism"
+        ],
+        "variants": {
+          "pg": {
+            "thumb": "/assets/img/collections/busou-shoujo-machiavellianism/full/kirukiru-amou-3-outfits-pg.png",
+            "full": "/assets/img/collections/busou-shoujo-machiavellianism/full/kirukiru-amou-3-outfits-pg.png",
+            "alt": "Kirukiru Amou [3 outfits] from Busou Shoujo Machiavellianism, imported PG CivitAI showcase image"
+          },
+          "pg13": {
+            "thumb": "/assets/img/collections/busou-shoujo-machiavellianism/full/kirukiru-amou-3-outfits-pg13.png",
+            "full": "/assets/img/collections/busou-shoujo-machiavellianism/full/kirukiru-amou-3-outfits-pg13.png",
+            "alt": "Kirukiru Amou [3 outfits] from Busou Shoujo Machiavellianism, imported PG-13 CivitAI showcase image"
+          },
+          "r": {
+            "thumb": "/assets/img/collections/busou-shoujo-machiavellianism/full/kirukiru-amou-3-outfits-r.png",
+            "full": "/assets/img/collections/busou-shoujo-machiavellianism/full/kirukiru-amou-3-outfits-r.png",
+            "alt": "Kirukiru Amou [3 outfits] from Busou Shoujo Machiavellianism, imported R CivitAI showcase image"
+          }
+        }
+      },
+      {
+        "id": "satori-tamaba",
+        "title": "Satori Tamaba",
+        "description": "A character LoRA showcase imported from CivitAI for Satori Tamaba from Busou Shoujo Machiavellianism.",
+        "civitaiUrl": "https://civitai.red/models/2066331",
+        "civitaiModelId": 2066331,
+        "civitaiVersionId": 2338179,
+        "civitaiVersionName": "V1",
+        "tags": [
+          "civitai import",
+          "version: V1",
+          "satori tamaba",
+          "civitai",
+          "character lora",
+          "woman",
+          "anime",
+          "armed girl's machiavellism",
+          "武装少女マキャヴェリズム",
+          "character",
+          "anime character",
+          "armed girls machiavellism"
+        ],
+        "variants": {
+          "pg": {
+            "thumb": "/assets/img/collections/busou-shoujo-machiavellianism/full/satori-tamaba-pg.png",
+            "full": "/assets/img/collections/busou-shoujo-machiavellianism/full/satori-tamaba-pg.png",
+            "alt": "Satori Tamaba from Busou Shoujo Machiavellianism, imported PG CivitAI showcase image"
+          },
+          "pg13": {
+            "thumb": "/assets/img/collections/busou-shoujo-machiavellianism/full/satori-tamaba-pg13.png",
+            "full": "/assets/img/collections/busou-shoujo-machiavellianism/full/satori-tamaba-pg13.png",
+            "alt": "Satori Tamaba from Busou Shoujo Machiavellianism, imported PG-13 CivitAI showcase image"
+          },
+          "r": {
+            "thumb": "/assets/img/collections/busou-shoujo-machiavellianism/full/satori-tamaba-r.png",
+            "full": "/assets/img/collections/busou-shoujo-machiavellianism/full/satori-tamaba-r.png",
+            "alt": "Satori Tamaba from Busou Shoujo Machiavellianism, imported R CivitAI showcase image"
+          }
+        }
+      },
+      {
+        "id": "mary-kikakujou",
+        "title": "Mary Kikakujou",
+        "description": "A character LoRA showcase imported from CivitAI for Mary Kikakujou from Busou Shoujo Machiavellianism.",
+        "civitaiUrl": "https://civitai.red/models/2081186",
+        "civitaiModelId": 2081186,
+        "civitaiVersionId": 2354843,
+        "civitaiVersionName": "V1",
+        "tags": [
+          "civitai import",
+          "version: V1",
+          "mary kikakujou",
+          "civitai",
+          "character lora",
+          "armed girls machiavellism",
+          "anime",
+          "woman",
+          "anime character",
+          "busou shoujo machiavellianism",
+          "girls",
+          "character"
+        ],
+        "variants": {
+          "pg": {
+            "thumb": "/assets/img/collections/busou-shoujo-machiavellianism/full/mary-kikakujou-pg.png",
+            "full": "/assets/img/collections/busou-shoujo-machiavellianism/full/mary-kikakujou-pg.png",
+            "alt": "Mary Kikakujou from Busou Shoujo Machiavellianism, imported PG CivitAI showcase image"
+          },
+          "pg13": {
+            "thumb": "/assets/img/collections/busou-shoujo-machiavellianism/full/mary-kikakujou-pg13.png",
+            "full": "/assets/img/collections/busou-shoujo-machiavellianism/full/mary-kikakujou-pg13.png",
+            "alt": "Mary Kikakujou from Busou Shoujo Machiavellianism, imported PG-13 CivitAI showcase image"
+          },
+          "r": {
+            "thumb": "/assets/img/collections/busou-shoujo-machiavellianism/full/mary-kikakujou-r.png",
+            "full": "/assets/img/collections/busou-shoujo-machiavellianism/full/mary-kikakujou-r.png",
+            "alt": "Mary Kikakujou from Busou Shoujo Machiavellianism, imported R CivitAI showcase image"
+          }
+        }
+      },
       {
         "id": "inaba-tsukuyo",
         "title": "Inaba Tsukuyo",
@@ -3668,7 +4474,7 @@
   {
     "id": "gokusotsu-kraken",
     "title": "Gokusotsu Kraken",
-    "series": "Hell's Tormentor Kraken / 獄卒クラーケン",
+    "series": "Imported character collection",
     "sourceType": "Manga",
     "modelType": "Illustrious Character LoRA",
     "status": "Public",
@@ -3700,14 +4506,561 @@
       "hell's tormentor kraken",
       "獄卒クラーケン",
       "dark elf",
-      "elf"
+      "elf",
+      "monster girl",
+      "nekomimi"
     ],
     "showcase": [
+      {
+        "id": "mariam",
+        "title": "Mariam",
+        "description": "A character LoRA showcase imported from CivitAI for Mariam from Gokusotsu Kraken.",
+        "civitaiUrl": "https://civitai.red/models/1714876",
+        "civitaiModelId": 1714876,
+        "civitaiVersionId": 2215805,
+        "civitaiVersionName": "V2",
+        "tags": [
+          "civitai import",
+          "version: V2",
+          "mariam",
+          "civitai",
+          "character lora",
+          "manga character",
+          "oni girl",
+          "woman",
+          "character",
+          "monster girl",
+          "manhwa",
+          "gokusotsu kraken"
+        ],
+        "variants": {
+          "pg": {
+            "thumb": "/assets/img/collections/gokusotsu-kraken/full/mariam-pg.png",
+            "full": "/assets/img/collections/gokusotsu-kraken/full/mariam-pg.png",
+            "alt": "Mariam from Gokusotsu Kraken, imported PG CivitAI showcase image"
+          },
+          "pg13": {
+            "thumb": "/assets/img/collections/gokusotsu-kraken/full/mariam-pg13.png",
+            "full": "/assets/img/collections/gokusotsu-kraken/full/mariam-pg13.png",
+            "alt": "Mariam from Gokusotsu Kraken, imported PG-13 CivitAI showcase image"
+          },
+          "r": {
+            "thumb": "/assets/img/collections/gokusotsu-kraken/full/mariam-r.png",
+            "full": "/assets/img/collections/gokusotsu-kraken/full/mariam-r.png",
+            "alt": "Mariam from Gokusotsu Kraken, imported R CivitAI showcase image"
+          }
+        }
+      },
+      {
+        "id": "litang",
+        "title": "Litang",
+        "description": "A character LoRA showcase imported from CivitAI for Litang from Gokusotsu Kraken.",
+        "civitaiUrl": "https://civitai.red/models/1715062",
+        "civitaiModelId": 1715062,
+        "civitaiVersionId": 2218401,
+        "civitaiVersionName": "V2",
+        "tags": [
+          "civitai import",
+          "version: V2",
+          "litang",
+          "civitai",
+          "character lora",
+          "character",
+          "manhwa",
+          "girls",
+          "manga character",
+          "anime",
+          "gokusotsu kraken",
+          "woman"
+        ],
+        "variants": {
+          "pg": {
+            "thumb": "/assets/img/collections/gokusotsu-kraken/full/litang-pg.png",
+            "full": "/assets/img/collections/gokusotsu-kraken/full/litang-pg.png",
+            "alt": "Litang from Gokusotsu Kraken, imported PG CivitAI showcase image"
+          },
+          "pg13": {
+            "thumb": "/assets/img/collections/gokusotsu-kraken/full/litang-pg13.png",
+            "full": "/assets/img/collections/gokusotsu-kraken/full/litang-pg13.png",
+            "alt": "Litang from Gokusotsu Kraken, imported PG-13 CivitAI showcase image"
+          },
+          "r": {
+            "thumb": "/assets/img/collections/gokusotsu-kraken/full/litang-r.png",
+            "full": "/assets/img/collections/gokusotsu-kraken/full/litang-r.png",
+            "alt": "Litang from Gokusotsu Kraken, imported R CivitAI showcase image"
+          }
+        }
+      },
+      {
+        "id": "keket",
+        "title": "Keket",
+        "description": "A character LoRA showcase imported from CivitAI for Keket from Gokusotsu Kraken.",
+        "civitaiUrl": "https://civitai.red/models/1958923",
+        "civitaiModelId": 1958923,
+        "civitaiVersionId": 2217283,
+        "civitaiVersionName": "V1",
+        "tags": [
+          "civitai import",
+          "version: V1",
+          "keket",
+          "civitai",
+          "character lora",
+          "character",
+          "dragonkin",
+          "monster girl",
+          "manga character",
+          "manga",
+          "manhwa",
+          "girls"
+        ],
+        "variants": {
+          "pg13": {
+            "thumb": "/assets/img/collections/gokusotsu-kraken/full/keket-pg13.png",
+            "full": "/assets/img/collections/gokusotsu-kraken/full/keket-pg13.png",
+            "alt": "Keket from Gokusotsu Kraken, imported PG-13 CivitAI showcase image"
+          },
+          "r": {
+            "thumb": "/assets/img/collections/gokusotsu-kraken/full/keket-r.png",
+            "full": "/assets/img/collections/gokusotsu-kraken/full/keket-r.png",
+            "alt": "Keket from Gokusotsu Kraken, imported R CivitAI showcase image"
+          }
+        }
+      },
+      {
+        "id": "porina-polina",
+        "title": "Porina (Polina)",
+        "description": "A character LoRA showcase imported from CivitAI for Porina (Polina) from Gokusotsu Kraken.",
+        "civitaiUrl": "https://civitai.red/models/1853426",
+        "civitaiModelId": 1853426,
+        "civitaiVersionId": 2097526,
+        "civitaiVersionName": "V1",
+        "tags": [
+          "civitai import",
+          "version: V1",
+          "porina (polina)",
+          "civitai",
+          "character lora",
+          "anime",
+          "character",
+          "gokusotsu kraken",
+          "dark elf",
+          "woman",
+          "manga",
+          "girls"
+        ],
+        "variants": {
+          "pg": {
+            "thumb": "/assets/img/collections/gokusotsu-kraken/full/porina-polina-pg.png",
+            "full": "/assets/img/collections/gokusotsu-kraken/full/porina-polina-pg.png",
+            "alt": "Porina (Polina) from Gokusotsu Kraken, imported PG CivitAI showcase image"
+          },
+          "pg13": {
+            "thumb": "/assets/img/collections/gokusotsu-kraken/full/porina-polina-pg13.png",
+            "full": "/assets/img/collections/gokusotsu-kraken/full/porina-polina-pg13.png",
+            "alt": "Porina (Polina) from Gokusotsu Kraken, imported PG-13 CivitAI showcase image"
+          },
+          "r": {
+            "thumb": "/assets/img/collections/gokusotsu-kraken/full/porina-polina-r.png",
+            "full": "/assets/img/collections/gokusotsu-kraken/full/porina-polina-r.png",
+            "alt": "Porina (Polina) from Gokusotsu Kraken, imported R CivitAI showcase image"
+          }
+        }
+      },
+      {
+        "id": "gamy",
+        "title": "Gamy",
+        "description": "A character LoRA showcase imported from CivitAI for Gamy from Gokusotsu Kraken.",
+        "civitaiUrl": "https://civitai.red/models/1958022",
+        "civitaiModelId": 1958022,
+        "civitaiVersionId": 2216271,
+        "civitaiVersionName": "V1",
+        "tags": [
+          "civitai import",
+          "version: V1",
+          "gamy",
+          "civitai",
+          "character lora",
+          "character",
+          "girls",
+          "gokusotsu kraken",
+          "manga character",
+          "monster girl",
+          "woman",
+          "manhwa"
+        ],
+        "variants": {
+          "pg13": {
+            "thumb": "/assets/img/collections/gokusotsu-kraken/full/gamy-pg13.png",
+            "full": "/assets/img/collections/gokusotsu-kraken/full/gamy-pg13.png",
+            "alt": "Gamy from Gokusotsu Kraken, imported PG-13 CivitAI showcase image"
+          },
+          "r": {
+            "thumb": "/assets/img/collections/gokusotsu-kraken/full/gamy-r.png",
+            "full": "/assets/img/collections/gokusotsu-kraken/full/gamy-r.png",
+            "alt": "Gamy from Gokusotsu Kraken, imported R CivitAI showcase image"
+          }
+        }
+      },
+      {
+        "id": "rosalind",
+        "title": "Rosalind",
+        "description": "A character LoRA showcase imported from CivitAI for Rosalind from Gokusotsu Kraken.",
+        "civitaiUrl": "https://civitai.red/models/2665198",
+        "civitaiModelId": 2665198,
+        "civitaiVersionId": 2992736,
+        "civitaiVersionName": "V1",
+        "tags": [
+          "civitai import",
+          "version: V1",
+          "rosalind",
+          "civitai",
+          "character lora",
+          "character",
+          "gokusotsu kraken",
+          "girls",
+          "woman",
+          "獄卒クラーケン",
+          "hell's tormentor kraken",
+          "manga character"
+        ],
+        "variants": {
+          "pg": {
+            "thumb": "/assets/img/collections/gokusotsu-kraken/full/rosalind-pg.png",
+            "full": "/assets/img/collections/gokusotsu-kraken/full/rosalind-pg.png",
+            "alt": "Rosalind from Gokusotsu Kraken, imported PG CivitAI showcase image"
+          },
+          "pg13": {
+            "thumb": "/assets/img/collections/gokusotsu-kraken/full/rosalind-pg13.png",
+            "full": "/assets/img/collections/gokusotsu-kraken/full/rosalind-pg13.png",
+            "alt": "Rosalind from Gokusotsu Kraken, imported PG-13 CivitAI showcase image"
+          },
+          "r": {
+            "thumb": "/assets/img/collections/gokusotsu-kraken/full/rosalind-r.png",
+            "full": "/assets/img/collections/gokusotsu-kraken/full/rosalind-r.png",
+            "alt": "Rosalind from Gokusotsu Kraken, imported R CivitAI showcase image"
+          }
+        }
+      },
+      {
+        "id": "urfa",
+        "title": "Urfa",
+        "description": "A character LoRA showcase imported from CivitAI for Urfa from Gokusotsu Kraken.",
+        "civitaiUrl": "https://civitai.red/models/2680419",
+        "civitaiModelId": 2680419,
+        "civitaiVersionId": 3009729,
+        "civitaiVersionName": "V1",
+        "tags": [
+          "civitai import",
+          "version: V1",
+          "urfa",
+          "civitai",
+          "character lora",
+          "manhwa",
+          "girls",
+          "gokusotsu kraken",
+          "hell's tormentor kraken",
+          "獄卒クラーケン",
+          "anime",
+          "woman"
+        ],
+        "variants": {
+          "pg13": {
+            "thumb": "/assets/img/collections/gokusotsu-kraken/full/urfa-pg13.png",
+            "full": "/assets/img/collections/gokusotsu-kraken/full/urfa-pg13.png",
+            "alt": "Urfa from Gokusotsu Kraken, imported PG-13 CivitAI showcase image"
+          },
+          "r": {
+            "thumb": "/assets/img/collections/gokusotsu-kraken/full/urfa-r.png",
+            "full": "/assets/img/collections/gokusotsu-kraken/full/urfa-r.png",
+            "alt": "Urfa from Gokusotsu Kraken, imported R CivitAI showcase image"
+          }
+        }
+      },
+      {
+        "id": "momone",
+        "title": "Momone",
+        "description": "A character LoRA showcase imported from CivitAI for Momone from Gokusotsu Kraken.",
+        "civitaiUrl": "https://civitai.red/models/2682725",
+        "civitaiModelId": 2682725,
+        "civitaiVersionId": 3012308,
+        "civitaiVersionName": "V1",
+        "tags": [
+          "civitai import",
+          "version: V1",
+          "momone",
+          "civitai",
+          "character lora",
+          "character",
+          "anime",
+          "samurai girl",
+          "samurai",
+          "woman",
+          "girls",
+          "獄卒クラーケン"
+        ],
+        "variants": {
+          "pg13": {
+            "thumb": "/assets/img/collections/gokusotsu-kraken/full/momone-pg13.png",
+            "full": "/assets/img/collections/gokusotsu-kraken/full/momone-pg13.png",
+            "alt": "Momone from Gokusotsu Kraken, imported PG-13 CivitAI showcase image"
+          },
+          "r": {
+            "thumb": "/assets/img/collections/gokusotsu-kraken/full/momone-r.png",
+            "full": "/assets/img/collections/gokusotsu-kraken/full/momone-r.png",
+            "alt": "Momone from Gokusotsu Kraken, imported R CivitAI showcase image"
+          }
+        }
+      },
+      {
+        "id": "nelli",
+        "title": "Nelli",
+        "description": "A character LoRA showcase imported from CivitAI for Nelli from Gokusotsu Kraken.",
+        "civitaiUrl": "https://civitai.red/models/2682884",
+        "civitaiModelId": 2682884,
+        "civitaiVersionId": 3012499,
+        "civitaiVersionName": "V1",
+        "tags": [
+          "civitai import",
+          "version: V1",
+          "nelli",
+          "civitai",
+          "character lora",
+          "character",
+          "anime",
+          "meganekko",
+          "megane",
+          "woman",
+          "girls",
+          "獄卒クラーケン"
+        ],
+        "variants": {
+          "pg13": {
+            "thumb": "/assets/img/collections/gokusotsu-kraken/full/nelli-pg13.png",
+            "full": "/assets/img/collections/gokusotsu-kraken/full/nelli-pg13.png",
+            "alt": "Nelli from Gokusotsu Kraken, imported PG-13 CivitAI showcase image"
+          },
+          "r": {
+            "thumb": "/assets/img/collections/gokusotsu-kraken/full/nelli-r.png",
+            "full": "/assets/img/collections/gokusotsu-kraken/full/nelli-r.png",
+            "alt": "Nelli from Gokusotsu Kraken, imported R CivitAI showcase image"
+          }
+        }
+      },
+      {
+        "id": "yoyoma",
+        "title": "Yoyoma",
+        "description": "A character LoRA showcase imported from CivitAI for Yoyoma from Gokusotsu Kraken.",
+        "civitaiUrl": "https://civitai.red/models/2684150",
+        "civitaiModelId": 2684150,
+        "civitaiVersionId": 3013891,
+        "civitaiVersionName": "V1",
+        "tags": [
+          "civitai import",
+          "version: V1",
+          "yoyoma",
+          "civitai",
+          "character lora",
+          "character",
+          "anime",
+          "manga character",
+          "girls",
+          "woman",
+          "elf",
+          "獄卒クラーケン"
+        ],
+        "variants": {
+          "pg13": {
+            "thumb": "/assets/img/collections/gokusotsu-kraken/full/yoyoma-pg13.png",
+            "full": "/assets/img/collections/gokusotsu-kraken/full/yoyoma-pg13.png",
+            "alt": "Yoyoma from Gokusotsu Kraken, imported PG-13 CivitAI showcase image"
+          },
+          "r": {
+            "thumb": "/assets/img/collections/gokusotsu-kraken/full/yoyoma-r.png",
+            "full": "/assets/img/collections/gokusotsu-kraken/full/yoyoma-r.png",
+            "alt": "Yoyoma from Gokusotsu Kraken, imported R CivitAI showcase image"
+          }
+        }
+      },
+      {
+        "id": "panya",
+        "title": "Panya",
+        "description": "A character LoRA showcase imported from CivitAI for Panya from Gokusotsu Kraken.",
+        "civitaiUrl": "https://civitai.red/models/2692103",
+        "civitaiModelId": 2692103,
+        "civitaiVersionId": 3022746,
+        "civitaiVersionName": "V1",
+        "tags": [
+          "civitai import",
+          "version: V1",
+          "panya",
+          "civitai",
+          "character lora",
+          "gokusotsu kraken",
+          "girls",
+          "woman",
+          "獄卒クラーケン",
+          "hell's tormentor kraken",
+          "manga character",
+          "manhwa"
+        ],
+        "variants": {
+          "pg13": {
+            "thumb": "/assets/img/collections/gokusotsu-kraken/full/panya-pg13.png",
+            "full": "/assets/img/collections/gokusotsu-kraken/full/panya-pg13.png",
+            "alt": "Panya from Gokusotsu Kraken, imported PG-13 CivitAI showcase image"
+          },
+          "r": {
+            "thumb": "/assets/img/collections/gokusotsu-kraken/full/panya-r.png",
+            "full": "/assets/img/collections/gokusotsu-kraken/full/panya-r.png",
+            "alt": "Panya from Gokusotsu Kraken, imported R CivitAI showcase image"
+          }
+        }
+      },
+      {
+        "id": "ruwaida",
+        "title": "Ruwaida",
+        "description": "A character LoRA showcase imported from CivitAI for Ruwaida from Gokusotsu Kraken.",
+        "civitaiUrl": "https://civitai.red/models/2692515",
+        "civitaiModelId": 2692515,
+        "civitaiVersionId": 3023216,
+        "civitaiVersionName": "V1",
+        "tags": [
+          "civitai import",
+          "version: V1",
+          "ruwaida",
+          "civitai",
+          "character lora",
+          "gokusotsu kraken",
+          "uniform",
+          "dragonkin",
+          "dragon girl",
+          "monster girl",
+          "girls",
+          "woman"
+        ],
+        "variants": {
+          "pg13": {
+            "thumb": "/assets/img/collections/gokusotsu-kraken/full/ruwaida-pg13.png",
+            "full": "/assets/img/collections/gokusotsu-kraken/full/ruwaida-pg13.png",
+            "alt": "Ruwaida from Gokusotsu Kraken, imported PG-13 CivitAI showcase image"
+          },
+          "r": {
+            "thumb": "/assets/img/collections/gokusotsu-kraken/full/ruwaida-r.png",
+            "full": "/assets/img/collections/gokusotsu-kraken/full/ruwaida-r.png",
+            "alt": "Ruwaida from Gokusotsu Kraken, imported R CivitAI showcase image"
+          }
+        }
+      },
+      {
+        "id": "issel",
+        "title": "Issel",
+        "description": "A character LoRA showcase imported from CivitAI for Issel from Gokusotsu Kraken.",
+        "civitaiUrl": "https://civitai.red/models/2693863",
+        "civitaiModelId": 2693863,
+        "civitaiVersionId": 3024892,
+        "civitaiVersionName": "V1",
+        "tags": [
+          "civitai import",
+          "version: V1",
+          "issel",
+          "civitai",
+          "character lora",
+          "manga",
+          "anime",
+          "manga character",
+          "manhwa",
+          "hell's tormentor kraken",
+          "獄卒クラーケン",
+          "character"
+        ],
+        "variants": {
+          "pg13": {
+            "thumb": "/assets/img/collections/gokusotsu-kraken/full/issel-pg13.png",
+            "full": "/assets/img/collections/gokusotsu-kraken/full/issel-pg13.png",
+            "alt": "Issel from Gokusotsu Kraken, imported PG-13 CivitAI showcase image"
+          },
+          "r": {
+            "thumb": "/assets/img/collections/gokusotsu-kraken/full/issel-r.png",
+            "full": "/assets/img/collections/gokusotsu-kraken/full/issel-r.png",
+            "alt": "Issel from Gokusotsu Kraken, imported R CivitAI showcase image"
+          }
+        }
+      },
+      {
+        "id": "rehena",
+        "title": "Rehena",
+        "description": "A character LoRA showcase imported from CivitAI for Rehena from Gokusotsu Kraken.",
+        "civitaiUrl": "https://civitai.red/models/2696349",
+        "civitaiModelId": 2696349,
+        "civitaiVersionId": 3027749,
+        "civitaiVersionName": "V1",
+        "tags": [
+          "civitai import",
+          "version: V1",
+          "rehena",
+          "civitai",
+          "character lora",
+          "character",
+          "gokusotsu kraken",
+          "monster girl",
+          "nekomimi",
+          "fox girl",
+          "girls",
+          "woman"
+        ],
+        "variants": {
+          "pg13": {
+            "thumb": "/assets/img/collections/gokusotsu-kraken/full/rehena-pg13.png",
+            "full": "/assets/img/collections/gokusotsu-kraken/full/rehena-pg13.png",
+            "alt": "Rehena from Gokusotsu Kraken, imported PG-13 CivitAI showcase image"
+          },
+          "r": {
+            "thumb": "/assets/img/collections/gokusotsu-kraken/full/rehena-r.png",
+            "full": "/assets/img/collections/gokusotsu-kraken/full/rehena-r.png",
+            "alt": "Rehena from Gokusotsu Kraken, imported R CivitAI showcase image"
+          }
+        }
+      },
+      {
+        "id": "nisrin",
+        "title": "Nisrin",
+        "description": "A character LoRA showcase imported from CivitAI for Nisrin from Gokusotsu Kraken.",
+        "civitaiUrl": "https://civitai.red/models/2703586",
+        "civitaiModelId": 2703586,
+        "civitaiVersionId": 3036088,
+        "civitaiVersionName": "V1",
+        "tags": [
+          "civitai import",
+          "version: V1",
+          "nisrin",
+          "civitai",
+          "character lora",
+          "character",
+          "gokusotsu kraken",
+          "woman",
+          "girls",
+          "manga character",
+          "manhwa",
+          "manga"
+        ],
+        "variants": {
+          "pg13": {
+            "thumb": "/assets/img/collections/gokusotsu-kraken/full/nisrin-pg13.png",
+            "full": "/assets/img/collections/gokusotsu-kraken/full/nisrin-pg13.png",
+            "alt": "Nisrin from Gokusotsu Kraken, imported PG-13 CivitAI showcase image"
+          },
+          "r": {
+            "thumb": "/assets/img/collections/gokusotsu-kraken/full/nisrin-r.png",
+            "full": "/assets/img/collections/gokusotsu-kraken/full/nisrin-r.png",
+            "alt": "Nisrin from Gokusotsu Kraken, imported R CivitAI showcase image"
+          }
+        }
+      },
       {
         "id": "sariya",
         "title": "Sariya",
         "description": "A character LoRA showcase imported from CivitAI for Sariya from Gokusotsu Kraken.",
-        "civitaiUrl": "https://civitai.red/models/2704768?modelVersionId=3037570",
+        "civitaiUrl": "https://civitai.red/models/2704768",
         "civitaiModelId": 2704768,
         "civitaiVersionId": 3037570,
         "civitaiVersionName": "V1",
@@ -3734,7 +5087,7 @@
           "r": {
             "thumb": "/assets/img/collections/gokusotsu-kraken/full/sariya-r.png",
             "full": "/assets/img/collections/gokusotsu-kraken/full/sariya-r.png",
-            "alt": "Sariya from Gokusotsu Kraken, manually selected R CivitAI showcase image"
+            "alt": "Sariya from Gokusotsu Kraken, imported R CivitAI showcase image"
           }
         }
       },
@@ -3742,7 +5095,7 @@
         "id": "muuto",
         "title": "Muuto",
         "description": "A character LoRA showcase imported from CivitAI for Muuto from Gokusotsu Kraken.",
-        "civitaiUrl": "https://civitai.red/models/1715958?modelVersionId=1968052",
+        "civitaiUrl": "https://civitai.red/models/1715958",
         "civitaiModelId": 1715958,
         "civitaiVersionId": 1968052,
         "civitaiVersionName": "V2",
@@ -3774,7 +5127,7 @@
           "r": {
             "thumb": "/assets/img/collections/gokusotsu-kraken/full/muuto-r.png",
             "full": "/assets/img/collections/gokusotsu-kraken/full/muuto-r.png",
-            "alt": "Muuto from Gokusotsu Kraken, manually selected R CivitAI showcase image"
+            "alt": "Muuto from Gokusotsu Kraken, imported R CivitAI showcase image"
           }
         }
       }

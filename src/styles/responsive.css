@@ -53,25 +53,36 @@
   }
 
   .filter-field,
-  .filter-field select {
+  .filter-field select,
+  .filter-field input,
+  .privacy-toggle {
     width: 100%;
   }
 
-  .filter-field select {
+  .filter-field select,
+  .filter-field input {
     min-width: 0;
   }
 
   .lightbox__panel {
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: minmax(0, 1fr) auto auto;
+    grid-template-rows: auto minmax(0, 1fr) auto auto;
+  }
+
+  .lightbox__tools {
+    grid-column: 1 / -1;
+    grid-row: 1;
+    justify-content: start;
+    padding-right: 48px;
   }
 
   .lightbox__media {
     grid-column: 1 / -1;
+    grid-row: 2;
   }
 
   .lightbox__nav {
-    grid-row: 2;
+    grid-row: 3;
   }
 
   .lightbox__nav--prev {
@@ -85,7 +96,7 @@
   }
 
   .lightbox__caption {
-    grid-row: 3;
+    grid-row: 4;
   }
 }
 
@@ -153,8 +164,18 @@
   }
 
   .lightbox__panel {
+    height: calc(100vh - 16px);
     max-height: calc(100vh - 16px);
     border-radius: var(--radius-md);
+  }
+
+  .lightbox__tools {
+    gap: 6px;
+  }
+
+  .lightbox__tools .icon-button {
+    width: 36px;
+    height: 36px;
   }
 
   .lightbox__caption {
@@ -162,7 +183,4 @@
     flex-direction: column;
   }
 
-  .lightbox__image {
-    max-height: calc(100vh - 230px);
-  }
 }
