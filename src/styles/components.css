@@ -605,6 +605,13 @@
   justify-self: start;
 }
 
+.showcase-load-more {
+  display: flex;
+  grid-column: 1 / -1;
+  justify-content: center;
+  padding: 18px 0 4px;
+}
+
 .timeline {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));

@@ -12,6 +12,7 @@ type GalleryState = {
   sourceType: string;
   searchQuery: string;
   blurRRated: boolean;
+  visibleLimit: number;
 };
 
 type VisibleItem = {
@@ -26,6 +27,8 @@ type SourceTypeOption = {
   id: string;
   label: string;
 };
+
+const galleryPageSize = 32;
 
 function getCollectionSourceType(collection: Collection): string {
   const legacyCollection = collection as Collection & { source_type?: string };
@@ -64,6 +67,7 @@ export class ShowcaseGallery {
       sourceType: "all",
       searchQuery: "",
       blurRRated: true,
+      visibleLimit: galleryPageSize,
     };
   }
 
@@ -81,6 +85,7 @@ export class ShowcaseGallery {
 
   setCollection(collectionId: string): void {
     this.state.collectionId = collectionId;
+    this.resetVisibleLimit();
     window.history.replaceState(null, "", collectionId === "all" ? "#showcase" : `#${collectionId}`);
     this.renderControls();
     this.renderGrid();
@@ -165,9 +170,11 @@ export class ShowcaseGallery {
       const target = event.target as HTMLElement;
       const ratingButton = target.closest<HTMLButtonElement>("[data-rating]");
       const cardButton = target.closest<HTMLButtonElement>("[data-lightbox-index]");
+      const loadMoreButton = target.closest<HTMLButtonElement>("[data-load-more-showcase]");
 
       if (ratingButton) {
         this.state.rating = ratingButton.dataset.rating ?? this.state.rating;
+        this.resetVisibleLimit();
         setStoredRating(this.state.rating);
         this.renderControls();
         this.renderGrid();
@@ -177,6 +184,11 @@ export class ShowcaseGallery {
         const index = Number(cardButton.dataset.lightboxIndex);
         this.lightbox.open(index);
       }
+
+      if (loadMoreButton) {
+        this.state.visibleLimit += galleryPageSize;
+        this.renderGrid();
+      }
     });
 
     this.root.addEventListener("change", (event) => {
@@ -185,6 +197,7 @@ export class ShowcaseGallery {
       if (target.matches("[data-filter-collection]")) {
         const value = (target as HTMLSelectElement).value;
         this.state.collectionId = value;
+        this.resetVisibleLimit();
         window.history.replaceState(null, "", value === "all" ? "#showcase" : `#${value}`);
         this.highlightCollection(value);
         this.renderGrid();
@@ -192,6 +205,7 @@ export class ShowcaseGallery {
 
       if (target.matches("[data-filter-source-type]")) {
         this.state.sourceType = (target as HTMLSelectElement).value;
+        this.resetVisibleLimit();
         this.renderGrid();
       }
 
@@ -206,6 +220,7 @@ export class ShowcaseGallery {
 
       if (target.matches("[data-filter-search]")) {
         this.state.searchQuery = target.value;
+        this.resetVisibleLimit();
         this.renderGrid();
       }
     });
@@ -215,7 +230,8 @@ export class ShowcaseGallery {
     const grid = getRequiredElement<HTMLElement>(".showcase-grid");
     const count = getRequiredElement<HTMLElement>(".gallery-count");
     const visibleItems = this.getVisibleItems();
-    const lightboxItems: LightboxItem[] = visibleItems.map((visible) => ({
+    const renderedItems = visibleItems.slice(0, this.state.visibleLimit);
+    const lightboxItems: LightboxItem[] = renderedItems.map((visible) => ({
       collection: visible.collection,
       title: visible.item.title,
       ratingLabel: visible.ratingLabel,
@@ -223,7 +239,10 @@ export class ShowcaseGallery {
     }));
 
     this.lightbox.setItems(lightboxItems);
-    count.textContent = `${visibleItems.length} image${visibleItems.length === 1 ? "" : "s"}`;
+    count.textContent =
+      visibleItems.length === renderedItems.length
+        ? `${visibleItems.length} image${visibleItems.length === 1 ? "" : "s"}`
+        : `${renderedItems.length} of ${visibleItems.length} images`;
 
     if (visibleItems.length === 0) {
       grid.innerHTML = `
@@ -235,9 +254,9 @@ export class ShowcaseGallery {
       return;
     }
 
-    grid.innerHTML = visibleItems
+    grid.innerHTML = renderedItems
       .map((visible, index) => this.renderShowcaseCard(visible, index))
-      .join("");
+      .join("") + this.renderLoadMore(visibleItems.length, renderedItems.length);
 
     grid.querySelectorAll<HTMLImageElement>("img").forEach((image) => {
       image.addEventListener(
@@ -250,6 +269,22 @@ export class ShowcaseGallery {
         { once: true },
       );
     });
+  }
+
+  private renderLoadMore(totalCount: number, renderedCount: number): string {
+    if (renderedCount >= totalCount) {
+      return "";
+    }
+
+    const remainingCount = totalCount - renderedCount;
+
+    return `
+      <div class="showcase-load-more">
+        <button class="button button--secondary" type="button" data-load-more-showcase>
+          Load ${Math.min(galleryPageSize, remainingCount)} more
+        </button>
+      </div>
+    `;
   }
 
   private renderShowcaseCard(visible: VisibleItem, index: number): string {
@@ -321,6 +356,10 @@ export class ShowcaseGallery {
     });
 
     return visible;
+  }
+
+  private resetVisibleLimit(): void {
+    this.state.visibleLimit = galleryPageSize;
   }
 
   private applyHashFilter(): void {

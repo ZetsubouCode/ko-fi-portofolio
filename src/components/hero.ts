@@ -3,6 +3,9 @@ import { getAssetUrl } from "../lib/assets";
 import { renderBrandLabel } from "../lib/brandIcons";
 import { escapeHtml } from "../lib/dom";
 
+const heroPlaceholder =
+  "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 1000'%3E%3Crect width='800' height='1000' fill='%23181722'/%3E%3Ctext x='400' y='500' text-anchor='middle' fill='%23d6a85f' font-family='Arial,sans-serif' font-size='48' font-weight='700'%3ELoRA Showcase%3C/text%3E%3C/svg%3E";
+
 function getFeaturedImage(collection: Collection | undefined, item: ShowcaseItem | undefined): string {
   return (
     item?.variants.pg?.thumb ||
@@ -12,7 +15,7 @@ function getFeaturedImage(collection: Collection | undefined, item: ShowcaseItem
     item?.variants.r?.thumb ||
     item?.variants.r?.full ||
     collection?.cover ||
-    "/assets/img/covers/manga-side-character.webp"
+    heroPlaceholder
   );
 }
 
