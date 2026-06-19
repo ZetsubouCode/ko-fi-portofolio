@@ -101,10 +101,11 @@ export class ShowcaseGallery {
         <div class="section-heading section-heading--row">
           <div>
             <p class="eyebrow">Showcase gallery</p>
-            <h2>Browse images by rating and collection</h2>
+            <h2>Explore LoRA results by rating, source, and collection</h2>
           </div>
           <div class="gallery-count" aria-live="polite"></div>
         </div>
+        <p class="gallery-helper">Switch rating modes to preview different showcase sets. R-rated previews are blurred by default.</p>
         <div class="gallery-controls" aria-label="Showcase filters"></div>
         <div class="showcase-grid" aria-live="polite"></div>
       </div>

@@ -37,6 +37,7 @@ export function renderCommissionCta(site: SiteData): string {
         <div>
           <p class="eyebrow">Commissions</p>
           <h2>Commission paths for public and private IL character LoRAs</h2>
+          <p class="cta__note">Choose a public release if you want it shared on CivitAI, or private delivery if the LoRA is only for your own use.</p>
           <div class="cta__actions">
             <a class="button button--primary" href="${escapeHtml(site.creator.links.kofi)}" target="_blank" rel="noreferrer">Visit my Ko-fi page</a>
           </div>
