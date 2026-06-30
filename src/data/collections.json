@@ -1,5 +1,388 @@
 [
   {
+    "id": "indonesian-webtoon",
+    "title": "Indonesian Webtoon",
+    "series": "Imported character collection",
+    "sourceType": "Manhwa",
+    "modelType": "Illustrious Character LoRA",
+    "status": "Public",
+    "cover": "/assets/img/collections/indonesian-webtoon/full/suketh-pg.png",
+    "civitaiUrl": "https://civitai.red/models/1771480",
+    "description": "A character LoRA collection imported from CivitAI for Indonesian Webtoon.",
+    "highlights": [
+      "CivitAI import",
+      "Character LoRA",
+      "Manhwa",
+      "V1"
+    ],
+    "trainingNotes": [
+      "Imported from CivitAI",
+      "Version: V1",
+      "Preview image downloaded locally"
+    ],
+    "tags": [
+      "civitai",
+      "character lora",
+      "woman",
+      "webtoon character",
+      "manhwa",
+      "anime",
+      "webtoon",
+      "manga",
+      "girls",
+      "draco diary",
+      "character",
+      "indonesian webtoon",
+      "mantradeva",
+      "monster girl",
+      "beastwoman",
+      "beastkin"
+    ],
+    "showcase": [
+      {
+        "id": "keiyos",
+        "title": "Keiyos",
+        "description": "A character LoRA showcase imported from CivitAI for Keiyos from Indonesian Webtoon.",
+        "civitaiUrl": "https://civitai.red/models/1728731",
+        "civitaiModelId": 1728731,
+        "civitaiVersionId": 1956452,
+        "civitaiVersionName": "V1",
+        "tags": [
+          "civitai import",
+          "version: V1",
+          "keiyos",
+          "civitai",
+          "character lora",
+          "manhwa",
+          "suketh - the journey of grass girl",
+          "manga",
+          "woman",
+          "anime",
+          "character",
+          "webtoon"
+        ],
+        "variants": {
+          "pg": {
+            "thumb": "/assets/img/collections/indonesian-webtoon/full/keiyos-pg.png",
+            "full": "/assets/img/collections/indonesian-webtoon/full/keiyos-pg.png",
+            "alt": "Keiyos from Indonesian Webtoon, imported PG CivitAI showcase image"
+          },
+          "pg13": {
+            "thumb": "/assets/img/collections/indonesian-webtoon/full/keiyos-pg13.png",
+            "full": "/assets/img/collections/indonesian-webtoon/full/keiyos-pg13.png",
+            "alt": "Keiyos from Indonesian Webtoon, imported PG-13 CivitAI showcase image"
+          },
+          "r": {
+            "thumb": "/assets/img/collections/indonesian-webtoon/full/keiyos-r.png",
+            "full": "/assets/img/collections/indonesian-webtoon/full/keiyos-r.png",
+            "alt": "Keiyos from Indonesian Webtoon, imported R CivitAI showcase image"
+          }
+        }
+      },
+      {
+        "id": "suketh",
+        "title": "Suketh",
+        "description": "A character LoRA showcase imported from CivitAI for Suketh from Indonesian Webtoon.",
+        "civitaiUrl": "https://civitai.red/models/1729043",
+        "civitaiModelId": 1729043,
+        "civitaiVersionId": 1956811,
+        "civitaiVersionName": "V1",
+        "tags": [
+          "civitai import",
+          "version: V1",
+          "suketh",
+          "civitai",
+          "character lora",
+          "character",
+          "manga",
+          "manhwa",
+          "woman",
+          "webtoon",
+          "suketh - the journey of grass girl"
+        ],
+        "variants": {
+          "pg": {
+            "thumb": "/assets/img/collections/indonesian-webtoon/full/suketh-pg.png",
+            "full": "/assets/img/collections/indonesian-webtoon/full/suketh-pg.png",
+            "alt": "Suketh from Indonesian Webtoon, imported PG CivitAI showcase image"
+          },
+          "pg13": {
+            "thumb": "/assets/img/collections/indonesian-webtoon/full/suketh-pg13.png",
+            "full": "/assets/img/collections/indonesian-webtoon/full/suketh-pg13.png",
+            "alt": "Suketh from Indonesian Webtoon, imported PG-13 CivitAI showcase image"
+          },
+          "r": {
+            "thumb": "/assets/img/collections/indonesian-webtoon/full/suketh-r.png",
+            "full": "/assets/img/collections/indonesian-webtoon/full/suketh-r.png",
+            "alt": "Suketh from Indonesian Webtoon, imported R CivitAI showcase image"
+          }
+        }
+      },
+      {
+        "id": "sithi",
+        "title": "Sithi",
+        "description": "A character LoRA showcase imported from CivitAI for Sithi from Indonesian Webtoon.",
+        "civitaiUrl": "https://civitai.red/models/1729039",
+        "civitaiModelId": 1729039,
+        "civitaiVersionId": 1956807,
+        "civitaiVersionName": "V1",
+        "tags": [
+          "civitai import",
+          "version: V1",
+          "sithi",
+          "civitai",
+          "character lora",
+          "character",
+          "suketh - the journey of grass girl",
+          "woman",
+          "manhwa",
+          "webtoon",
+          "manga"
+        ],
+        "variants": {
+          "pg": {
+            "thumb": "/assets/img/collections/indonesian-webtoon/full/sithi-pg.png",
+            "full": "/assets/img/collections/indonesian-webtoon/full/sithi-pg.png",
+            "alt": "Sithi from Indonesian Webtoon, imported PG CivitAI showcase image"
+          },
+          "r": {
+            "thumb": "/assets/img/collections/indonesian-webtoon/full/sithi-r.png",
+            "full": "/assets/img/collections/indonesian-webtoon/full/sithi-r.png",
+            "alt": "Sithi from Indonesian Webtoon, imported R CivitAI showcase image"
+          }
+        }
+      },
+      {
+        "id": "fera",
+        "title": "Fera",
+        "description": "A character LoRA showcase imported from CivitAI for Fera from Indonesian Webtoon.",
+        "civitaiUrl": "https://civitai.red/models/1731422",
+        "civitaiModelId": 1731422,
+        "civitaiVersionId": 1959559,
+        "civitaiVersionName": "V1",
+        "tags": [
+          "civitai import",
+          "version: V1",
+          "fera",
+          "civitai",
+          "character lora",
+          "character",
+          "draco diary",
+          "manga",
+          "webtoon",
+          "manhwa"
+        ],
+        "variants": {
+          "pg": {
+            "thumb": "/assets/img/collections/indonesian-webtoon/full/fera-pg.png",
+            "full": "/assets/img/collections/indonesian-webtoon/full/fera-pg.png",
+            "alt": "Fera from Indonesian Webtoon, imported PG CivitAI showcase image"
+          },
+          "pg13": {
+            "thumb": "/assets/img/collections/indonesian-webtoon/full/fera-pg13.png",
+            "full": "/assets/img/collections/indonesian-webtoon/full/fera-pg13.png",
+            "alt": "Fera from Indonesian Webtoon, imported PG-13 CivitAI showcase image"
+          },
+          "r": {
+            "thumb": "/assets/img/collections/indonesian-webtoon/full/fera-r.png",
+            "full": "/assets/img/collections/indonesian-webtoon/full/fera-r.png",
+            "alt": "Fera from Indonesian Webtoon, imported R CivitAI showcase image"
+          }
+        }
+      },
+      {
+        "id": "sona",
+        "title": "Sona",
+        "description": "A character LoRA showcase imported from CivitAI for Sona from Indonesian Webtoon.",
+        "civitaiUrl": "https://civitai.red/models/1735324",
+        "civitaiModelId": 1735324,
+        "civitaiVersionId": 1963975,
+        "civitaiVersionName": "V1",
+        "tags": [
+          "civitai import",
+          "version: V1",
+          "sona",
+          "civitai",
+          "character lora",
+          "anime",
+          "manhwa",
+          "monster girl",
+          "character",
+          "webtoon",
+          "mantradeva",
+          "manga"
+        ],
+        "variants": {
+          "pg": {
+            "thumb": "/assets/img/collections/indonesian-webtoon/full/sona-pg.png",
+            "full": "/assets/img/collections/indonesian-webtoon/full/sona-pg.png",
+            "alt": "Sona from Indonesian Webtoon, imported PG CivitAI showcase image"
+          },
+          "r": {
+            "thumb": "/assets/img/collections/indonesian-webtoon/full/sona-r.png",
+            "full": "/assets/img/collections/indonesian-webtoon/full/sona-r.png",
+            "alt": "Sona from Indonesian Webtoon, imported R CivitAI showcase image"
+          }
+        }
+      },
+      {
+        "id": "kijang",
+        "title": "Kijang",
+        "description": "A character LoRA showcase imported from CivitAI for Kijang from Indonesian Webtoon.",
+        "civitaiUrl": "https://civitai.red/models/1741786",
+        "civitaiModelId": 1741786,
+        "civitaiVersionId": 1971207,
+        "civitaiVersionName": "V1",
+        "tags": [
+          "civitai import",
+          "version: V1",
+          "kijang",
+          "civitai",
+          "character lora",
+          "character",
+          "manhwa",
+          "manga",
+          "mantradeva",
+          "woman",
+          "anime",
+          "webtoon"
+        ],
+        "variants": {
+          "pg": {
+            "thumb": "/assets/img/collections/indonesian-webtoon/full/kijang-pg.png",
+            "full": "/assets/img/collections/indonesian-webtoon/full/kijang-pg.png",
+            "alt": "Kijang from Indonesian Webtoon, imported PG CivitAI showcase image"
+          },
+          "r": {
+            "thumb": "/assets/img/collections/indonesian-webtoon/full/kijang-r.png",
+            "full": "/assets/img/collections/indonesian-webtoon/full/kijang-r.png",
+            "alt": "Kijang from Indonesian Webtoon, imported R CivitAI showcase image"
+          }
+        }
+      },
+      {
+        "id": "vivi",
+        "title": "Vivi",
+        "description": "A character LoRA showcase imported from CivitAI for Vivi from Indonesian Webtoon.",
+        "civitaiUrl": "https://civitai.red/models/1768895",
+        "civitaiModelId": 1768895,
+        "civitaiVersionId": 2001923,
+        "civitaiVersionName": "V1",
+        "tags": [
+          "civitai import",
+          "version: V1",
+          "vivi",
+          "civitai",
+          "character lora",
+          "character",
+          "manga",
+          "draco diary",
+          "webtoon",
+          "woman",
+          "manhwa",
+          "girls"
+        ],
+        "variants": {
+          "pg": {
+            "thumb": "/assets/img/collections/indonesian-webtoon/full/vivi-pg.png",
+            "full": "/assets/img/collections/indonesian-webtoon/full/vivi-pg.png",
+            "alt": "Vivi from Indonesian Webtoon, imported PG CivitAI showcase image"
+          },
+          "pg13": {
+            "thumb": "/assets/img/collections/indonesian-webtoon/full/vivi-pg13.png",
+            "full": "/assets/img/collections/indonesian-webtoon/full/vivi-pg13.png",
+            "alt": "Vivi from Indonesian Webtoon, imported PG-13 CivitAI showcase image"
+          },
+          "r": {
+            "thumb": "/assets/img/collections/indonesian-webtoon/full/vivi-r.png",
+            "full": "/assets/img/collections/indonesian-webtoon/full/vivi-r.png",
+            "alt": "Vivi from Indonesian Webtoon, imported R CivitAI showcase image"
+          }
+        }
+      },
+      {
+        "id": "dewinta",
+        "title": "Dewinta",
+        "description": "A character LoRA showcase imported from CivitAI for Dewinta from Indonesian Webtoon.",
+        "civitaiUrl": "https://civitai.red/models/1771484",
+        "civitaiModelId": 1771484,
+        "civitaiVersionId": 2004899,
+        "civitaiVersionName": "V1",
+        "tags": [
+          "civitai import",
+          "version: V1",
+          "dewinta",
+          "civitai",
+          "character lora",
+          "character",
+          "girls",
+          "webtoon",
+          "draco diary",
+          "woman",
+          "manga",
+          "manhwa"
+        ],
+        "variants": {
+          "pg": {
+            "thumb": "/assets/img/collections/indonesian-webtoon/full/dewinta-pg.png",
+            "full": "/assets/img/collections/indonesian-webtoon/full/dewinta-pg.png",
+            "alt": "Dewinta from Indonesian Webtoon, imported PG CivitAI showcase image"
+          },
+          "pg13": {
+            "thumb": "/assets/img/collections/indonesian-webtoon/full/dewinta-pg13.png",
+            "full": "/assets/img/collections/indonesian-webtoon/full/dewinta-pg13.png",
+            "alt": "Dewinta from Indonesian Webtoon, imported PG-13 CivitAI showcase image"
+          },
+          "r": {
+            "thumb": "/assets/img/collections/indonesian-webtoon/full/dewinta-r.png",
+            "full": "/assets/img/collections/indonesian-webtoon/full/dewinta-r.png",
+            "alt": "Dewinta from Indonesian Webtoon, imported R CivitAI showcase image"
+          }
+        }
+      },
+      {
+        "id": "sekar",
+        "title": "Sekar",
+        "description": "A character LoRA showcase imported from CivitAI for Sekar from Indonesian Webtoon.",
+        "civitaiUrl": "https://civitai.red/models/1771480",
+        "civitaiModelId": 1771480,
+        "civitaiVersionId": 2004894,
+        "civitaiVersionName": "V1",
+        "tags": [
+          "civitai import",
+          "version: V1",
+          "sekar",
+          "civitai",
+          "character lora",
+          "woman",
+          "webtoon character",
+          "manhwa",
+          "anime",
+          "webtoon",
+          "manga",
+          "girls"
+        ],
+        "variants": {
+          "pg": {
+            "thumb": "/assets/img/collections/indonesian-webtoon/full/sekar-pg.png",
+            "full": "/assets/img/collections/indonesian-webtoon/full/sekar-pg.png",
+            "alt": "Sekar from Indonesian Webtoon, imported PG CivitAI showcase image"
+          },
+          "pg13": {
+            "thumb": "/assets/img/collections/indonesian-webtoon/full/sekar-pg13.png",
+            "full": "/assets/img/collections/indonesian-webtoon/full/sekar-pg13.png",
+            "alt": "Sekar from Indonesian Webtoon, imported PG-13 CivitAI showcase image"
+          },
+          "r": {
+            "thumb": "/assets/img/collections/indonesian-webtoon/full/sekar-r.png",
+            "full": "/assets/img/collections/indonesian-webtoon/full/sekar-r.png",
+            "alt": "Sekar from Indonesian Webtoon, imported R CivitAI showcase image"
+          }
+        }
+      }
+    ]
+  },
+  {
     "id": "otakuvs",
     "title": "OtakuVS",
     "series": "Imported character collection",
@@ -1492,6 +1875,41 @@
     ],
     "showcase": [
       {
+        "id": "tsuruse-miyuki",
+        "title": "Tsuruse Miyuki",
+        "description": "A character LoRA showcase imported from CivitAI for Tsuruse Miyuki from Doujinshi.",
+        "civitaiUrl": "https://civitai.red/models/2717741",
+        "civitaiModelId": 2717741,
+        "civitaiVersionId": 3053859,
+        "civitaiVersionName": "V1",
+        "tags": [
+          "civitai import",
+          "version: V1",
+          "tsuruse miyuki",
+          "civitai",
+          "character lora",
+          "manga",
+          "manhwa",
+          "chilt",
+          "doujinshi",
+          "doujin",
+          "aohimo familia",
+          "anime"
+        ],
+        "variants": {
+          "pg13": {
+            "thumb": "/assets/img/collections/doujinshi/full/tsuruse-miyuki-pg13.png",
+            "full": "/assets/img/collections/doujinshi/full/tsuruse-miyuki-pg13.png",
+            "alt": "Tsuruse Miyuki from Doujinshi, imported PG-13 CivitAI showcase image"
+          },
+          "r": {
+            "thumb": "/assets/img/collections/doujinshi/full/tsuruse-miyuki-r.png",
+            "full": "/assets/img/collections/doujinshi/full/tsuruse-miyuki-r.png",
+            "alt": "Tsuruse Miyuki from Doujinshi, imported R CivitAI showcase image"
+          }
+        }
+      },
+      {
         "id": "kagawa-mayumi",
         "title": "Kagawa Mayumi",
         "description": "A character LoRA showcase imported from CivitAI for Kagawa Mayumi from Doujinshi.",
@@ -1952,7 +2370,7 @@
     "sourceType": "Manga",
     "modelType": "Illustrious Character LoRA",
     "status": "Public",
-    "cover": "/assets/img/collections/tensei-ni-hakobi-jin-no-isekai/full/tartaute-lunamiria-pg13.png",
+    "cover": "/assets/img/collections/tensei-ni-hakobi-jin-no-isekai/full/zoffy-pg.png",
     "civitaiUrl": "https://civitai.red/models/1708752",
     "description": "A character LoRA collection imported from CivitAI for Tensei Ni Hakobi Jin No Isekai.",
     "highlights": [
@@ -4478,7 +4896,7 @@
     "sourceType": "Manga",
     "modelType": "Illustrious Character LoRA",
     "status": "Public",
-    "cover": "/assets/img/collections/gokusotsu-kraken/full/sariya-pg13.png",
+    "cover": "/assets/img/collections/gokusotsu-kraken/full/rosalind-pg.png",
     "civitaiUrl": "https://civitai.red/models/1715958?modelVersionId=1968052",
     "description": "A character LoRA collection imported from CivitAI for Gokusotsu Kraken.",
     "highlights": [
@@ -4512,26 +4930,96 @@
     ],
     "showcase": [
       {
+        "id": "isis",
+        "title": "Isis",
+        "description": "A character LoRA showcase imported from CivitAI for Isis from Gokusotsu Kraken.",
+        "civitaiUrl": "https://civitai.red/models/2724722",
+        "civitaiModelId": 2724722,
+        "civitaiVersionId": 3062428,
+        "civitaiVersionName": "V1",
+        "tags": [
+          "civitai import",
+          "version: V1",
+          "isis",
+          "civitai",
+          "character lora",
+          "character",
+          "anime",
+          "獄卒クラーケン",
+          "hell's tormentor kraken",
+          "gokusotsu kraken",
+          "elf",
+          "girls"
+        ],
+        "variants": {
+          "pg13": {
+            "thumb": "/assets/img/collections/gokusotsu-kraken/full/isis-pg13.png",
+            "full": "/assets/img/collections/gokusotsu-kraken/full/isis-pg13.png",
+            "alt": "Isis from Gokusotsu Kraken, imported PG-13 CivitAI showcase image"
+          },
+          "r": {
+            "thumb": "/assets/img/collections/gokusotsu-kraken/full/isis-r.png",
+            "full": "/assets/img/collections/gokusotsu-kraken/full/isis-r.png",
+            "alt": "Isis from Gokusotsu Kraken, imported R CivitAI showcase image"
+          }
+        }
+      },
+      {
+        "id": "shanmar",
+        "title": "Shanmar",
+        "description": "A character LoRA showcase imported from CivitAI for Shanmar from Gokusotsu Kraken.",
+        "civitaiUrl": "https://civitai.red/models/2739024",
+        "civitaiModelId": 2739024,
+        "civitaiVersionId": 3080151,
+        "civitaiVersionName": "V1",
+        "tags": [
+          "civitai import",
+          "version: V1",
+          "shanmar",
+          "civitai",
+          "character lora",
+          "character",
+          "woman",
+          "female",
+          "anime",
+          "manga",
+          "manhwa",
+          "girls"
+        ],
+        "variants": {
+          "pg13": {
+            "thumb": "/assets/img/collections/gokusotsu-kraken/full/shanmar-pg13.png",
+            "full": "/assets/img/collections/gokusotsu-kraken/full/shanmar-pg13.png",
+            "alt": "Shanmar from Gokusotsu Kraken, imported PG-13 CivitAI showcase image"
+          },
+          "r": {
+            "thumb": "/assets/img/collections/gokusotsu-kraken/full/shanmar-r.png",
+            "full": "/assets/img/collections/gokusotsu-kraken/full/shanmar-r.png",
+            "alt": "Shanmar from Gokusotsu Kraken, imported R CivitAI showcase image"
+          }
+        }
+      },
+      {
         "id": "mariam",
         "title": "Mariam",
         "description": "A character LoRA showcase imported from CivitAI for Mariam from Gokusotsu Kraken.",
         "civitaiUrl": "https://civitai.red/models/1714876",
         "civitaiModelId": 1714876,
-        "civitaiVersionId": 2215805,
-        "civitaiVersionName": "V2",
+        "civitaiVersionId": 3063901,
+        "civitaiVersionName": "V3",
         "tags": [
           "civitai import",
-          "version: V2",
+          "version: V3",
           "mariam",
           "civitai",
           "character lora",
           "manga character",
           "oni girl",
           "woman",
-          "character",
           "monster girl",
           "manhwa",
-          "gokusotsu kraken"
+          "gokusotsu kraken",
+          "manga"
         ],
         "variants": {
           "pg": {
@@ -4597,19 +5085,19 @@
         "description": "A character LoRA showcase imported from CivitAI for Keket from Gokusotsu Kraken.",
         "civitaiUrl": "https://civitai.red/models/1958923",
         "civitaiModelId": 1958923,
-        "civitaiVersionId": 2217283,
-        "civitaiVersionName": "V1",
+        "civitaiVersionId": 3079868,
+        "civitaiVersionName": "V2",
         "tags": [
           "civitai import",
-          "version: V1",
+          "version: V2",
           "keket",
           "civitai",
           "character lora",
           "character",
-          "dragonkin",
           "monster girl",
           "manga character",
           "manga",
+          "dragonkin",
           "manhwa",
           "girls"
         ],
@@ -4632,11 +5120,11 @@
         "description": "A character LoRA showcase imported from CivitAI for Porina (Polina) from Gokusotsu Kraken.",
         "civitaiUrl": "https://civitai.red/models/1853426",
         "civitaiModelId": 1853426,
-        "civitaiVersionId": 2097526,
-        "civitaiVersionName": "V1",
+        "civitaiVersionId": 3057218,
+        "civitaiVersionName": "V2",
         "tags": [
           "civitai import",
-          "version: V1",
+          "version: V2",
           "porina (polina)",
           "civitai",
           "character lora",
@@ -4652,7 +5140,7 @@
           "pg": {
             "thumb": "/assets/img/collections/gokusotsu-kraken/full/porina-polina-pg.png",
             "full": "/assets/img/collections/gokusotsu-kraken/full/porina-polina-pg.png",
-            "alt": "Porina (Polina) from Gokusotsu Kraken, imported PG CivitAI showcase image"
+            "alt": "Porina (Polina) from Gokusotsu Kraken, manually selected PG CivitAI showcase image"
           },
           "pg13": {
             "thumb": "/assets/img/collections/gokusotsu-kraken/full/porina-polina-pg13.png",
@@ -4672,21 +5160,21 @@
         "description": "A character LoRA showcase imported from CivitAI for Gamy from Gokusotsu Kraken.",
         "civitaiUrl": "https://civitai.red/models/1958022",
         "civitaiModelId": 1958022,
-        "civitaiVersionId": 2216271,
-        "civitaiVersionName": "V1",
+        "civitaiVersionId": 3083653,
+        "civitaiVersionName": "V2",
         "tags": [
           "civitai import",
-          "version: V1",
+          "version: V2",
           "gamy",
           "civitai",
           "character lora",
           "character",
           "girls",
-          "gokusotsu kraken",
-          "manga character",
           "monster girl",
           "woman",
-          "manhwa"
+          "manhwa",
+          "nekomimi",
+          "獄卒クラーケン"
         ],
         "variants": {
           "pg13": {
@@ -5070,13 +5558,13 @@
           "sariya",
           "civitai",
           "character lora",
+          "anime",
           "gokusotsu kraken",
           "hell's tormentor kraken",
           "woman",
           "girls",
           "dark elf",
-          "elf",
-          "manga character"
+          "elf"
         ],
         "variants": {
           "pg13": {
