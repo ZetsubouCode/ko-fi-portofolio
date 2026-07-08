@@ -179,5 +179,67 @@
       "label": "Manhwa",
       "active": true
     }
-  ]
+  ],
+  "selectedAdaptations": {
+    "enabled": true,
+    "eyebrow": "Selected adaptations",
+    "title": "Selected Adaptations",
+    "description": "A focused shortlist of series where the source material needs extra adaptation work before it becomes a clean Illustrious character LoRA showcase.",
+    "items": [
+      {
+        "collectionId": "gokusotsu-kraken",
+        "active": true,
+        "order": 1,
+        "title": "Gokusotsu Kraken",
+        "description": "Manga-source character work where limited references, grayscale panels, and outfit quirks need extra curation before the final LoRA feels flexible.",
+        "whyMatters": "This is the kind of series where manual selection and honest limitation notes matter more than simply dumping every panel into training.",
+        "notes": [
+          "Good example for manga-to-anime adaptation",
+          "Useful for showing multiple character LoRAs from the same source"
+        ],
+        "tags": [
+          "manga source",
+          "manual tagging",
+          "character set"
+        ],
+        "ctaLabel": "View Kraken set"
+      },
+      {
+        "collectionId": "indonesian-webtoon",
+        "active": true,
+        "order": 2,
+        "title": "Indonesian Webtoon",
+        "description": "A manhwa/webtoon collection imported from CivitAI and organized as a readable portfolio entry instead of a loose list of models.",
+        "whyMatters": "It shows how imported public models can still be presented with clearer series grouping, source labels, and viewer-friendly showcase cards.",
+        "notes": [
+          "Useful for source-type filtering",
+          "Good stress test for mixed PG / PG-13 / R variants"
+        ],
+        "tags": [
+          "manhwa",
+          "civitai import",
+          "portfolio grouping"
+        ],
+        "ctaLabel": "View webtoon set"
+      },
+      {
+        "collectionId": "no-man-s-land",
+        "active": true,
+        "order": 3,
+        "title": "No Man's Land",
+        "description": "A larger source set with many characters, making it useful for showing consistent collection structure across a lot of LoRA entries.",
+        "whyMatters": "Large collections make weak admin tooling painful fast, so this section is a good place to highlight series that benefit from local editing and clear curation.",
+        "notes": [
+          "Large collection stress test",
+          "Useful for checking card order and section copy"
+        ],
+        "tags": [
+          "large collection",
+          "webtoon source",
+          "local admin managed"
+        ],
+        "ctaLabel": "View collection"
+      }
+    ]
+  }
 }
