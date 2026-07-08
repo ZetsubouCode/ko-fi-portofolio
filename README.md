@@ -39,38 +39,6 @@ Update:
 - `creator.name`
 - `creator.handle`
 
-## Manage Selected Adaptations
-
-The `Selected Adaptations` section is controlled by `selectedAdaptations` in `src/data/site.json`.
-
-Recommended workflow: use the local admin app from `ko-fi-portofolio-admin`, point it at this portfolio clone, choose which collection IDs should appear, edit the section copy, then save. The admin app writes a timestamped backup of `site.json` before replacing it.
-
-Manual structure:
-
-```json
-"selectedAdaptations": {
-  "enabled": true,
-  "eyebrow": "Selected adaptations",
-  "title": "Selected Adaptations",
-  "description": "Short section intro.",
-  "items": [
-    {
-      "collectionId": "gokusotsu-kraken",
-      "active": true,
-      "order": 1,
-      "title": "Optional display title",
-      "description": "Optional card description override.",
-      "whyMatters": "Why this series is worth highlighting.",
-      "notes": ["Optional bullet note"],
-      "tags": ["manga source", "manual tagging"],
-      "ctaLabel": "View collection"
-    }
-  ]
-}
-```
-
-`collectionId` must match an existing `id` from `src/data/collections.json`. If `title`, `description`, or `tags` are left empty, the section falls back to the collection data.
-
 ## Add A New Collection
 
 Edit `src/data/collections.json` and add one collection object.
@@ -190,5 +158,7 @@ In GitHub:
 
 1. Open repository settings.
 2. Go to Pages.
-3. Source: GitHub Actions.
+3. Set source to GitHub Actions.
 4. Push to `main`.
+
+The workflow installs dependencies, builds with Vite, uploads `dist`, and deploys it to GitHub Pages.
