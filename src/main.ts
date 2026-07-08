@@ -3,7 +3,6 @@ import { renderCaseStudies, renderCommissionCta } from "./components/caseStudies
 import { renderCollectionCards } from "./components/collectionCards";
 import { renderHero } from "./components/hero";
 import { ShowcaseGallery } from "./components/showcaseGallery";
-import { renderSelectedAdaptations } from "./components/selectedAdaptations";
 import { renderFocus, renderStats } from "./components/stats";
 import { renderWorkflow } from "./components/workflow";
 import { renderBrandLabel } from "./lib/brandIcons";
@@ -41,7 +40,6 @@ function boot(): void {
       <main>
         ${renderFocus(site)}
         ${renderStats(site)}
-        ${renderSelectedAdaptations(site, collections)}
         ${renderCollectionCards(collections, site.ratingModes)}
         <section class="section section--showcase" id="showcase"></section>
         ${renderWorkflow(site)}
