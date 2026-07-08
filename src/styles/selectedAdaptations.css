@@ -1,0 +1,108 @@
+.selected-adaptations__intro {
+  max-width: 620px;
+  margin: 0;
+  color: var(--color-muted);
+  font-size: 1rem;
+  line-height: 1.55;
+}
+
+.selected-adaptations-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 20px;
+}
+
+.selected-adaptation-card {
+  display: grid;
+  grid-template-rows: auto minmax(0, 1fr);
+  overflow: hidden;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  background:
+    linear-gradient(145deg, rgba(255, 255, 255, 0.075), rgba(255, 255, 255, 0.025)),
+    var(--color-panel);
+  box-shadow: var(--shadow-soft);
+  backdrop-filter: blur(18px);
+  transition:
+    transform 180ms ease,
+    border-color 180ms ease,
+    box-shadow 180ms ease;
+}
+
+.selected-adaptation-card:hover {
+  border-color: var(--color-border-strong);
+  box-shadow: var(--shadow-soft), var(--shadow-glow);
+  transform: translateY(-4px);
+}
+
+.selected-adaptation-card__media {
+  aspect-ratio: 16 / 9;
+  border-radius: 0;
+}
+
+.selected-adaptation-card__body {
+  display: grid;
+  grid-template-rows: auto auto auto auto minmax(0, 1fr) auto;
+  gap: 15px;
+  padding: 20px;
+}
+
+.selected-adaptation-card__body > p {
+  margin: 0;
+  color: var(--color-muted);
+}
+
+.selected-adaptation-card__why {
+  padding: 14px;
+  border: 1px solid rgba(214, 168, 95, 0.2);
+  border-radius: var(--radius-sm);
+  background: rgba(214, 168, 95, 0.07);
+}
+
+.selected-adaptation-card__why span {
+  display: block;
+  margin-bottom: 8px;
+  color: var(--color-accent-2);
+  font-size: 0.74rem;
+  font-weight: 900;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.selected-adaptation-card__why p {
+  margin: 0;
+  color: var(--color-text);
+  font-size: 0.92rem;
+  line-height: 1.45;
+}
+
+.selected-adaptation-card__notes {
+  display: grid;
+  gap: 8px;
+  padding-left: 1.1rem;
+  margin: 0;
+  color: var(--color-muted);
+  font-size: 0.92rem;
+}
+
+.selected-adaptation-card__actions {
+  align-self: end;
+}
+
+@media (max-width: 1080px) {
+  .selected-adaptations-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 880px) {
+  .selected-adaptations__intro {
+    max-width: none;
+  }
+}
+
+@media (max-width: 620px) {
+  .selected-adaptations-grid {
+    grid-template-columns: 1fr;
+  }
+}
