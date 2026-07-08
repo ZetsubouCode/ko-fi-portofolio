@@ -25,26 +25,6 @@ export type FeaturedLora = {
   itemId: string;
 };
 
-export type SelectedAdaptationItem = {
-  collectionId: string;
-  active?: boolean;
-  order?: number;
-  title?: string;
-  description?: string;
-  whyMatters?: string;
-  notes?: string[];
-  tags?: string[];
-  ctaLabel?: string;
-};
-
-export type SelectedAdaptationsSection = {
-  enabled?: boolean;
-  eyebrow?: string;
-  title?: string;
-  description?: string;
-  items: SelectedAdaptationItem[];
-};
-
 export type SourceType = {
   id: string;
   label: string;
@@ -112,7 +92,6 @@ export type CommissionItem = {
 export type SiteData = {
   creator: Creator;
   featured?: FeaturedLora;
-  selectedAdaptations?: SelectedAdaptationsSection;
   sourceTypes?: SourceType[];
   stats: Stat[];
   ratingModes: RatingMode[];
