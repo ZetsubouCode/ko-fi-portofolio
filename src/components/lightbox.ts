@@ -7,6 +7,7 @@ export type LightboxItem = {
   collection: Collection;
   title: string;
   ratingLabel: string;
+  civitaiUrl?: string;
   image: ImageVariant;
 };
 
@@ -25,19 +26,32 @@ export class Lightbox {
   private zoom = 1;
   private panX = 0;
   private panY = 0;
-  private dragStart: { x: number; y: number; panX: number; panY: number } | null = null;
+  private dragStart: {
+    x: number;
+    y: number;
+    panX: number;
+    panY: number;
+  } | null = null;
 
   constructor() {
     this.element = this.createElement();
     document.body.append(this.element);
     this.panel = this.element.querySelector(".lightbox__panel") as HTMLElement;
     this.media = this.element.querySelector(".lightbox__media") as HTMLElement;
-    this.image = this.element.querySelector(".lightbox__image") as HTMLImageElement;
+    this.image = this.element.querySelector(
+      ".lightbox__image",
+    ) as HTMLImageElement;
     this.title = this.element.querySelector(".lightbox__title") as HTMLElement;
     this.meta = this.element.querySelector(".lightbox__meta") as HTMLElement;
-    this.civitaiLink = this.element.querySelector(".lightbox__civitai") as HTMLAnchorElement;
-    this.zoomLabel = this.element.querySelector(".lightbox__zoom-label") as HTMLElement;
-    this.fullscreenButton = this.element.querySelector(".lightbox__fullscreen") as HTMLButtonElement;
+    this.civitaiLink = this.element.querySelector(
+      ".lightbox__civitai",
+    ) as HTMLAnchorElement;
+    this.zoomLabel = this.element.querySelector(
+      ".lightbox__zoom-label",
+    ) as HTMLElement;
+    this.fullscreenButton = this.element.querySelector(
+      ".lightbox__fullscreen",
+    ) as HTMLButtonElement;
     this.bindEvents();
   }
 
@@ -103,20 +117,43 @@ export class Lightbox {
   }
 
   private bindEvents(): void {
-    this.element.querySelector(".lightbox__close")?.addEventListener("click", () => this.close());
-    this.element.querySelector(".lightbox__backdrop")?.addEventListener("click", () => this.close());
-    this.element.querySelector(".lightbox__nav--prev")?.addEventListener("click", () => this.showOffset(-1));
-    this.element.querySelector(".lightbox__nav--next")?.addEventListener("click", () => this.showOffset(1));
-    this.element.querySelector("[data-lightbox-zoom-out]")?.addEventListener("click", () => this.zoomBy(-0.25));
-    this.element.querySelector("[data-lightbox-zoom-in]")?.addEventListener("click", () => this.zoomBy(0.25));
-    this.element.querySelector("[data-lightbox-zoom-reset]")?.addEventListener("click", () => this.resetView());
-    this.fullscreenButton.addEventListener("click", () => void this.toggleFullscreen());
-    this.media.addEventListener("wheel", (event) => this.handleWheel(event), { passive: false });
-    this.media.addEventListener("pointerdown", (event) => this.startDrag(event));
+    this.element
+      .querySelector(".lightbox__close")
+      ?.addEventListener("click", () => this.close());
+    this.element
+      .querySelector(".lightbox__backdrop")
+      ?.addEventListener("click", () => this.close());
+    this.element
+      .querySelector(".lightbox__nav--prev")
+      ?.addEventListener("click", () => this.showOffset(-1));
+    this.element
+      .querySelector(".lightbox__nav--next")
+      ?.addEventListener("click", () => this.showOffset(1));
+    this.element
+      .querySelector("[data-lightbox-zoom-out]")
+      ?.addEventListener("click", () => this.zoomBy(-0.25));
+    this.element
+      .querySelector("[data-lightbox-zoom-in]")
+      ?.addEventListener("click", () => this.zoomBy(0.25));
+    this.element
+      .querySelector("[data-lightbox-zoom-reset]")
+      ?.addEventListener("click", () => this.resetView());
+    this.fullscreenButton.addEventListener(
+      "click",
+      () => void this.toggleFullscreen(),
+    );
+    this.media.addEventListener("wheel", (event) => this.handleWheel(event), {
+      passive: false,
+    });
+    this.media.addEventListener("pointerdown", (event) =>
+      this.startDrag(event),
+    );
     this.media.addEventListener("pointermove", (event) => this.drag(event));
     this.media.addEventListener("pointerup", () => this.stopDrag());
     this.media.addEventListener("pointercancel", () => this.stopDrag());
-    document.addEventListener("fullscreenchange", () => this.syncFullscreenState());
+    document.addEventListener("fullscreenchange", () =>
+      this.syncFullscreenState(),
+    );
 
     document.addEventListener("keydown", (event) => {
       if (!this.element.classList.contains("is-open")) {
@@ -162,7 +199,8 @@ export class Lightbox {
       return;
     }
 
-    this.activeIndex = (this.activeIndex + offset + this.items.length) % this.items.length;
+    this.activeIndex =
+      (this.activeIndex + offset + this.items.length) % this.items.length;
     this.renderActiveItem();
   }
 
@@ -245,7 +283,10 @@ export class Lightbox {
   private syncFullscreenState(): void {
     const isFullscreen = document.fullscreenElement === this.panel;
     this.panel.classList.toggle("is-fullscreen", isFullscreen);
-    this.fullscreenButton.setAttribute("aria-label", isFullscreen ? "Exit fullscreen" : "Enter fullscreen");
+    this.fullscreenButton.setAttribute(
+      "aria-label",
+      isFullscreen ? "Exit fullscreen" : "Enter fullscreen",
+    );
   }
 
   private renderActiveItem(): void {
@@ -256,14 +297,19 @@ export class Lightbox {
 
     this.image.hidden = false;
     this.image.src = getAssetUrl(item.image.full);
-    this.image.alt = item.image.alt;
+    this.image.alt = item.image.alt
+      .replace(/,\s*imported\s+/i, ", ")
+      .replace(/\s*CivitAI showcase image/i, " showcase image")
+      .replace(/\s+/g, " ")
+      .trim();
     this.resetView();
     this.title.textContent = item.title;
     this.meta.innerHTML = `${escapeHtml(item.collection.title)} <span>${escapeHtml(item.ratingLabel)}</span>`;
 
-    if (item.collection.civitaiUrl) {
+    if (item.civitaiUrl || item.collection.civitaiUrl) {
       this.civitaiLink.hidden = false;
-      this.civitaiLink.href = item.collection.civitaiUrl;
+      this.civitaiLink.href =
+        item.civitaiUrl ?? item.collection.civitaiUrl ?? "#";
     } else {
       this.civitaiLink.hidden = true;
     }

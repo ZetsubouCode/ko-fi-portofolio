@@ -2,13 +2,13 @@
   {
     "id": "indonesian-webtoon",
     "title": "Indonesian Webtoon",
-    "series": "Imported character collection",
+    "series": "Indonesian Webtoon",
     "sourceType": "Manhwa",
     "modelType": "Illustrious Character LoRA",
     "status": "Public",
     "cover": "/assets/img/collections/indonesian-webtoon/full/suketh-pg.png",
     "civitaiUrl": "https://civitai.red/models/1771480",
-    "description": "A character LoRA collection imported from CivitAI for Indonesian Webtoon.",
+    "description": "An anime-style character adaptation collection for Indonesian Webtoon designs, including characters with limited public references and little existing LoRA coverage.",
     "highlights": [
       "CivitAI import",
       "Character LoRA",
@@ -380,18 +380,21 @@
           }
         }
       }
-    ]
+    ],
+    "portfolioFeatured": true,
+    "portfolioOrder": 2,
+    "portfolioReason": "Low-resource design study"
   },
   {
     "id": "otakuvs",
     "title": "OtakuVS",
-    "series": "Imported character collection",
+    "series": "OtakuVS",
     "sourceType": "Manhwa",
     "modelType": "Illustrious Character LoRA",
     "status": "Public",
     "cover": "/assets/img/collections/otakuvs/full/ota-chan-pg13.png",
     "civitaiUrl": "https://civitai.red/models/1838069",
-    "description": "A character LoRA collection imported from CivitAI for OtakuVS.",
+    "description": "A public character archive for OtakuVS designs, adapted toward anime-style showcase outputs while keeping the collection focused on recognizable character identity.",
     "highlights": [
       "CivitAI import",
       "Character LoRA",
@@ -709,18 +712,19 @@
           }
         }
       }
-    ]
+    ],
+    "portfolioFeatured": false
   },
   {
     "id": "no-man-s-land",
     "title": "No Man's Land",
-    "series": "Imported character collection",
+    "series": "No Man's Land",
     "sourceType": "Manhwa",
     "modelType": "Illustrious Character LoRA",
     "status": "Public",
     "cover": "/assets/img/collections/no-man-s-land/full/vanilla-season-2-pg13.png",
     "civitaiUrl": "https://civitai.red/models/2514730",
-    "description": "A character LoRA collection imported from CivitAI for No Man's Land.",
+    "description": "A broad No Man's Land character archive focused on preserving multiple designs from the source while presenting them as anime-style LoRA showcases.",
     "highlights": [
       "CivitAI import",
       "Character LoRA",
@@ -1516,18 +1520,19 @@
           }
         }
       }
-    ]
+    ],
+    "portfolioFeatured": false
   },
   {
     "id": "wakamono-no-kuro-mahoubanare",
     "title": "Wakamono no Kuro Mahoubanare",
-    "series": "Imported character collection",
+    "series": "Wakamono no Kuro Mahoubanare",
     "sourceType": "Manga",
     "modelType": "Illustrious Character LoRA",
     "status": "Public",
     "cover": "/assets/img/collections/wakamono-no-kuro-mahoubanare/full/botan-pg13.png",
     "civitaiUrl": "https://civitai.red/models/1851926",
-    "description": "A character LoRA collection imported from CivitAI for Wakamono no Kuro Mahoubanare.",
+    "description": "A manga-source character adaptation collection for Wakamono no Kuro Mahoubanare, built around readable identity and anime-style presentation from limited source material.",
     "highlights": [
       "CivitAI import",
       "Character LoRA",
@@ -1832,7 +1837,10 @@
           }
         }
       }
-    ]
+    ],
+    "portfolioFeatured": true,
+    "portfolioOrder": 3,
+    "portfolioReason": "Manga-to-anime adaptation"
   },
   {
     "id": "doujinshi",
@@ -1843,7 +1851,7 @@
     "status": "Public",
     "cover": "/assets/img/collections/doujinshi/full/anju-sagara-pg.png",
     "civitaiUrl": "https://civitai.red/models/2089244",
-    "description": "A character LoRA collection imported from CivitAI for Doujinshi.",
+    "description": "A small manga-source character adaptation collection for doujinshi characters where public references and consistent design coverage may be limited.",
     "highlights": [
       "CivitAI import",
       "Character LoRA",
@@ -1874,6 +1882,46 @@
       "tsuntsun yankee-chan wa yowayowa chikubi o ijireba kekkou nandemo yarasete kureru"
     ],
     "showcase": [
+      {
+        "id": "akamine-satsuki",
+        "title": "Akamine Satsuki",
+        "description": "A character LoRA showcase imported from CivitAI for Akamine Satsuki from Doujinshi.",
+        "civitaiUrl": "https://civitai.red/models/2755379",
+        "civitaiModelId": 2755379,
+        "civitaiVersionId": 3100313,
+        "civitaiVersionName": "V1",
+        "tags": [
+          "civitai import",
+          "version: V1",
+          "akamine satsuki",
+          "civitai",
+          "character lora",
+          "character",
+          "anime",
+          "manga character",
+          "manga",
+          "manhwa",
+          "blackmailed",
+          "girls"
+        ],
+        "variants": {
+          "pg": {
+            "thumb": "/assets/img/collections/doujinshi/full/akamine-satsuki-pg.png",
+            "full": "/assets/img/collections/doujinshi/full/akamine-satsuki-pg.png",
+            "alt": "Akamine Satsuki from Doujinshi, imported PG CivitAI showcase image"
+          },
+          "pg13": {
+            "thumb": "/assets/img/collections/doujinshi/full/akamine-satsuki-pg13.png",
+            "full": "/assets/img/collections/doujinshi/full/akamine-satsuki-pg13.png",
+            "alt": "Akamine Satsuki from Doujinshi, imported PG-13 CivitAI showcase image"
+          },
+          "r": {
+            "thumb": "/assets/img/collections/doujinshi/full/akamine-satsuki-r.png",
+            "full": "/assets/img/collections/doujinshi/full/akamine-satsuki-r.png",
+            "alt": "Akamine Satsuki from Doujinshi, imported R CivitAI showcase image"
+          }
+        }
+      },
       {
         "id": "tsuruse-miyuki",
         "title": "Tsuruse Miyuki",
@@ -2019,18 +2067,19 @@
           }
         }
       }
-    ]
+    ],
+    "portfolioFeatured": false
   },
   {
     "id": "tanaka-kun-itsumo-kedaruge",
     "title": "Tanaka-kun Itsumo Kedaruge",
-    "series": "Imported character collection",
+    "series": "Tanaka-kun Itsumo Kedaruge",
     "sourceType": "Anime",
     "modelType": "Illustrious Character LoRA",
     "status": "Public",
     "cover": "/assets/img/collections/tanaka-kun-itsumo-kedaruge/full/rino-tanaka-pg.png",
     "civitaiUrl": "https://civitai.red/models/2516695",
-    "description": "A character LoRA collection imported from CivitAI for Tanaka-kun Itsumo Kedaruge.",
+    "description": "An anime-source character archive for Tanaka-kun Itsumo Kedaruge, focused on readable canon identity across a set of character LoRA showcases.",
     "highlights": [
       "CivitAI import",
       "Character LoRA",
@@ -2361,18 +2410,19 @@
           }
         }
       }
-    ]
+    ],
+    "portfolioFeatured": false
   },
   {
     "id": "tensei-ni-hakobi-jin-no-isekai",
     "title": "Tensei Ni Hakobi Jin No Isekai",
-    "series": "Imported character collection",
+    "series": "Tensei Ni Hakobi Jin No Isekai",
     "sourceType": "Manga",
     "modelType": "Illustrious Character LoRA",
     "status": "Public",
     "cover": "/assets/img/collections/tensei-ni-hakobi-jin-no-isekai/full/zoffy-pg.png",
     "civitaiUrl": "https://civitai.red/models/1708752",
-    "description": "A character LoRA collection imported from CivitAI for Tensei Ni Hakobi Jin No Isekai.",
+    "description": "A compact manga-source character adaptation collection for Tensei Ni Hakobi Jin No Isekai, kept focused on the strongest available references.",
     "highlights": [
       "CivitAI import",
       "Character LoRA",
@@ -2473,18 +2523,21 @@
           }
         }
       }
-    ]
+    ],
+    "portfolioFeatured": true,
+    "portfolioOrder": 5,
+    "portfolioReason": "Limited source coverage"
   },
   {
     "id": "kuma-kuma-kuma-bear",
     "title": "Kuma Kuma Kuma Bear",
-    "series": "Imported character collection",
+    "series": "Kuma Kuma Kuma Bear",
     "sourceType": "Anime",
     "modelType": "Illustrious Character LoRA",
     "status": "Public",
     "cover": "/assets/img/collections/kuma-kuma-kuma-bear/full/nelt-pg.png",
     "civitaiUrl": "https://civitai.red/models/2383176",
-    "description": "A character LoRA collection imported from CivitAI for Kuma Kuma Kuma Bear.",
+    "description": "A large anime-source character archive for Kuma Kuma Kuma Bear, covering main and supporting designs as public Illustrious character LoRAs.",
     "highlights": [
       "CivitAI import",
       "Character LoRA",
@@ -3845,18 +3898,21 @@
           }
         }
       }
-    ]
+    ],
+    "portfolioFeatured": true,
+    "portfolioOrder": 6,
+    "portfolioReason": "Side-character archive entry"
   },
   {
     "id": "beast-tamer",
     "title": "Beast Tamer",
-    "series": "Imported character collection",
+    "series": "Beast Tamer",
     "sourceType": "Anime",
     "modelType": "Illustrious Character LoRA",
     "status": "Public",
     "cover": "/assets/img/collections/beast-tamer/full/runa-pg.png",
     "civitaiUrl": "https://civitai.red/models/2095087",
-    "description": "A character LoRA collection imported from CivitAI for Beast Tamer.",
+    "description": "An anime-source Beast Tamer character collection that keeps the archive focused on recognizable designs and public showcase coverage.",
     "highlights": [
       "CivitAI import",
       "Character LoRA",
@@ -4269,18 +4325,19 @@
           }
         }
       }
-    ]
+    ],
+    "portfolioFeatured": false
   },
   {
     "id": "busou-shoujo-machiavellianism",
     "title": "Busou Shoujo Machiavellianism",
-    "series": "Imported character collection",
+    "series": "Busou Shoujo Machiavellianism",
     "sourceType": "Anime",
     "modelType": "Illustrious Character LoRA",
     "status": "Public",
     "cover": "/assets/img/collections/busou-shoujo-machiavellianism/full/inaba-tsukuyo-pg13.png",
     "civitaiUrl": "https://civitai.red/models/2085919",
-    "description": "A character LoRA collection imported from CivitAI for Busou Shoujo Machiavellianism.",
+    "description": "An anime-source character archive for Busou Shoujo Machiavellianism, including designs where outfit silhouette and character identity need careful handling.",
     "highlights": [
       "CivitAI import",
       "Character LoRA",
@@ -4887,7 +4944,10 @@
           }
         }
       }
-    ]
+    ],
+    "portfolioFeatured": true,
+    "portfolioOrder": 4,
+    "portfolioReason": "Canon outfit focus"
   },
   {
     "id": "gokusotsu-kraken",
@@ -4898,7 +4958,7 @@
     "status": "Public",
     "cover": "/assets/img/collections/gokusotsu-kraken/full/rosalind-pg.png",
     "civitaiUrl": "https://civitai.red/models/1715958?modelVersionId=1968052",
-    "description": "A character LoRA collection imported from CivitAI for Gokusotsu Kraken.",
+    "description": "A manga-source character archive for Gokusotsu Kraken, adapted toward polished anime-style outputs while acknowledging the limits of source coverage.",
     "highlights": [
       "CivitAI import",
       "Character LoRA",
@@ -4929,6 +4989,121 @@
       "nekomimi"
     ],
     "showcase": [
+      {
+        "id": "tanea",
+        "title": "Tanea",
+        "description": "A character LoRA showcase imported from CivitAI for Tanea from Gokusotsu Kraken.",
+        "civitaiUrl": "https://civitai.red/models/2731002",
+        "civitaiModelId": 2731002,
+        "civitaiVersionId": 3070276,
+        "civitaiVersionName": "V1",
+        "tags": [
+          "civitai import",
+          "version: V1",
+          "tanea",
+          "civitai",
+          "character lora",
+          "manga",
+          "girls",
+          "woman",
+          "manga character",
+          "anime",
+          "gokusotsu kraken",
+          "hell's tormentor kraken"
+        ],
+        "variants": {
+          "pg": {
+            "thumb": "/assets/img/collections/gokusotsu-kraken/full/tanea-pg.png",
+            "full": "/assets/img/collections/gokusotsu-kraken/full/tanea-pg.png",
+            "alt": "Tanea from Gokusotsu Kraken, imported PG CivitAI showcase image"
+          },
+          "pg13": {
+            "thumb": "/assets/img/collections/gokusotsu-kraken/full/tanea-pg13.png",
+            "full": "/assets/img/collections/gokusotsu-kraken/full/tanea-pg13.png",
+            "alt": "Tanea from Gokusotsu Kraken, imported PG-13 CivitAI showcase image"
+          },
+          "r": {
+            "thumb": "/assets/img/collections/gokusotsu-kraken/full/tanea-r.png",
+            "full": "/assets/img/collections/gokusotsu-kraken/full/tanea-r.png",
+            "alt": "Tanea from Gokusotsu Kraken, imported R CivitAI showcase image"
+          }
+        }
+      },
+      {
+        "id": "tekua",
+        "title": "Tekua",
+        "description": "A character LoRA showcase imported from CivitAI for Tekua from Gokusotsu Kraken.",
+        "civitaiUrl": "https://civitai.red/models/2752241",
+        "civitaiModelId": 2752241,
+        "civitaiVersionId": 3096412,
+        "civitaiVersionName": "V1",
+        "tags": [
+          "civitai import",
+          "version: V1",
+          "tekua",
+          "civitai",
+          "character lora",
+          "character",
+          "gokusotsu kraken",
+          "girls",
+          "woman",
+          "manhwa",
+          "manga character",
+          "manga"
+        ],
+        "variants": {
+          "pg13": {
+            "thumb": "/assets/img/collections/gokusotsu-kraken/full/tekua-pg13.png",
+            "full": "/assets/img/collections/gokusotsu-kraken/full/tekua-pg13.png",
+            "alt": "Tekua from Gokusotsu Kraken, imported PG-13 CivitAI showcase image"
+          },
+          "r": {
+            "thumb": "/assets/img/collections/gokusotsu-kraken/full/tekua-r.png",
+            "full": "/assets/img/collections/gokusotsu-kraken/full/tekua-r.png",
+            "alt": "Tekua from Gokusotsu Kraken, imported R CivitAI showcase image"
+          }
+        }
+      },
+      {
+        "id": "zeina-sebek",
+        "title": "Zeina Sebek",
+        "description": "A character LoRA showcase imported from CivitAI for Zeina Sebek from Gokusotsu Kraken.",
+        "civitaiUrl": "https://civitai.red/models/2762079",
+        "civitaiModelId": 2762079,
+        "civitaiVersionId": 3108541,
+        "civitaiVersionName": "V1",
+        "tags": [
+          "civitai import",
+          "version: V1",
+          "zeina sebek",
+          "civitai",
+          "character lora",
+          "character",
+          "gokusotsu kraken",
+          "girls",
+          "woman",
+          "manga character",
+          "manga",
+          "anime"
+        ],
+        "variants": {
+          "pg": {
+            "thumb": "/assets/img/collections/gokusotsu-kraken/full/zeina-sebek-pg.png",
+            "full": "/assets/img/collections/gokusotsu-kraken/full/zeina-sebek-pg.png",
+            "alt": "Zeina Sebek from Gokusotsu Kraken, imported PG CivitAI showcase image"
+          },
+          "pg13": {
+            "thumb": "/assets/img/collections/gokusotsu-kraken/full/zeina-sebek-pg13.png",
+            "full": "/assets/img/collections/gokusotsu-kraken/full/zeina-sebek-pg13.png",
+            "alt": "Zeina Sebek from Gokusotsu Kraken, imported PG-13 CivitAI showcase image"
+          },
+          "r": {
+            "thumb": "/assets/img/collections/gokusotsu-kraken/full/zeina-sebek-r.png",
+            "full": "/assets/img/collections/gokusotsu-kraken/full/zeina-sebek-r.png",
+            "alt": "Zeina Sebek from Gokusotsu Kraken, imported R CivitAI showcase image"
+          }
+        }
+      },
       {
         "id": "isis",
         "title": "Isis",
@@ -4980,11 +5155,11 @@
           "character lora",
           "character",
           "woman",
-          "female",
           "anime",
           "manga",
           "manhwa",
-          "girls"
+          "girls",
+          "cat girl"
         ],
         "variants": {
           "pg13": {
@@ -5140,7 +5315,7 @@
           "pg": {
             "thumb": "/assets/img/collections/gokusotsu-kraken/full/porina-polina-pg.png",
             "full": "/assets/img/collections/gokusotsu-kraken/full/porina-polina-pg.png",
-            "alt": "Porina (Polina) from Gokusotsu Kraken, manually selected PG CivitAI showcase image"
+            "alt": "Porina (Polina) from Gokusotsu Kraken, imported PG CivitAI showcase image"
           },
           "pg13": {
             "thumb": "/assets/img/collections/gokusotsu-kraken/full/porina-polina-pg13.png",
@@ -5168,13 +5343,13 @@
           "gamy",
           "civitai",
           "character lora",
+          "anime",
           "character",
-          "girls",
-          "monster girl",
-          "woman",
+          "manga",
           "manhwa",
-          "nekomimi",
-          "獄卒クラーケン"
+          "woman",
+          "girls",
+          "catgirl"
         ],
         "variants": {
           "pg13": {
@@ -5593,13 +5768,13 @@
           "muuto",
           "civitai",
           "character lora",
+          "anime",
           "character",
           "manga",
-          "manga character",
           "manhwa",
-          "gokusotsu kraken",
-          "anime",
-          "girls"
+          "woman",
+          "girls",
+          "manga character"
         ],
         "variants": {
           "pg": {
@@ -5619,6 +5794,9 @@
           }
         }
       }
-    ]
+    ],
+    "portfolioFeatured": true,
+    "portfolioOrder": 1,
+    "portfolioReason": "Manga-to-anime adaptation"
   }
 ]

@@ -16,6 +16,10 @@ export type ShowcaseItem = {
   id: string;
   title: string;
   description: string;
+  civitaiUrl?: string;
+  civitaiModelId?: number;
+  civitaiVersionId?: number;
+  civitaiVersionName?: string;
   tags: string[];
   variants: Record<string, ImageVariant>;
 };
@@ -23,6 +27,26 @@ export type ShowcaseItem = {
 export type FeaturedLora = {
   collectionId: string;
   itemId: string;
+};
+
+export type SelectedAdaptationItem = {
+  collectionId: string;
+  active?: boolean;
+  order?: number;
+  title?: string;
+  description?: string;
+  whyMatters?: string;
+  notes?: string[];
+  tags?: string[];
+  ctaLabel?: string;
+};
+
+export type SelectedAdaptationsContent = {
+  enabled?: boolean;
+  eyebrow?: string;
+  title?: string;
+  description?: string;
+  items?: SelectedAdaptationItem[];
 };
 
 export type SourceType = {
@@ -41,6 +65,9 @@ export type Collection = {
   cover: string;
   civitaiUrl?: string;
   description: string;
+  portfolioFeatured?: boolean;
+  portfolioOrder?: number;
+  portfolioReason?: string;
   highlights: string[];
   trainingNotes: string[];
   tags: string[];
@@ -57,6 +84,7 @@ export type CreatorLinks = {
 export type Creator = {
   name: string;
   handle: string;
+  eyebrow?: string;
   title: string;
   description: string;
   links: CreatorLinks;
@@ -72,15 +100,49 @@ export type FeatureCard = {
   description: string;
 };
 
+export type WhatIPublish = {
+  eyebrow: string;
+  title: string;
+  statements: string[];
+};
+
 export type WorkflowStep = {
   title: string;
   description: string;
 };
 
+export type WorkflowContent = {
+  eyebrow: string;
+  title: string;
+  lead: string;
+  steps: WorkflowStep[];
+  notes?: string[];
+};
+
 export type CaseStudy = {
   title: string;
-  description: string;
+  subtitle: string;
+  problem: string;
+  focus: string;
+  watchOut: string;
   tags: string[];
+  collectionId?: string;
+  image?: string;
+};
+
+export type PublishingStandard = {
+  eyebrow: string;
+  title: string;
+  items: string[];
+  note: string;
+};
+
+export type CommissionContent = {
+  eyebrow: string;
+  title: string;
+  lead: string;
+  note: string;
+  items: CommissionItem[];
 };
 
 export type CommissionItem = {
@@ -92,11 +154,14 @@ export type CommissionItem = {
 export type SiteData = {
   creator: Creator;
   featured?: FeaturedLora;
+  selectedAdaptations?: SelectedAdaptationsContent;
   sourceTypes?: SourceType[];
   stats: Stat[];
   ratingModes: RatingMode[];
+  whatIPublish: WhatIPublish;
   focusCards: FeatureCard[];
-  workflow: WorkflowStep[];
+  workflow: WorkflowContent;
+  publishingStandard: PublishingStandard;
   caseStudies: CaseStudy[];
-  commissions: CommissionItem[];
+  commissions: CommissionContent;
 };

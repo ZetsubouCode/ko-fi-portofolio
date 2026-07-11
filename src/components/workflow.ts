@@ -6,11 +6,12 @@ export function renderWorkflow(site: SiteData): string {
     <section class="section" id="workflow">
       <div class="section__inner">
         <div class="section-heading">
-          <p class="eyebrow">Training workflow</p>
-          <h2>From source review to delivery notes</h2>
+          <p class="eyebrow">${escapeHtml(site.workflow.eyebrow)}</p>
+          <h2>${escapeHtml(site.workflow.title)}</h2>
+          <p>${escapeHtml(site.workflow.lead)}</p>
         </div>
         <ol class="timeline">
-          ${site.workflow
+          ${site.workflow.steps
             .map(
               (step, index) => `
                 <li class="timeline__item">
@@ -24,6 +25,13 @@ export function renderWorkflow(site: SiteData): string {
             )
             .join("")}
         </ol>
+        ${
+          site.workflow.notes?.length
+            ? `<div class="workflow-notes">
+                ${site.workflow.notes.map((note) => `<p>${escapeHtml(note)}</p>`).join("")}
+              </div>`
+            : ""
+        }
       </div>
     </section>
   `;

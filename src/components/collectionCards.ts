@@ -4,16 +4,22 @@ import { renderBrandLabel } from "../lib/brandIcons";
 import type { Collection, RatingMode } from "../types/site";
 import { escapeHtml } from "../lib/dom";
 
-export function renderCollectionCards(collections: Collection[], ratingModes: RatingMode[]): string {
-  const sortedCollections = [...collections].sort((a, b) => a.title.localeCompare(b.title));
+export function renderCollectionCards(
+  collections: Collection[],
+  ratingModes: RatingMode[],
+): string {
+  const sortedCollections = [...collections].sort((a, b) =>
+    a.title.localeCompare(b.title),
+  );
 
   return `
     <section class="section" id="collections">
       <div class="section__inner">
         <div class="section-heading section-heading--row">
           <div>
-            <p class="eyebrow">Featured collections</p>
-            <h2>Featured LoRA collections</h2>
+            <p class="eyebrow">Full Archive</p>
+            <h2>Explore the complete character collection</h2>
+            <p>This is the wider catalogue: characters I wanted to preserve, difficult designs I wanted to test, and series I want to keep building over time.</p>
           </div>
           <a class="button button--ghost" href="#showcase">Open gallery</a>
         </div>
@@ -25,10 +31,15 @@ export function renderCollectionCards(collections: Collection[], ratingModes: Ra
   `;
 }
 
-function renderCollectionCard(collection: Collection, ratingModes: RatingMode[]): string {
+function renderCollectionCard(
+  collection: Collection,
+  ratingModes: RatingMode[],
+): string {
   const ratings = new Set<string>();
   collection.showcase.forEach((item) => {
-    getAvailableRatingLabels(item, ratingModes).forEach((label) => ratings.add(label));
+    getAvailableRatingLabels(item, ratingModes).forEach((label) =>
+      ratings.add(label),
+    );
   });
 
   return `

@@ -125,11 +125,7 @@
       "problem": "The source often lacks confirmed colors and clean outfit references.",
       "focus": "Preserve the face, silhouette, and core outfit before chasing tiny details.",
       "watchOut": "Small accessories and colors that never appear clearly may stay unstable.",
-      "tags": [
-        "manga source",
-        "color adaptation",
-        "low reference"
-      ]
+      "tags": ["manga source", "color adaptation", "low reference"]
     },
     {
       "title": "Limited source character",
@@ -137,11 +133,7 @@
       "problem": "Not enough variety can make a LoRA stiff or too dependent on one safe pose.",
       "focus": "Use only high-value images and test identity outside the easiest prompt.",
       "watchOut": "Flexibility depends on what the source actually shows.",
-      "tags": [
-        "small dataset",
-        "side character",
-        "source limit"
-      ]
+      "tags": ["small dataset", "side character", "source limit"]
     },
     {
       "title": "Default outfit control",
@@ -149,11 +141,7 @@
       "problem": "A detailed outfit can either fall apart or become glued to the character.",
       "focus": "Keep the main silhouette readable while checking if controlled outfit changes still work.",
       "watchOut": "Tiny garment details may drift when references are sparse or inconsistent.",
-      "tags": [
-        "canon outfit",
-        "outfit control",
-        "flexibility"
-      ]
+      "tags": ["canon outfit", "outfit control", "flexibility"]
     },
     {
       "title": "Anime-style adaptation",
@@ -161,11 +149,7 @@
       "problem": "The original source style may not naturally match the target anime screenshot look.",
       "focus": "Use testing and showcase prompts to steer the character toward polished anime-style generations.",
       "watchOut": "The result is an adaptation, not a promise of pixel-perfect reproduction.",
-      "tags": [
-        "anime style",
-        "showcase",
-        "adaptation"
-      ]
+      "tags": ["anime style", "showcase", "adaptation"]
     }
   ],
   "commissions": {
@@ -221,46 +205,5 @@
       "label": "Manhwa",
       "active": true
     }
-  ],
-  "selectedAdaptations": {
-    "enabled": true,
-    "eyebrow": "Selected adaptations",
-    "title": "Selected Adaptations",
-    "description": "A focused set of character adaptation projects that show how source limits, style translation, and archive coverage shape each LoRA.",
-    "items": [
-      {
-        "collectionId": "gokusotsu-kraken",
-        "active": true,
-        "order": 1,
-        "title": "",
-        "description": "",
-        "whyMatters": "Manga-to-anime adaptation",
-        "notes": [],
-        "tags": [],
-        "ctaLabel": "Open gallery collection"
-      },
-      {
-        "collectionId": "indonesian-webtoon",
-        "active": true,
-        "order": 2,
-        "title": "",
-        "description": "",
-        "whyMatters": "Low-resource design study",
-        "notes": [],
-        "tags": [],
-        "ctaLabel": "Open gallery collection"
-      },
-      {
-        "collectionId": "wakamono-no-kuro-mahoubanare",
-        "active": true,
-        "order": 3,
-        "title": "",
-        "description": "",
-        "whyMatters": "Manga-to-anime adaptation",
-        "notes": [],
-        "tags": [],
-        "ctaLabel": "Open gallery collection"
-      }
-    ]
-  }
+  ]
 }

@@ -2,8 +2,17 @@ import { getAssetUrl } from "../lib/assets";
 import { renderBrandLabel } from "../lib/brandIcons";
 import { escapeHtml, getRequiredElement } from "../lib/dom";
 import { getStoredRating, setStoredRating } from "../lib/storage";
-import { getVariantForRating, getVariantRatingId, getVariantRatingLabel } from "../lib/rating";
-import type { Collection, RatingMode, ShowcaseItem, SourceType } from "../types/site";
+import {
+  getVariantForRating,
+  getVariantRatingId,
+  getVariantRatingLabel,
+} from "../lib/rating";
+import type {
+  Collection,
+  RatingMode,
+  ShowcaseItem,
+  SourceType,
+} from "../types/site";
 import { Lightbox, type LightboxItem } from "./lightbox";
 
 type GalleryState = {
@@ -30,13 +39,37 @@ type SourceTypeOption = {
 
 const galleryPageSize = 32;
 
+function getPublicShowcaseDescription(
+  item: ShowcaseItem,
+  collection: Collection,
+): string {
+  if (/imported from civitai/i.test(item.description)) {
+    return `Character LoRA showcase for ${item.title} from ${collection.title}.`;
+  }
+
+  return item.description;
+}
+
+function getPublicImageAlt(alt: string): string {
+  return alt
+    .replace(/,\s*imported\s+/i, ", ")
+    .replace(/\s*CivitAI showcase image/i, " showcase image")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
 function getCollectionSourceType(collection: Collection): string {
   const legacyCollection = collection as Collection & { source_type?: string };
   return collection.sourceType || legacyCollection.source_type || "";
 }
 
-function getSourceTypeOptions(collections: Collection[], sourceTypes: SourceType[] = []): SourceTypeOption[] {
-  const activeSourceTypes = sourceTypes.filter((sourceType) => sourceType.active !== false);
+function getSourceTypeOptions(
+  collections: Collection[],
+  sourceTypes: SourceType[] = [],
+): SourceTypeOption[] {
+  const activeSourceTypes = sourceTypes.filter(
+    (sourceType) => sourceType.active !== false,
+  );
 
   if (activeSourceTypes.length > 0) {
     return activeSourceTypes
@@ -44,7 +77,13 @@ function getSourceTypeOptions(collections: Collection[], sourceTypes: SourceType
       .sort((a, b) => a.label.localeCompare(b.label));
   }
 
-  return [...new Set(collections.map((collection) => getCollectionSourceType(collection)).filter(Boolean))]
+  return [
+    ...new Set(
+      collections
+        .map((collection) => getCollectionSourceType(collection))
+        .filter(Boolean),
+    ),
+  ]
     .sort((a, b) => a.localeCompare(b))
     .map((sourceType) => ({ id: sourceType, label: sourceType }));
 }
@@ -57,9 +96,16 @@ export class ShowcaseGallery {
   private readonly lightbox: Lightbox;
   private state: GalleryState;
 
-  constructor(root: HTMLElement, collections: Collection[], ratingModes: RatingMode[], sourceTypes: SourceType[] = []) {
+  constructor(
+    root: HTMLElement,
+    collections: Collection[],
+    ratingModes: RatingMode[],
+    sourceTypes: SourceType[] = [],
+  ) {
     this.root = root;
-    this.collections = [...collections].sort((a, b) => a.title.localeCompare(b.title));
+    this.collections = [...collections].sort((a, b) =>
+      a.title.localeCompare(b.title),
+    );
     this.sourceTypes = getSourceTypeOptions(collections, sourceTypes);
     this.ratingModes = ratingModes;
     this.lightbox = new Lightbox();
@@ -88,10 +134,17 @@ export class ShowcaseGallery {
   setCollection(collectionId: string): void {
     this.state.collectionId = collectionId;
     this.resetVisibleLimit();
-    window.history.replaceState(null, "", collectionId === "all" ? "#showcase" : `#${collectionId}`);
+    window.history.replaceState(
+      null,
+      "",
+      collectionId === "all" ? "#showcase" : `#${collectionId}`,
+    );
     this.renderControls();
     this.renderGrid();
-    getRequiredElement<HTMLElement>("#showcase").scrollIntoView({ behavior: "smooth", block: "start" });
+    getRequiredElement<HTMLElement>("#showcase").scrollIntoView({
+      behavior: "smooth",
+      block: "start",
+    });
     this.highlightCollection(collectionId);
   }
 
@@ -172,8 +225,12 @@ export class ShowcaseGallery {
     this.root.addEventListener("click", (event) => {
       const target = event.target as HTMLElement;
       const ratingButton = target.closest<HTMLButtonElement>("[data-rating]");
-      const cardButton = target.closest<HTMLButtonElement>("[data-lightbox-index]");
-      const loadMoreButton = target.closest<HTMLButtonElement>("[data-load-more-showcase]");
+      const cardButton = target.closest<HTMLButtonElement>(
+        "[data-lightbox-index]",
+      );
+      const loadMoreButton = target.closest<HTMLButtonElement>(
+        "[data-load-more-showcase]",
+      );
 
       if (ratingButton) {
         this.state.rating = ratingButton.dataset.rating ?? this.state.rating;
@@ -201,7 +258,11 @@ export class ShowcaseGallery {
         const value = (target as HTMLSelectElement).value;
         this.state.collectionId = value;
         this.resetVisibleLimit();
-        window.history.replaceState(null, "", value === "all" ? "#showcase" : `#${value}`);
+        window.history.replaceState(
+          null,
+          "",
+          value === "all" ? "#showcase" : `#${value}`,
+        );
         this.highlightCollection(value);
         this.renderGrid();
       }
@@ -238,6 +299,7 @@ export class ShowcaseGallery {
       collection: visible.collection,
       title: visible.item.title,
       ratingLabel: visible.ratingLabel,
+      civitaiUrl: visible.item.civitaiUrl ?? visible.collection.civitaiUrl,
       image: visible.image,
     }));
 
@@ -257,15 +319,19 @@ export class ShowcaseGallery {
       return;
     }
 
-    grid.innerHTML = renderedItems
-      .map((visible, index) => this.renderShowcaseCard(visible, index))
-      .join("") + this.renderLoadMore(visibleItems.length, renderedItems.length);
+    grid.innerHTML =
+      renderedItems
+        .map((visible, index) => this.renderShowcaseCard(visible, index))
+        .join("") +
+      this.renderLoadMore(visibleItems.length, renderedItems.length);
 
     grid.querySelectorAll<HTMLImageElement>("img").forEach((image) => {
       image.addEventListener(
         "error",
         () => {
-          console.warn(`Image failed to load: ${image.currentSrc || image.src}`);
+          console.warn(
+            `Image failed to load: ${image.currentSrc || image.src}`,
+          );
           image.closest(".image-shell")?.classList.add("is-missing");
           image.hidden = true;
         },
@@ -292,12 +358,13 @@ export class ShowcaseGallery {
 
   private renderShowcaseCard(visible: VisibleItem, index: number): string {
     const { collection, item, image, ratingLabel, ratingId } = visible;
-    const blurImage = this.state.blurRRated && ratingId === "r" && !image.isPlaceholder;
+    const blurImage =
+      this.state.blurRRated && ratingId === "r" && !image.isPlaceholder;
 
     return `
       <article class="showcase-card" data-collection="${escapeHtml(collection.id)}">
         <button class="showcase-card__image-button image-shell${blurImage ? " is-r-blurred" : ""}" type="button" data-lightbox-index="${index}" aria-label="Open ${escapeHtml(item.title)} preview">
-          <img src="${escapeHtml(getAssetUrl(image.thumb))}" alt="${escapeHtml(image.alt)}" loading="lazy" decoding="async" />
+          <img src="${escapeHtml(getAssetUrl(image.thumb))}" alt="${escapeHtml(getPublicImageAlt(image.alt))}" loading="lazy" decoding="async" />
           <span class="image-placeholder">Showcase thumbnail placeholder</span>
           ${blurImage ? '<span class="showcase-card__privacy">R image hidden</span>' : ""}
           <span class="showcase-card__rating">${escapeHtml(ratingLabel)}</span>
@@ -307,11 +374,11 @@ export class ShowcaseGallery {
             <span>${escapeHtml(collection.title)}</span>
           </div>
           <h3>${escapeHtml(item.title)}</h3>
-          <p>${escapeHtml(item.description)}</p>
+          <p>${escapeHtml(getPublicShowcaseDescription(item, collection))}</p>
           <div class="showcase-card__footer">
             ${
-              collection.civitaiUrl
-                ? `<a class="button button--secondary button--sm" href="${escapeHtml(collection.civitaiUrl)}" target="_blank" rel="noreferrer">${renderBrandLabel("civitai", "CivitAI post")}</a>`
+              item.civitaiUrl || collection.civitaiUrl
+                ? `<a class="button button--secondary button--sm" href="${escapeHtml(item.civitaiUrl ?? collection.civitaiUrl ?? "")}" target="_blank" rel="noreferrer">${renderBrandLabel("civitai", "CivitAI post")}</a>`
                 : ""
             }
           </div>
@@ -325,11 +392,17 @@ export class ShowcaseGallery {
     const searchQuery = this.state.searchQuery.trim().toLowerCase();
 
     this.collections.forEach((collection) => {
-      if (this.state.collectionId !== "all" && collection.id !== this.state.collectionId) {
+      if (
+        this.state.collectionId !== "all" &&
+        collection.id !== this.state.collectionId
+      ) {
         return;
       }
 
-      if (this.state.sourceType !== "all" && getCollectionSourceType(collection) !== this.state.sourceType) {
+      if (
+        this.state.sourceType !== "all" &&
+        getCollectionSourceType(collection) !== this.state.sourceType
+      ) {
         return;
       }
 
@@ -342,7 +415,11 @@ export class ShowcaseGallery {
           return;
         }
 
-        const image = getVariantForRating(item, this.state.rating, this.ratingModes);
+        const image = getVariantForRating(
+          item,
+          this.state.rating,
+          this.ratingModes,
+        );
         if (!image) {
           return;
         }
@@ -382,14 +459,20 @@ export class ShowcaseGallery {
 
     this.state.collectionId = collection.id;
     window.setTimeout(() => {
-      getRequiredElement<HTMLElement>("#showcase").scrollIntoView({ behavior: "smooth", block: "start" });
+      getRequiredElement<HTMLElement>("#showcase").scrollIntoView({
+        behavior: "smooth",
+        block: "start",
+      });
       this.highlightCollection(collection.id);
     }, 60);
   }
 
   private highlightCollection(collectionId: string): void {
     document.querySelectorAll("[data-collection-card]").forEach((card) => {
-      card.classList.toggle("is-highlighted", card.getAttribute("data-collection-card") === collectionId);
+      card.classList.toggle(
+        "is-highlighted",
+        card.getAttribute("data-collection-card") === collectionId,
+      );
     });
   }
 }

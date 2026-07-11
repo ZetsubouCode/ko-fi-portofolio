@@ -6,8 +6,8 @@ export function renderFocus(site: SiteData): string {
     <section class="section" id="focus">
       <div class="section__inner">
         <div class="section-heading">
-          <p class="eyebrow">Creator focus</p>
-          <h2>Training for characters that need careful handling</h2>
+          <p class="eyebrow">What Defines the Archive</p>
+          <h2>Built around character identity, not upload volume.</h2>
         </div>
         <div class="feature-grid">
           ${site.focusCards

@@ -1,6 +1,8 @@
-# Zetsubou's IL LoRA Showcase
+# Zetsubou's Character LoRA Archive
 
-A static Vite + TypeScript portfolio for Illustrious / IL character LoRA showcase images. It is designed for GitHub Pages and is updated by editing JSON files and adding image files under `public/assets/img`.
+A static Vite + TypeScript portfolio for Zetsubou's curated character adaptation archive: canon-aware anime-style Illustrious LoRAs for overlooked characters, difficult source material, and designs that need honest source-aware handling.
+
+The site is built for GitHub Pages and is mostly edited through JSON files plus image assets under `public/assets/img`.
 
 ## Install
 
@@ -26,18 +28,38 @@ npm run build
 npm run preview
 ```
 
-## Change Profile Links
+## Edit Site Copy
 
-Edit `src/data/site.json`.
+Most public positioning lives in `src/data/site.json`.
 
-Update:
+- Hero eyebrow, title, and lead: `creator.eyebrow`, `creator.title`, `creator.description`
+- Profile links: `creator.links`
+- What I Publish section: `whatIPublish`
+- Creator pillars: `focusCards`
+- Publishing checklist: `publishingStandard`
+- Case studies: `caseStudies`
+- Ko-fi commission workflow heading, lead, steps, and notes: `workflow`
+- Commission availability text and cards: `commissions`
+- Rating modes: `ratingModes`
+- Featured hero LoRA: `featured.collectionId` and `featured.itemId`
 
-- `creator.links.civitai`
-- `creator.links.kofi`
-- `creator.links.pixiv`
-- `creator.links.github`
-- `creator.name`
-- `creator.handle`
+## Mark Selected Adaptations
+
+Selected Adaptations are controlled from `src/data/collections.json`.
+
+Add these optional fields to a collection:
+
+```json
+{
+  "portfolioFeatured": true,
+  "portfolioOrder": 1,
+  "portfolioReason": "Manga-to-anime adaptation"
+}
+```
+
+Use `portfolioOrder` to control the card order. Use `portfolioReason` for a short truthful line such as `Limited source coverage`, `Canon outfit focus`, `Side-character archive entry`, or `Low-resource design study`.
+
+If fewer than six collections are marked, the component fills the remaining slots from existing collections so the section does not break.
 
 ## Add A New Collection
 
@@ -58,7 +80,7 @@ Required fields:
 - `tags`
 - `showcase`
 
-Each collection can link to CivitAI with `civitaiUrl`.
+Each collection can link to CivitAI with `civitaiUrl`. Keep collection descriptions public-facing; avoid import notes, local file maintenance notes, or claims that are not supported by the source data.
 
 ## Add Images
 
@@ -140,7 +162,7 @@ Then add matching showcase variants:
 }
 ```
 
-The rating toggle shows the exact selected rating when available. If an item is missing that rating, the gallery keeps the LoRA visible and shows a placeholder image for the missing slot. Use the local admin app to replace missing `PG`, `PG-13`, or `R` images from a CivitAI image URL.
+The rating toggle shows the exact selected rating when available. If an item is missing that rating, the gallery keeps the LoRA visible and shows a placeholder image for the missing slot.
 
 ## Deploy To GitHub Pages
 
@@ -152,7 +174,7 @@ Before deploying, check `vite.config.ts`:
 base: process.env.NODE_ENV === "production" ? "/ko-fi-portofolio/" : "/";
 ```
 
-If the repository name changes, replace `ko-fi-portofolio` with the actual GitHub repository name.
+Do not change the base path unless the repository name changes.
 
 In GitHub:
 

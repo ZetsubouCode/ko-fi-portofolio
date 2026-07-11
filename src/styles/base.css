@@ -15,9 +15,21 @@ body {
   color: var(--color-text);
   font-family: var(--font-body);
   background:
-    radial-gradient(circle at 78% 8%, rgba(119, 74, 153, 0.2), transparent 30rem),
-    radial-gradient(circle at 18% 34%, rgba(124, 33, 65, 0.22), transparent 26rem),
-    radial-gradient(circle at 72% 74%, rgba(127, 200, 190, 0.12), transparent 24rem),
+    radial-gradient(
+      circle at 78% 8%,
+      rgba(119, 74, 153, 0.2),
+      transparent 30rem
+    ),
+    radial-gradient(
+      circle at 18% 34%,
+      rgba(124, 33, 65, 0.22),
+      transparent 26rem
+    ),
+    radial-gradient(
+      circle at 72% 74%,
+      rgba(127, 200, 190, 0.12),
+      transparent 24rem
+    ),
     linear-gradient(140deg, var(--color-bg-ink), var(--color-bg) 44%, #100915);
   overflow-x: hidden;
 }
@@ -42,9 +54,21 @@ body::after {
   pointer-events: none;
   content: "";
   background:
-    radial-gradient(circle at 20% 20%, rgba(255, 255, 255, 0.06), transparent 14rem),
-    radial-gradient(circle at 70% 12%, rgba(214, 168, 95, 0.07), transparent 16rem),
-    radial-gradient(circle at 52% 80%, rgba(185, 139, 255, 0.08), transparent 18rem);
+    radial-gradient(
+      circle at 20% 20%,
+      rgba(255, 255, 255, 0.06),
+      transparent 14rem
+    ),
+    radial-gradient(
+      circle at 70% 12%,
+      rgba(214, 168, 95, 0.07),
+      transparent 16rem
+    ),
+    radial-gradient(
+      circle at 52% 80%,
+      rgba(185, 139, 255, 0.08),
+      transparent 18rem
+    );
   filter: blur(20px);
   opacity: 0.65;
   animation: fog-drift 18s ease-in-out infinite alternate;
@@ -92,12 +116,12 @@ h2 {
 
 h1 {
   max-width: 11ch;
-  font-size: clamp(3.25rem, 8vw, 7rem);
+  font-size: 6.75rem;
   line-height: 0.93;
 }
 
 h2 {
-  font-size: clamp(2rem, 4vw, 3.7rem);
+  font-size: 3.2rem;
   line-height: 1;
 }
 

@@ -1,9 +1,15 @@
 import "./styles/index.css";
-import { renderCaseStudies, renderCommissionCta } from "./components/caseStudies";
+import {
+  renderCaseStudies,
+  renderCommissionCta,
+} from "./components/caseStudies";
 import { renderCollectionCards } from "./components/collectionCards";
 import { renderHero } from "./components/hero";
+import { renderPublishingStandard } from "./components/publishingStandard";
+import { renderSelectedAdaptations } from "./components/selectedAdaptations";
 import { ShowcaseGallery } from "./components/showcaseGallery";
-import { renderFocus, renderStats } from "./components/stats";
+import { renderFocus } from "./components/stats";
+import { renderWhatIPublish } from "./components/whatIPublish";
 import { renderWorkflow } from "./components/workflow";
 import { renderBrandLabel } from "./lib/brandIcons";
 import { loadData } from "./lib/data";
@@ -14,14 +20,20 @@ function getFeaturedLora(
   collections: Collection[],
   featured?: { collectionId: string; itemId: string },
 ): { collection: Collection | undefined; item: ShowcaseItem | undefined } {
-  const configuredCollection = collections.find((collection) => collection.id === featured?.collectionId);
-  const configuredItem = configuredCollection?.showcase.find((item) => item.id === featured?.itemId);
+  const configuredCollection = collections.find(
+    (collection) => collection.id === featured?.collectionId,
+  );
+  const configuredItem = configuredCollection?.showcase.find(
+    (item) => item.id === featured?.itemId,
+  );
 
   if (configuredCollection && configuredItem) {
     return { collection: configuredCollection, item: configuredItem };
   }
 
-  const fallbackCollection = collections.find((collection) => collection.showcase.length > 0) ?? collections[0];
+  const fallbackCollection =
+    collections.find((collection) => collection.showcase.length > 0) ??
+    collections[0];
   return {
     collection: fallbackCollection,
     item: fallbackCollection?.showcase[0],
@@ -38,12 +50,14 @@ function boot(): void {
     app.innerHTML = `
       ${renderHero(site, featured.collection, featured.item)}
       <main>
+        ${renderWhatIPublish(site)}
         ${renderFocus(site)}
-        ${renderStats(site)}
+        ${renderSelectedAdaptations(site.selectedAdaptations, collections)}
+        ${renderPublishingStandard(site)}
+        ${renderCaseStudies(site, collections)}
         ${renderCollectionCards(collections, site.ratingModes)}
         <section class="section section--showcase" id="showcase"></section>
         ${renderWorkflow(site)}
-        ${renderCaseStudies(site)}
         ${renderCommissionCta(site)}
       </main>
       <footer class="footer">
@@ -70,14 +84,16 @@ function boot(): void {
     );
     gallery.init();
 
-    document.querySelectorAll<HTMLButtonElement>("[data-view-collection]").forEach((button) => {
-      button.addEventListener("click", () => {
-        const collectionId = button.dataset.viewCollection;
-        if (collectionId) {
-          gallery.setCollection(collectionId);
-        }
+    document
+      .querySelectorAll<HTMLButtonElement>("[data-view-collection]")
+      .forEach((button) => {
+        button.addEventListener("click", () => {
+          const collectionId = button.dataset.viewCollection;
+          if (collectionId) {
+            gallery.setCollection(collectionId);
+          }
+        });
       });
-    });
 
     setImageFallbacks();
   } catch (error) {

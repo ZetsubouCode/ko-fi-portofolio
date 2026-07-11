@@ -55,7 +55,7 @@
 .hero__lead {
   max-width: 650px;
   margin-top: 24px;
-  font-size: clamp(1.05rem, 2vw, 1.28rem);
+  font-size: 1.16rem;
 }
 
 .hero__actions {
@@ -80,11 +80,17 @@
 }
 
 .feature-grid,
+.selected-grid,
 .case-grid,
 .commission-grid {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: 18px;
+}
+
+.selected-grid {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 22px;
 }
 
 .stats-grid {
